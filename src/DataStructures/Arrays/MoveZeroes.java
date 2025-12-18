@@ -10,6 +10,10 @@ package DataStructures.Arrays;
 
     Input: nums = [0,1,0,3,12]
     Output: [1,3,12,0,0]
+
+    Complexity Analysis
+        Time Complexity: O(n), where n is the length of the array.
+        Space Complexity: O(1), since we are modifying the array in place without using additional storage.
 */
 
 public class MoveZeroes {
