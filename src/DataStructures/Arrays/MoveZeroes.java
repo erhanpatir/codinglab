@@ -16,8 +16,16 @@ package DataStructures.Arrays;
         Space Complexity: O(1), since we are modifying the array in place without using additional storage.
 */
 
+/*
+    Cozum mantigi:
+
+    array'i sonuna kadar dolas ve 0 olmayanlari ilk indexten baslayarak setle.
+    bittikten sonra kalan indexleri 0 yap.
+
+*/
+
 public class MoveZeroes {
-    public void moveZeroes(int[] nums) {
+    public static void moveZeroes(int[] nums) {
         int pos = 0;
 
         for (int i = 0; i < nums.length; i++) {
