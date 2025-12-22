@@ -1,5 +1,6 @@
 import DataStructures.Arrays.MajorityElement;
 import DataStructures.Arrays.MoveZeroes;
+import DataStructures.Arrays.RemoveDuplicatesFromSortedArray;
 
 
 void main() {
@@ -14,5 +15,8 @@ void run (int questionNumber) {
         case 169:
             MajorityElement.majorityElement(new int[] {2,2,1,1,1,2,2});
             break;
+       case 26:
+           RemoveDuplicatesFromSortedArray.removeDuplicates(new int[] {0,0,1,1,1,2,2,3,3,4});
+           break;
     }
 }
