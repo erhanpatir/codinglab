@@ -17,7 +17,7 @@ package DataStructures.Arrays;
 */
 
 /*
-    Cozum mantigi:
+    Cozum mantigi: ✅
 
     array'i sonuna kadar dolas ve 0 olmayanlari ilk indexten baslayarak setle.
     bittikten sonra kalan indexleri 0 yap.

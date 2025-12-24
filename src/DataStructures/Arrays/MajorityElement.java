@@ -18,7 +18,7 @@ public class MajorityElement {
             Output: 2
     */
 
-    /* Cozum: Boyer-Moore Voting Algorithm
+    /* Cozum: Boyer-Moore Voting Algorithm ✅
 
         Bir mevcut elemani, bir de adeti tutan iki degisken tutariz.
         Ayni eleman geldikce artar, farkli eleman geldikce azalir.
