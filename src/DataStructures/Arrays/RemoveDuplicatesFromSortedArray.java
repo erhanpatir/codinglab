@@ -27,7 +27,7 @@ public class RemoveDuplicatesFromSortedArray {
      */
 
     /*
-        Cozum mantigi:
+        Cozum mantigi: ✅
 
         Two pointer teknigini kullanabiliriz.Update edecegin indexi bir pointer olarak tut.
         Array'i sonuna kadar dolas, writePos index'indeki degiskeni kiyasla.
