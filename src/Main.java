@@ -1,9 +1,11 @@
 import DataStructures.Arrays.MajorityElement;
 import DataStructures.Arrays.MoveZeroes;
 import DataStructures.Arrays.RemoveDuplicatesFromSortedArray;
+import DataStructures.LinkedLists.IntersectionOfTwoLinkedLists;
 import DataStructures.Strings.IsSubsequence;
 import DataStructures.Strings.LongestCommonPrefix;
 import DataStructures.Strings.ValidPalindrome;
+import ProblemSolvingTechniques.FastSlowPointers.HappyNumber;
 import ProblemSolvingTechniques.SlidingWindow.MaximumAverageSubarray1;
 import ProblemSolvingTechniques.TwoPointers.MergeSortedArray;
 
@@ -37,6 +39,12 @@ void run (int questionNumber) {
             break;
         case 643:
             MaximumAverageSubarray1.findMaxAverage(new int[] {1,12,-5,-6,50,3}, 4);
+            break;
+        case 202:
+            HappyNumber.isHappy_2(19);
+            break;
+        case 160:
+            IntersectionOfTwoLinkedLists.getIntersectionNode(null, null);
             break;
     }
 }

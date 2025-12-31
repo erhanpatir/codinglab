@@ -26,7 +26,7 @@ public class MajorityElement {
         Onu da doneriz.
 
         Complexity Analysis
-            Time Complexity: O(n) since it passes through the array once.
+            Time Complexity:  O(n) since it passes through the array once.
             Space Complexity: O(1) since only a few additional variables are used.
 
         Ya da array'i sort eder. n/2 inci elemani doneriz. Cunki majority element n/2'den daha fazla geciyor.
