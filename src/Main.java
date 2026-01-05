@@ -9,6 +9,7 @@ import DataStructures.Strings.IsSubsequence;
 import DataStructures.Strings.LongestCommonPrefix;
 import DataStructures.Strings.ValidPalindrome;
 import ProblemSolvingTechniques.FastSlowPointers.HappyNumber;
+import ProblemSolvingTechniques.FastSlowPointers.MiddleOfTheLinkedList;
 import ProblemSolvingTechniques.SlidingWindow.MaximumAverageSubarray1;
 import ProblemSolvingTechniques.TwoPointers.MergeSortedArray;
 
@@ -58,6 +59,10 @@ void run (int questionNumber) {
         case 234:
             ListNode headNode = fromArray(new int[] {1,2,2,1});
             PalindromeLinkedList.isPalindrome(headNode);
+            break;
+        case 876:
+            ListNode headNode2 = fromArray(new int[] {1,2,3,4,5});
+            MiddleOfTheLinkedList.middleNode(headNode2);
             break;
     }
 }

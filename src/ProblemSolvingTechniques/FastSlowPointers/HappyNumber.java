@@ -18,8 +18,7 @@ public class HappyNumber {
 
       Complexity Analysis
         Time Complexity:  O(log n)  Similar to the set-based approach, but faster in practice due to constant space usage.
-        Space Complexity: O(1)      Only uses a fixed amount of extra space for pointers and variables;
-                                    no need for additional data structures.
+        Space Complexity: O(1)      no need for additional data structures.
     */
     public static boolean isHappy_2(int n) {
         int slow = n;

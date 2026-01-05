@@ -6,15 +6,14 @@ import java.util.Arrays;
 // https://leetcode.com/problems/majority-element/
 public class MajorityElement {
     /* Cozum: Boyer-Moore Voting Algorithm ✅
-
         Bir mevcut elemani, bir de adeti tutan iki degisken tutariz.
         Ayni eleman geldikce artar, farkli eleman geldikce azalir.
         Butun array'i gezeriz, en sonunda candidate en fazla gecen eleman olur.
         Onu da doneriz.
 
         Complexity Analysis
-            Time Complexity:  O(n) since it passes through the array once.
-            Space Complexity: O(1) since only a few additional variables are used.
+            Time Complexity:  O(n)
+            Space Complexity: O(1)
 
         Ya da array'i sort eder. n/2 inci elemani doneriz. Cunki majority element n/2'den daha fazla geciyor.
         Her kosulda orta eleman majority element olur.
