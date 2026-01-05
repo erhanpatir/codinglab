@@ -1,32 +1,24 @@
 package DataStructures.Strings;
 
 import java.util.Arrays;
-/* 14. Longest Common Prefix - Easy
 
-    Write a function to find the longest common prefix string amongst an array of strings.
-    If there is no common prefix, return an empty string "".
-
-    Example 1:
-        Input: strs = ["flower","flow","flight"]
-        Output: "fl"
- */
-
-/* COZUM :
+// 14. Longest Common Prefix - Easy
+// https://leetcode.com/problems/longest-common-prefix/
+public class LongestCommonPrefix {
+    /* COZUM :
         ✅ En pratik mantık (prefix’i kısaltarak gitmek)
         İlk kelimeyi prefix al.
         Diğer kelimeler prefix ile başlamıyorsa prefix’i 1 karakter kısalt.
         Prefix boşalırsa cevap "".
 
         ✅ Ya da string leri sort edip, ilk ve son
- */
+    */
 
-public class LongestCommonPrefix {
     public static String longestCommonPrefix(String[] strs) {
         // TC : O(n logn)
         // SC : O(1)
 
         StringBuilder sb = new StringBuilder();
-
         // sort strings alphabetically
         Arrays.sort(strs);
 
@@ -48,19 +40,16 @@ public class LongestCommonPrefix {
         // SC : O(1)
 
         if (strs == null || strs.length == 0) return "";
-
         String prefix = strs[0];
 
         for (int i = 1; i < strs.length; i++) {
             while (strs[i].indexOf(prefix) != 0) {
                 prefix = prefix.substring(0, prefix.length() - 1);
-
                 // If prefix becomes empty, this means there is no common prefix
                 if (prefix.isEmpty()) return "";
             }
         }
         System.out.println("Result: " + prefix);
-
         return prefix;
     }
 
@@ -70,7 +59,6 @@ public class LongestCommonPrefix {
         // SC : O(1)
 
         if (strs == null || strs.length == 0) return "";
-
         var first = strs[0];
 
         for (int i = 0; i < first.length(); i++) {
@@ -84,7 +72,6 @@ public class LongestCommonPrefix {
             }
         }
         System.out.println("Result: " + first);
-
         return first;
     }
 }

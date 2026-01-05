@@ -1,30 +1,13 @@
 package DataStructures.Arrays;
 
-/* 283. Move Zeroes - Easy
-     Given an integer array nums, move all 0's to the end of it
-     while maintaining the relative order of the non-zero elements.
-
-    Note that you must do this in-place without making a copy of the array.
-
-    Example 1:
-
-    Input: nums = [0,1,0,3,12]
-    Output: [1,3,12,0,0]
-
-    Complexity Analysis
-        Time Complexity: O(n), where n is the length of the array.
-        Space Complexity: O(1), since we are modifying the array in place without using additional storage.
-*/
-
-/*
-    Cozum mantigi: ✅
-
-    array'i sonuna kadar dolas ve 0 olmayanlari ilk indexten baslayarak setle.
-    bittikten sonra kalan indexleri 0 yap.
-
-*/
-
+// LeetCode 283 - Move Zeroes - Easy
+// https://leetcode.com/problems/move-zeroes/
 public class MoveZeroes {
+    /*
+        Complexity Analysis
+            Time Complexity: O(n), where n is the length of the array.
+            Space Complexity: O(1), since we are modifying the array in place without using additional storage.
+    */
     public static void moveZeroes(int[] nums) {
         int pos = 0;
 

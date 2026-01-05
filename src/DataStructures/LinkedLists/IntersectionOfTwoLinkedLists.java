@@ -2,13 +2,9 @@ package DataStructures.LinkedLists;
 
 import java.util.HashSet;
 
+// LeetCode 160 - Intersection of Two Linked Lists
+// https://leetcode.com/problems/intersection-of-two-linked-lists/
 public class IntersectionOfTwoLinkedLists {
-    /* 160. Intersection of Two Linked Lists - Easy
-        Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect.
-        If the two linked lists have no intersection at all, return null.
-
-    */
-
     // HashSet
     /*
        Complexity Analysis
