@@ -1,6 +1,8 @@
 import DataStructures.Arrays.MajorityElement;
 import DataStructures.Arrays.MoveZeroes;
 import DataStructures.Arrays.RemoveDuplicatesFromSortedArray;
+import DataStructures.LinkedListInPlaceReversal.PalindromeLinkedList;
+import DataStructures.LinkedListInPlaceReversal.ReverseLinkedList;
 import DataStructures.LinkedLists.IntersectionOfTwoLinkedLists;
 import DataStructures.LinkedLists.ListNode;
 import DataStructures.Strings.IsSubsequence;
@@ -45,28 +47,31 @@ void run (int questionNumber) {
             HappyNumber.isHappy_2(19);
             break;
         case 160:
-            // ortak kısım: [8,4,5]
-            ListNode c1 = new ListNode(8);
-            ListNode c2 = new ListNode(4);
-            ListNode c3 = new ListNode(5);
-            c1.next = c2;
-            c2.next = c3;
-
-            // listA: [4,1] + ortak
-            ListNode a1 = new ListNode(4);
-            ListNode a2 = new ListNode(1);
-            a1.next = a2;
-            a2.next = c1;
-
-            // listB: [5,6,1] + ortak
-            ListNode b1 = new ListNode(5);
-            ListNode b2 = new ListNode(6);
-            ListNode b3 = new ListNode(1);
-            b1.next = b2;
-            b2.next = b3;
-            b3.next = c1;
-
+            ListNode a1 = fromArray(new int[] {4,1,8,4,5});
+            ListNode b1 = fromArray(new int[] {5,6,1,8,4,5});
             IntersectionOfTwoLinkedLists.getIntersectionNod_twopointers(a1, b1);
             break;
+        case 206:
+            ListNode head = fromArray(new int[] {1,2,3,4,5});
+            ReverseLinkedList.reverseList(head);
+            break;
+        case 234:
+            ListNode headNode = fromArray(new int[] {1,2,2,1});
+            PalindromeLinkedList.isPalindrome(headNode);
+            break;
     }
+}
+
+static ListNode fromArray(int[] values) {
+    if (values == null || values.length == 0) return null;
+
+    ListNode dummy = new ListNode(0);
+    ListNode curr = dummy;
+
+    for (int v : values) {
+        curr.next = new ListNode(v);
+        curr = curr.next;
+    }
+
+    return dummy.next;
 }
