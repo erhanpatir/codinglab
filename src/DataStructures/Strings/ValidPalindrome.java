@@ -1,20 +1,8 @@
 package DataStructures.Strings;
 
+// 125. Valid Palindrome - Easy
+// https://leetcode.com/problems/valid-palindrome/
 public class ValidPalindrome {
-    /*
-        125. Valid Palindrome - Easy
-
-        A phrase is a palindrome if, after converting all uppercase letters into lowercase letters
-        and removing all non-alphanumeric characters, it reads the same forward and backward.
-        Alphanumeric characters include letters and numbers.
-        Given a string s, return true if it is a palindrome, or false otherwise.
-
-        Example 1:
-            Input: s = "A man, a plan, a canal: Panama"
-            Output: true
-            Explanation: "amanaplanacanalpanama" is a palindrome.
-     */
-
     /*
         Complexity Analysis
             Time Complexity: O(n), where n is the length of the input string.
@@ -24,7 +12,7 @@ public class ValidPalindrome {
     */
 
     public static boolean isPalindrome(String s) {
-
+        // Step 1: Clean the string using StringBuilder
         StringBuilder cleaned = new StringBuilder();
 
         for (char c : s.toCharArray()) {
@@ -32,8 +20,7 @@ public class ValidPalindrome {
                 cleaned.append(Character.toLowerCase(c));
             }
         }
-
-        // two pointers ✅
+        // Step 2: Initialize two pointers ✅
         int left = 0;
         int right = cleaned.length() - 1;
 
@@ -45,7 +32,6 @@ public class ValidPalindrome {
             left++;
             right--;
         }
-
         return true;
     }
 
