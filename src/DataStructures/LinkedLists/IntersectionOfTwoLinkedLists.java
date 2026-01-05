@@ -9,7 +9,7 @@ public class IntersectionOfTwoLinkedLists {
     /*
        Complexity Analysis
        Time Complexity: O(m + n) where m and n are the lengths of the two linked lists.
-       Space Complexity: O(n) where n is the length of the longer linked list since all its nodes are stored in a set.
+       Space Complexity: O(n)
     */
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
        HashSet<ListNode> set = new HashSet<>();

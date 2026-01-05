@@ -7,8 +7,8 @@ import DataStructures.LinkedLists.ListNode;
 public class PalindromeLinkedList {
     /*
         Complexity Analysis
-            Time Complexity: O(n), where n is the number of nodes in the linked list.
-            Space Complexity: O(1), as we're changing the pointers in-place.
+            Time Complexity: O(n)
+            Space Complexity: O(1)
     */
     public static boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {

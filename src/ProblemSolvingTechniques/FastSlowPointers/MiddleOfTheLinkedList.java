@@ -7,10 +7,10 @@ import DataStructures.LinkedLists.ListNode;
 public class MiddleOfTheLinkedList {
     /*
         Complexity Analysis
-            Time Complexity: O(n), where n is the number of nodes in the list. Each pointer traverses at most n elements.
-            Space Complexity: O(1). We use only a fixed amount of space regardless of the input size.
+            Time Complexity: O(n)
+            Space Complexity: O(1)
     */
-    public ListNode middleNode(ListNode head) {
+    public static ListNode middleNode(ListNode head) {
         // Initialize two pointers, 'slow' and 'fast'
         ListNode slow = head, fast = head;
 

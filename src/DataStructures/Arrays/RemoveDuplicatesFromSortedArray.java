@@ -10,6 +10,10 @@ public class RemoveDuplicatesFromSortedArray {
         Array'i sonuna kadar dolas, writePos index'indeki degiskeni kiyasla.
         eger farkli bir element yakalarsan bir index ilerle ve setle.
     */
+    /* Complexity Analysis
+        Time Complexity: O(n),
+        Space Complexity: O(1), as we are using extra space only for the pointers
+     */
 
     public static int removeDuplicates(int[] nums) {
         int writePos = 0; // first pointer

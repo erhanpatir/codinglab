@@ -14,7 +14,7 @@ public class MergeSortedArray {
     *
     * Complexity Analysis
         Time Complexity:  O(m + n), as we process each element exactly once.
-        Space Complexity: O(1),     since we are merging in-place without extra space.
+        Space Complexity: O(1),     in-place without extra space.
     */
 
     // 1. In-place Two-Pointer

@@ -5,7 +5,7 @@ package DataStructures.Arrays;
 public class MoveZeroes {
     /*
         Complexity Analysis
-            Time Complexity: O(n), where n is the length of the array.
+            Time Complexity: O(n),
             Space Complexity: O(1), since we are modifying the array in place without using additional storage.
     */
     public static void moveZeroes(int[] nums) {

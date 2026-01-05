@@ -4,8 +4,8 @@ package ProblemSolvingTechniques.SlidingWindow;
 // https://leetcode.com/problems/maximum-average-subarray-i/
 public class MaximumAverageSubarray1 {
     /* Complexity Analysis
-        Time Complexity:  O(n), where n is the length of nums. We traverse the array once.
-        Space Complexity: O(1), as we are using a constant amount of extra space.
+        Time Complexity:  O(n)
+        Space Complexity: O(1)
     */
     // Sliding Window
     public static double findMaxAverage (int[] nums, int k) {
