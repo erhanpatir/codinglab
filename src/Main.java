@@ -1,3 +1,4 @@
+import DataStructures.Arrays.BestTimeToBuyAndSellStock;
 import DataStructures.Arrays.MajorityElement;
 import DataStructures.Arrays.MoveZeroes;
 import DataStructures.Arrays.RemoveDuplicatesFromSortedArray;
@@ -5,6 +6,8 @@ import DataStructures.LinkedListInPlaceReversal.PalindromeLinkedList;
 import DataStructures.LinkedListInPlaceReversal.ReverseLinkedList;
 import DataStructures.LinkedLists.IntersectionOfTwoLinkedLists;
 import DataStructures.LinkedLists.ListNode;
+import DataStructures.Stacks.RemoveAllAdjacentDuplicatesInString;
+import DataStructures.Stacks.ValidParentheses;
 import DataStructures.Strings.IsSubsequence;
 import DataStructures.Strings.LongestCommonPrefix;
 import DataStructures.Strings.ValidPalindrome;
@@ -63,6 +66,15 @@ void run (int questionNumber) {
         case 876:
             ListNode headNode2 = fromArray(new int[] {1,2,3,4,5});
             MiddleOfTheLinkedList.middleNode(headNode2);
+            break;
+        case 121:
+            BestTimeToBuyAndSellStock.maxProfit(new int[] {7,1,5,3,6,4});
+            break;
+        case 20:
+            ValidParentheses.isValid("()[]{}" );
+            break;
+        case 1047:
+            RemoveAllAdjacentDuplicatesInString.removeDuplicates("abbaca");
             break;
     }
 }
