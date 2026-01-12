@@ -12,9 +12,7 @@ public class RemoveAllAdjacentDuplicatesInString {
             Space Complexity: O(n)
     */
     public static String removeDuplicates(String s) {
-        if (s == null || s.isEmpty()) {
-            return s;
-        }
+        if (s == null || s.isEmpty()) return s;
 
         Deque<Character> stack = new ArrayDeque<>();
 
@@ -44,7 +42,6 @@ public class RemoveAllAdjacentDuplicatesInString {
                 stack.append(c);
             }
         }
-
         return stack.toString();
     }
 }
