@@ -81,14 +81,11 @@ void run (int questionNumber) {
 
 static ListNode fromArray(int[] values) {
     if (values == null || values.length == 0) return null;
-
     ListNode dummy = new ListNode(0);
     ListNode curr = dummy;
-
     for (int v : values) {
         curr.next = new ListNode(v);
         curr = curr.next;
     }
-
     return dummy.next;
 }

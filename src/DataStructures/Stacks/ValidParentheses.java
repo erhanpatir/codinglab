@@ -30,16 +30,15 @@ public class ValidParentheses {
             }
         }
 
-        return  stack.empty();
+        return stack.empty();
     }
 
     public boolean isValid_mine(String s) {
+        Stack<Character> stack = new Stack<>();
         Map<Character,Character> charMap = new HashMap<>();
         charMap.put('(', ')');
         charMap.put('[', ']');
         charMap.put('{', '}');
-
-        Stack<Character> stack = new Stack<>();
 
         for(Character ch : s.toCharArray()) {
             if (stack.isEmpty()) {
