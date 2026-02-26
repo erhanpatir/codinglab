@@ -2,7 +2,7 @@ package DataStructures.Strings;
 
 import java.util.Arrays;
 
-// 14. Longest Common Prefix - Easy
+// 14 - Longest Common Prefix - Easy
 // https://leetcode.com/problems/longest-common-prefix/
 public class LongestCommonPrefix {
     /* COZUM :

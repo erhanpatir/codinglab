@@ -1,6 +1,6 @@
 package DataStructures.Strings;
 
-// 125. Valid Palindrome - Easy
+// 125 - Valid Palindrome - Easy
 // https://leetcode.com/problems/valid-palindrome/
 public class ValidPalindrome {
     /*
@@ -36,6 +36,7 @@ public class ValidPalindrome {
     }
 
     // Two-pointers: O(1) space
+    //"A man, a plan, a canal: Panama")
     public static boolean isPalindrome_2(String s) {
         int left = 0;
         int right = s.length() - 1;
