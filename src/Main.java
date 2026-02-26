@@ -120,6 +120,9 @@ void run (int questionNumber) {
         case 110:
             BalancedBinaryTree.isBalanced(buildTree(new Integer[] {1,2,2,3,4,4,3}));
             break;
+        case 112:
+            PathSum.hasPathSum_recursive(buildTree(new Integer[] {1,2,2,3,4,4,3}), 3);
+            break;
     }
 }
 
