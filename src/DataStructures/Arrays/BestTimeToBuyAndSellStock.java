@@ -1,7 +1,7 @@
 package DataStructures.Arrays;
 
 public class BestTimeToBuyAndSellStock {
-    // 121. Best Time to Buy and Sell Stock - Easy
+    // 121 - Best Time to Buy and Sell Stock - Easy
     // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
     /*
@@ -15,7 +15,6 @@ public class BestTimeToBuyAndSellStock {
 
         // [7,1,5,3,6,4]
         for(int price : prices) {
-
             // minPrice = Math.min(minPrice, price);
             // maxProfit = Math.max(maxProfit, price - minPrice);
 
@@ -31,7 +30,6 @@ public class BestTimeToBuyAndSellStock {
                 maxProfit = profit;
             }
         }
-
         return maxProfit;
     }
 }
