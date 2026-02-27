@@ -1,4 +1,5 @@
 import Algorithms.TreeTraversal.InOrder.BinaryTreeInOrderTraversal;
+import Algorithms.TreeTraversal.InOrder.ValidateBinarySearchTree;
 import Algorithms.TreeTraversal.PostOrder.*;
 import Algorithms.TreeTraversal.PreOrder.BinaryTreePaths;
 import Algorithms.TreeTraversal.PreOrder.BinaryTreePreOrderTraversal;
@@ -122,6 +123,15 @@ void run (int questionNumber) {
             break;
         case 112:
             PathSum.hasPathSum_recursive(buildTree(new Integer[] {1,2,2,3,4,4,3}), 3);
+            break;
+        case 113:
+            PathSum2.pathSum(buildTree(new Integer[] {5,4,8,11,null,13,4,7,2,null,null,5,1}), 22);
+            break;
+        case 124:
+            BinaryTreeMaximumPathSum.maxPathSum(buildTree(new Integer[] {5,4,8,11,null,13,4,7,2,null,null,5,1}));
+            break;
+        case 98:
+            ValidateBinarySearchTree.isValidBST(buildTree(new Integer[] {2,1,3}));
             break;
     }
 }

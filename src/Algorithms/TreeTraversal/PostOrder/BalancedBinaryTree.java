@@ -2,6 +2,11 @@ package Algorithms.TreeTraversal.PostOrder;
 
 import Algorithms.TreeTraversal.TreeNode;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.HashMap;
+import java.util.Map;
+
 public class BalancedBinaryTree {
     // 110. Balanced Binary Tree - Easy
     // https://leetcode.com/problems/balanced-binary-tree/
@@ -33,5 +38,45 @@ public class BalancedBinaryTree {
 
         // “Ben sağlamım, parent’ıma height’ımı gönderiyorum.”
         return 1 + Math.max(left, right);
+    }
+
+    // Time Complexity : O(n)
+    // Space Complexity: O(n)
+    public static boolean isBalanced_dfs(TreeNode root) {
+        if (root == null) return true;
+
+        Deque<Frame> stack = new ArrayDeque<>();
+        Map<TreeNode, Integer> height = new HashMap<>();
+
+        stack.push(new Frame(root, false));
+
+        while (!stack.isEmpty()) {
+            Frame f = stack.pop();
+            TreeNode node = f.node;
+
+            if (node == null) continue;
+
+            if (!f.visited) {
+                // postorder: children first, then node
+                stack.push(new Frame(node, true));
+                stack.push(new Frame(node.right, false));
+                stack.push(new Frame(node.left, false));
+            } else {
+                int leftH = height.getOrDefault(node.left, 0);
+                int rightH = height.getOrDefault(node.right, 0);
+
+                if (Math.abs(leftH - rightH) > 1) return false;
+
+                height.put(node, 1 + Math.max(leftH, rightH));
+            }
+        }
+
+        return true;
+    }
+
+    public static class Frame {
+        TreeNode node;
+        boolean visited;
+        Frame(TreeNode n, boolean v) { node = n; visited = v; }
     }
 }
