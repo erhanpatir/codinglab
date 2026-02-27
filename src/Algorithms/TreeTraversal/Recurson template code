@@ -1,0 +1,13 @@
+T dfs(TreeNode node, state?) {
+    if (node == null) return BASE;
+
+    // 1) node'a giriş (state update?)
+
+    // 2) leaf check (decision?)
+
+    // 3) children
+    T left = dfs(node.left, updatedState);
+    T right = dfs(node.right, updatedState);
+
+    // 4) combine / decide / return
+}
