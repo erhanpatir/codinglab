@@ -18,6 +18,7 @@ public class BinaryTreePreOrderTraversal {
         return result;
     }
 
+    // ROOT --> LEFT --> RIGHT
     private static void preorder(TreeNode node, List<Integer> result) {
         if (node == null) {
             return;
@@ -34,9 +35,7 @@ public class BinaryTreePreOrderTraversal {
     // Space Complexity: O(n)
     public static List<Integer> preorderTraversal_stack(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        }
+        if (root == null) return result;
 
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);

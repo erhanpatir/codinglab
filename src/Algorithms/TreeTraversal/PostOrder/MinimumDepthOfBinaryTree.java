@@ -6,6 +6,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class MinimumDepthOfBinaryTree {
+    // 111. Minimum Depth of Binary Tree - Easy
+    // https://leetcode.com/problems/minimum-depth-of-binary-tree/
+
     public static int minDepth(TreeNode root) {
         if(root == null) return 0;
 
