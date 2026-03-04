@@ -1,13 +1,7 @@
-import Algorithms.TreeTraversal.InOrder.BinaryTreeInOrderTraversal;
-import Algorithms.TreeTraversal.InOrder.ValidateBinarySearchTree;
-import Algorithms.TreeTraversal.LevelOrder.BinaryTreeLevelOrderTraversal;
-import Algorithms.TreeTraversal.LevelOrder.BinaryTreeRightSideView;
-import Algorithms.TreeTraversal.LevelOrder.BinaryTreeZigzagLevelOrderTraversal;
+import Algorithms.TreeTraversal.InOrder.*;
+import Algorithms.TreeTraversal.LevelOrder.*;
 import Algorithms.TreeTraversal.PostOrder.*;
-import Algorithms.TreeTraversal.PreOrder.BinaryTreePaths;
-import Algorithms.TreeTraversal.PreOrder.BinaryTreePreOrderTraversal;
-import Algorithms.TreeTraversal.PreOrder.SameTree;
-import Algorithms.TreeTraversal.PreOrder.SymmetricTree;
+import Algorithms.TreeTraversal.PreOrder.*;
 import Algorithms.TreeTraversal.TreeNode;
 import DataStructures.Arrays.BestTimeToBuyAndSellStock;
 import DataStructures.Arrays.MajorityElement;
@@ -40,26 +34,30 @@ static ListNode fromArray(int[] values) {
     return dummy.next;
 }
 
-public static TreeNode buildTree(Integer[] values) {
-    if (values == null || values.length == 0) return null;
+public static TreeNode buildTree(Integer[] arr) {
+    if (arr == null || arr.length == 0 || arr[0] == null) {
+        return null;
+    }
 
-    TreeNode root = new TreeNode(values[0]);
+    TreeNode root = new TreeNode(arr[0]);
     Queue<TreeNode> queue = new LinkedList<>();
     queue.offer(root);
 
     int i = 1;
 
-    while (i < values.length) {
+    while (i < arr.length) {
         TreeNode current = queue.poll();
 
-        if (i < values.length) {
-            current.left = new TreeNode(values[i]);
+        // left child
+        if (i < arr.length && arr[i] != null) {
+            current.left = new TreeNode(arr[i]);
             queue.offer(current.left);
         }
         i++;
 
-        if (i < values.length) {
-            current.right = new TreeNode(values[i]);
+        // right child
+        if (i < arr.length && arr[i] != null) {
+            current.right = new TreeNode(arr[i]);
             queue.offer(current.right);
         }
         i++;
@@ -69,7 +67,7 @@ public static TreeNode buildTree(Integer[] values) {
 }
 
 void main() {
-    run(543);
+    run(94);
 }
 
 void run(int questionNumber) {
@@ -134,7 +132,7 @@ void run(int questionNumber) {
             BinaryTreePreOrderTraversal.preorderTraversal_stack(buildTree(new Integer[]{1, null, 2, 3}));
             break;
         case 94:
-            BinaryTreeInOrderTraversal.inorderTraversal_stack(buildTree(new Integer[]{1, null, 2, 3}));
+            BinaryTreeInOrderTraversal.inorderTraversal_recursion(buildTree(new Integer[]{1,2,3,4,5,null,8,null,null,6,7,9}));
             break;
         case 145:
             BinaryTreePostOrderTraversal.postOrderTraversal_stack(buildTree(new Integer[]{1, null, 2, 3}));
@@ -191,6 +189,27 @@ void run(int questionNumber) {
             break;
         case 199:
             BinaryTreeRightSideView.rightSideView(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
+            break;
+        case 515:
+            FindLargestValueInEachTreeRow.largestValues(buildTree(new Integer[]{1, 3, 2, 5, 3, null, 9}));
+            break;
+        case 783:
+            MinimumDistanceBetweenBSTNodes.minDiffInBST_stack(buildTree(new Integer[]{4, 2, 6, 1, 3}));
+            break;
+        case 530:
+            MinimumAbsoluteDifferenceInBST.getMinimumDifference_iterative(buildTree(new Integer[]{4, 2, 6, 1, 3}));
+            break;
+        case 230:
+            KthSmallestElementInaBST.kthSmallest_stack(buildTree(new Integer[]{5,3,6,2,4,null,null,1}), 3);
+            break;
+        case 692:
+            MaximumWidthOfBinaryTree.widthOfBinaryTree(buildTree(new Integer[]{1,3,2,5,3,null,9}));
+            break;
+        case 108:
+            ConvertSortedArrayToBinarySearchTree.sortedArrayToBST(new int[]{-10,-3,0,5,9});
+            break;
+        case 222:
+            CountCompleteTreeNodes.countNodes(buildTree(new Integer[]{1,2,3,4,5,6}));
             break;
     }
 }

@@ -19,7 +19,7 @@ public class PathSum {
             return targetSum == root.val;
         }
 
-        int remaining = targetSum - root.val;
+        int remaining = targetSum - root.val;  //primitive kopyaliyoruz ama return etmeye calismiyoruz.
         return hasPathSum_recursive(root.left, remaining)
             || hasPathSum_recursive(root.right, remaining);
     }

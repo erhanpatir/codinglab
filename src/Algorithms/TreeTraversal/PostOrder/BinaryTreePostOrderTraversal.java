@@ -18,6 +18,7 @@ public class BinaryTreePostOrderTraversal {
         return result;
     }
 
+    // LEFT --> RIGHT --> ROOT
     private static void postOrder(TreeNode root, List<Integer> result) {
         if (root == null) return;
         postOrder(root.left, result);

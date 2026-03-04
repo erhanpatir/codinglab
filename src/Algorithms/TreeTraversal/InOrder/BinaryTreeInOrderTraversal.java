@@ -38,6 +38,7 @@ public class BinaryTreeInOrderTraversal {
         return result;
     }
 
+    // LEFT --> ROOT --> RIGHT
     public static List<Integer> inorderTraversal_recursion(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         inorder(root, result);
@@ -48,8 +49,11 @@ public class BinaryTreeInOrderTraversal {
         if (node == null) {
             return;
         }
+        System.out.println(node.val + " -> " + "degerli node'a girildi.");
         inorder(node.left, result);
         result.add(node.val);
+        System.out.println(node.val);
+        System.out.println(result);
         inorder(node.right, result);
     }
 }

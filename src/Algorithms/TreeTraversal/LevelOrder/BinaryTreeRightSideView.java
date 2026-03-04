@@ -8,6 +8,11 @@ import java.util.List;
 import java.util.Queue;
 
 public class BinaryTreeRightSideView {
+    // 199. Binary Tree Right Side View - Medium
+    // https://leetcode.com/problems/binary-tree-right-side-view/description/
+
+    // Time: O(n)
+    // Space: O(w) (max width)
     public static List<Integer> rightSideView(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if (root == null) return res;
