@@ -14,26 +14,22 @@ public class BinaryTreeInOrderTraversal {
     // Space Complexity: O(n)
     public static List<Integer> inorderTraversal_stack(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        }
+        if (root == null) return result;
 
         Stack<TreeNode> stack = new Stack<>();
-        TreeNode current = root;
+        TreeNode cur = root;
 
-        while (!stack.isEmpty() || current != null) {
-
-            // Reach the leftmost node of the current node
-            while (current != null) {
-                stack.push(current);
-                current = current.left;  // en soldaki node'a git
+        while (!stack.isEmpty() || cur != null) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;  // en soldaki node'a git
             }
 
-            current = stack.pop();
-            result.add(current.val);
+            cur = stack.pop();
+            result.add(cur.val);
 
             // visit the right subtree
-            current = current.right;
+            cur = cur.right;
         }
         return result;
     }

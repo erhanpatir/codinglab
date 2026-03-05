@@ -211,5 +211,8 @@ void run(int questionNumber) {
         case 222:
             CountCompleteTreeNodes.countNodes(buildTree(new Integer[]{1,2,3,4,5,6}));
             break;
+        case 105:
+            ConstructBinaryTreeFromPreorderAndInorderTraversal.buildTree(new int[]{3,9,20,15,7},new int[]{9,3,15,20,7});
+            break;
     }
 }
