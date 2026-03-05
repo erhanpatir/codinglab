@@ -25,13 +25,14 @@ public class BinaryTreeMaximumPathSum {
     private static int dfs(TreeNode node) {
         if (node == null) return 0;
 
+        // collect data from children
         int leftGain = Math.max(0, dfs(node.left));
         int rightGain = Math.max(0, dfs(node.right));
 
-        // path that uses this node as the "peak"
+        // the path that uses this node as the "peak"
         best = Math.max(best, node.val + leftGain + rightGain);
 
-        // contribution to parent: one side only
+        // conmbine
         return node.val + Math.max(leftGain, rightGain);
     }
 }
