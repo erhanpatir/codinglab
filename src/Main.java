@@ -1,27 +1,52 @@
-import Algorithms.TreeTraversal.InOrder.*;
-import Algorithms.TreeTraversal.LevelOrder.*;
-import Algorithms.TreeTraversal.Node;
-import Algorithms.TreeTraversal.PostOrder.*;
-import Algorithms.TreeTraversal.PreOrder.*;
-import Algorithms.TreeTraversal.TreeNode;
-import DataStructures.Arrays.BestTimeToBuyAndSellStock;
-import DataStructures.Arrays.MajorityElement;
-import DataStructures.Arrays.MoveZeroes;
-import DataStructures.Arrays.RemoveDuplicatesFromSortedArray;
-import DataStructures.LinkedListInPlaceReversal.PalindromeLinkedList;
-import DataStructures.LinkedListInPlaceReversal.ReverseLinkedList;
-import DataStructures.LinkedLists.IntersectionOfTwoLinkedLists;
-import DataStructures.LinkedLists.ListNode;
-import DataStructures.Stacks.RemoveAllAdjacentDuplicatesInString;
-import DataStructures.Stacks.ValidParentheses;
-import DataStructures.Strings.IsSubsequence;
-import DataStructures.Strings.LongestCommonPrefix;
-import DataStructures.Strings.ValidPalindrome;
-import ProblemSolvingTechniques.FastSlowPointers.HappyNumber;
-import ProblemSolvingTechniques.FastSlowPointers.MiddleOfTheLinkedList;
-import ProblemSolvingTechniques.MonotonicStack.NextGreaterElement1;
-import ProblemSolvingTechniques.SlidingWindow.MaximumAverageSubarray1;
-import ProblemSolvingTechniques.TwoPointers.MergeSortedArray;
+import arrays.binarysearch.Q0035_SearchInsertPosition;
+import arrays.dp.*;
+import arrays.greedy.Q0045_JumpGame2;
+import arrays.greedy.Q1642_FurthestBuildingYouCanReach;
+import arrays.hashing.Q0036_ValidSudoku;
+import arrays.hashing.Q0169_MajorityElement;
+import arrays.hashing.Q0202_HappyNumber;
+import arrays.intervals.Q0056_MergeIntervals;
+import arrays.prefixsum.Q0303_RangeSumQueryImmutable;
+import arrays.slidingwindow.Q0643_MaximumAverageSubarray1;
+import arrays.twopointers.*;
+import backtracking.parentheses.Q0022_GenerateParentheses;
+import bit.Q0136_SingleNumber;
+import bit.Q0338_CountingBits;
+import common.model.ListNode;
+import common.model.Node;
+import common.model.TreeNode;
+import design.Q0706_DesignHashMap;
+import design.Q1472_DesignBrowserHistory;
+import graphs.matrix.dfs.Q0200_NumberOfIslands;
+import graphs.matrix.multisource.Q0994_RottingOranges;
+import graphs.minimumspantree.Q1584_MinCostToConnectAllPoints;
+import graphs.shortestpath.dijkstra.Q0743_NetworkDelayTime;
+import graphs.topologicalsort.Q0210_CourseSchedule2;
+import graphs.unionfind.Q0547_NumberOfProvinces;
+import heaps.topk.Q0373_FindKPairsWithSmallestSums;
+import heaps.topk.Q0703_KthLargestElementInAStream;
+import linkedlists.construction.Q0109_ConvertSortedListToBinarySearchTree;
+import linkedlists.fastslow.Q0234_PalindromeLinkedList;
+import linkedlists.fastslow.Q0876_MiddleOfTheLinkedList;
+import linkedlists.merge.Q0021_MergeTwoSortedLists;
+import linkedlists.reversal.Q0206_ReverseLinkedList;
+import linkedlists.sorting.Q0148_SortList;
+import linkedlists.twopointers.Q0160_IntersectionOfTwoLinkedLists;
+import math.Q0009_PalindromeNumber;
+import queue.bfs.Q0933_NumberOfRecentCalls;
+import queue.monotonic.Q1696_JumpGame6;
+import stack.monotonic.Q0496_NextGreaterElement1;
+import strings.basic.Q0014_LongestCommonPrefix;
+import strings.dp.Q0139_WordBreak;
+import strings.dp.Q1143_LongestCommonSubsequence;
+import strings.hashing.Q0451_SortCharactersByFrequency;
+import strings.slidingwindow.Q0003_LongestSubstringWithoutRepeatingCharacters;
+import strings.stack.Q0020_ValidParentheses;
+import strings.stack.Q1047_RemoveAllAdjacentDuplicatesInString;
+import strings.subsequence.Q0392_IsSubsequence;
+import strings.trie.Q0208_ImplementTrie;
+import strings.twopointers.Q0125_ValidPalindrome;
+import trees.recursion.Q0572_SubtreeOfAnotherTree;
 
 
 static ListNode fromArray(int[] values) {
@@ -67,6 +92,21 @@ public static TreeNode buildTree(Integer[] arr) {
     return root;
 }
 
+public static ListNode buildList(int[] values) {
+    if (values == null || values.length == 0) {
+        return null;
+    }
+
+    ListNode head = new ListNode(values[0]);
+    ListNode current = head;
+
+    for (int i = 1; i < values.length; i++) {
+        current.next = new ListNode(values[i]);
+        current = current.next;
+    }
+
+    return head;
+}
 
 public static Node buildNode(int[] arr) {
     if (arr == null || arr.length == 0) return null;
@@ -102,156 +142,378 @@ public static Node buildNode(int[] arr) {
 
     void run (int questionNumber){
         switch (questionNumber) {
-            case 283:
-                MoveZeroes.moveZeroes(new int[]{0, 1, 0, 3, 12});
-                break;
-            case 169:
-                MajorityElement.majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2});
-                break;
+
+    /* =========================
+       ARRAYS / TWO POINTERS
+       ========================= */
+
             case 26:
-                RemoveDuplicatesFromSortedArray.removeDuplicates(new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4});
+                Q0026_RemoveDuplicatesFromSortedArray.removeDuplicates(
+                        new int[]{0,0,1,1,1,2,2,3,3,4});
                 break;
-            case 392:
-                IsSubsequence.isSubsequence("abc", "ahbgdc");
+
+            case 75:
+                Q0075_SortColors.sortColors(new int[]{2,0,2,1,1,0});
                 break;
-            case 125:
-                ValidPalindrome.isPalindrome("A man, a plan, a canal: Panama");
-                break;
-            case 14:
-                LongestCommonPrefix.longestCommonPrefix_3(new String[]{"flower", "flow", "flight"});
-                break;
+
             case 88:
-                MergeSortedArray.merge(new int[]{1, 2, 3, 0, 0, 0}, 3, new int[]{2, 5, 6}, 3);
+                Q0088_MergeSortedArray.merge(
+                        new int[]{1,2,3,0,0,0},3,new int[]{2,5,6},3);
                 break;
-            case 643:
-                MaximumAverageSubarray1.findMaxAverage(new int[]{1, 12, -5, -6, 50, 3}, 4);
-                break;
-            case 202:
-                HappyNumber.isHappy_2(19);
-                break;
-            case 160:
-                ListNode a1 = fromArray(new int[]{4, 1, 8, 4, 5});
-                ListNode b1 = fromArray(new int[]{5, 6, 1, 8, 4, 5});
-                IntersectionOfTwoLinkedLists.getIntersectionNod_twopointers(a1, b1);
-                break;
-            case 206:
-                ListNode head = fromArray(new int[]{1, 2, 3, 4, 5});
-                ReverseLinkedList.reverseList(head);
-                break;
-            case 234:
-                ListNode headNode = fromArray(new int[]{1, 2, 2, 1});
-                PalindromeLinkedList.isPalindrome(headNode);
-                break;
-            case 876:
-                ListNode headNode2 = fromArray(new int[]{1, 2, 3, 4, 5});
-                MiddleOfTheLinkedList.middleNode(headNode2);
-                break;
+
             case 121:
-                BestTimeToBuyAndSellStock.maxProfit(new int[]{7, 1, 5, 3, 6, 4});
+                Q0121_BestTimeToBuyAndSellStock.maxProfit(
+                        new int[]{7,1,5,3,6,4});
                 break;
+
+            case 283:
+                Q0283_MoveZeroes.moveZeroes(
+                        new int[]{0,1,0,3,12});
+                break;
+
+
+    /* =========================
+       ARRAYS / SLIDING WINDOW
+       ========================= */
+
+            case 643:
+                Q0643_MaximumAverageSubarray1.findMaxAverage(
+                        new int[]{1,12,-5,-6,50,3},4);
+                break;
+
+
+    /* =========================
+       ARRAYS / PREFIX SUM
+       ========================= */
+
+            case 303:
+                Q0303_RangeSumQueryImmutable range =
+                        new Q0303_RangeSumQueryImmutable(
+                                new int[]{-2,0,3,-5,2,-1});
+                range.sumRange(0,2);
+                break;
+
+
+    /* =========================
+       ARRAYS / HASHING
+       ========================= */
+
+            case 169:
+                Q0169_MajorityElement.majorityElement(
+                        new int[]{2,2,1,1,1,2,2});
+                break;
+
+            case 202:
+                Q0202_HappyNumber.isHappy_2(19);
+                break;
+
+            case 36:
+                Q0036_ValidSudoku.isValidSudoku(new char[][]{
+                        {'5','3','.','.','7','.','.','.','.'},
+                        {'6','.','.','1','9','5','.','.','.'},
+                        {'1','9','8','.','.','.','.','6','.'}
+                });
+                break;
+
+
+    /* =========================
+       ARRAYS / GREEDY
+       ========================= */
+
+            case 45:
+                Q0045_JumpGame2.jump(new int[]{2,3,0,1,4});
+                break;
+
+            case 1642:
+                Q1642_FurthestBuildingYouCanReach.furthestBuilding(
+                        new int[]{4,12,2,7,3,18,20,3},19,1);
+                break;
+
+
+    /* =========================
+       ARRAYS / INTERVALS
+       ========================= */
+
+            case 56:
+                Q0056_MergeIntervals.merge(
+                        new int[][]{{1,3},{2,6},{8,10},{15,18}});
+                break;
+
+
+    /* =========================
+       ARRAYS / BINARY SEARCH
+       ========================= */
+
+            case 35:
+                Q0035_SearchInsertPosition.searchInsert(
+                        new int[]{1,3,5,6},5);
+                break;
+
+
+    /* =========================
+       ARRAYS / DP
+       ========================= */
+
+            case 53:
+                Q0053_MaximumSubarray.maxSubArray(
+                        new int[]{-2,1,-3,4,-1,2,1,-5,4});
+                break;
+
+            case 63:
+                Q0063_UniquePaths2.uniquePathsWithObstacles(
+                        new int[][]{{0,0,0},{0,1,0},{0,0,0}});
+                break;
+
+            case 70:
+                Q0070_ClimbingStairs.climbStairs(2);
+                break;
+
+            case 322:
+                Q0322_CoinChange1.coinChange(
+                        new int[]{1,2,5},11);
+                break;
+
+            case 416:
+                Q0416_PartitionEqualSubsetSum.canPartition(
+                        new int[]{1,5,11,5});
+                break;
+
+            case 518:
+                Q0518_CoinChange2.change(
+                        5,new int[]{1,2,5});
+                break;
+
+
+    /* =========================
+       STRINGS
+       ========================= */
+
+            case 3:
+                Q0003_LongestSubstringWithoutRepeatingCharacters
+                        .lengthOfLongestSubstring("abcabcbb");
+                break;
+
+            case 14:
+                Q0014_LongestCommonPrefix.longestCommonPrefix_3(
+                        new String[]{"flower","flow","flight"});
+                break;
+
             case 20:
-                ValidParentheses.isValid("()[]{}");
+                Q0020_ValidParentheses.isValid("()[]{}");
                 break;
+
+            case 125:
+                Q0125_ValidPalindrome.isPalindrome(
+                        "A man, a plan, a canal: Panama");
+                break;
+
+            case 392:
+                Q0392_IsSubsequence.isSubsequence(
+                        "abc","ahbgdc");
+                break;
+
+            case 451:
+                Q0451_SortCharactersByFrequency.frequencySort("tree");
+                break;
+
             case 1047:
-                RemoveAllAdjacentDuplicatesInString.removeDuplicates("abbaca");
+                Q1047_RemoveAllAdjacentDuplicatesInString
+                        .removeDuplicates("abbaca");
                 break;
+
+            case 1143:
+                Q1143_LongestCommonSubsequence
+                        .longestCommonSubsequence("abcde","ace");
+                break;
+
+            case 139:
+                Q0139_WordBreak.wordBreak(
+                        "leetcode", List.of("leet","code"));
+                break;
+
+            case 208:
+                Q0208_ImplementTrie trie =
+                        new Q0208_ImplementTrie();
+                trie.insert("apple");
+                break;
+
+
+    /* =========================
+       LINKED LISTS
+       ========================= */
+
+            case 21:
+                Q0021_MergeTwoSortedLists.mergeTwoLists(
+                        buildList(new int[]{-1,0,3}),
+                        buildList(new int[]{-1,0,3}));
+                break;
+
+            case 148:
+                Q0148_SortList.sortList(
+                        buildList(new int[]{4,2,1,3}));
+                break;
+
+            case 160:
+                ListNode a1 = fromArray(new int[]{4,1,8,4,5});
+                ListNode b1 = fromArray(new int[]{5,6,1,8,4,5});
+                Q0160_IntersectionOfTwoLinkedLists
+                        .getIntersectionNod_twopointers(a1,b1);
+                break;
+
+            case 206:
+                Q0206_ReverseLinkedList.reverseList(
+                        fromArray(new int[]{1,2,3,4,5}));
+                break;
+
+            case 234:
+                Q0234_PalindromeLinkedList.isPalindrome(
+                        fromArray(new int[]{1,2,2,1}));
+                break;
+
+            case 876:
+                Q0876_MiddleOfTheLinkedList.middleNode(
+                        fromArray(new int[]{1,2,3,4,5}));
+                break;
+
+            case 109:
+                Q0109_ConvertSortedListToBinarySearchTree
+                        .sortedListToBST(
+                                buildList(new int[]{-10,-3,0,5,9}));
+                break;
+
+
+    /* =========================
+       STACK / QUEUE / HEAP
+       ========================= */
+
             case 496:
-                NextGreaterElement1.nextGreaterElement_2(new int[]{4, 1, 2}, new int[]{1, 3, 4, 2});
+                Q0496_NextGreaterElement1.nextGreaterElement_2(
+                        new int[]{4,1,2},
+                        new int[]{1,3,4,2});
                 break;
-            case 144:
-                BinaryTreePreOrderTraversal.preorderTraversal_stack(buildTree(new Integer[]{1, null, 2, 3}));
+
+            case 933:
+                Q0933_NumberOfRecentCalls rc =
+                        new Q0933_NumberOfRecentCalls();
+                rc.ping(1);
                 break;
-            case 94:
-                BinaryTreeInOrderTraversal.inorderTraversal_recursion(buildTree(new Integer[]{1, 2, 3, 4, 5, null, 8, null, null, 6, 7, 9}));
+
+            case 1696:
+                Q1696_JumpGame6.maxResult(
+                        new int[]{1,-1,-2,4,-7,3},2);
                 break;
-            case 145:
-                BinaryTreePostOrderTraversal.postOrderTraversal_stack(buildTree(new Integer[]{1, null, 2, 3}));
+
+            case 373:
+                Q0373_FindKPairsWithSmallestSums
+                        .kSmallestPairs(
+                                new int[]{1,7,11},
+                                new int[]{2,4,6},3);
                 break;
-            case 100:
-                SameTree.isSameTree(buildTree(new Integer[]{1, 2, 3}), buildTree(new Integer[]{1, 2, 3}));
+
+            case 703:
+                Q0703_KthLargestElementInAStream kth =
+                        new Q0703_KthLargestElementInAStream(
+                                3,new int[]{4,5,8,2});
+                kth.add(3);
                 break;
-            case 101:
-                SymmetricTree.isSymmetric(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
+
+
+    /* =========================
+       TREES
+       ========================= */
+
+            case 572:
+                Q0572_SubtreeOfAnotherTree.isSubtree(
+                        buildTree(new Integer[]{3,4,5,1,2}),
+                        buildTree(new Integer[]{4,1,2}));
                 break;
-            case 226:
-                InvertBinaryTree.invertTree_dfs(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
+
+
+    /* =========================
+       GRAPHS
+       ========================= */
+
+            case 200:
+                Q0200_NumberOfIslands.numIslands(
+                        new char[][]{
+                                {'1','1','1','1','0'},
+                                {'1','1','0','1','0'},
+                                {'1','1','0','0','0'},
+                                {'0','0','0','0','0'}});
                 break;
-            case 543:
-                DiameterOfBinaryTree.diameterOfBinaryTree(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
+
+            case 210:
+                Q0210_CourseSchedule2.findOrder(
+                        2,new int[][]{{1,0}});
                 break;
-            case 257:
-                BinaryTreePaths.binaryTreePaths(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
+
+            case 547:
+                Q0547_NumberOfProvinces.findCircleNum(
+                        new int[][]{{1,1,0},{1,1,0},{0,0,1}});
                 break;
-            case 104:
-                MaximumDepthOfBinaryTree.maxDepth(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
+
+            case 743:
+                Q0743_NetworkDelayTime.networkDelayTime(
+                        new int[][]{{2,1,1},{2,3,1},{3,4,1}},
+                        4,2);
                 break;
-            case 111:
-                MinimumDepthOfBinaryTree.minDepth_bfs(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
+
+            case 994:
+                Q0994_RottingOranges.orangesRotting(
+                        new int[][]{{2,1,1},{1,1,0},{0,1,1}});
                 break;
-            case 110:
-                BalancedBinaryTree.isBalanced(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
+
+            case 1584:
+                Q1584_MinCostToConnectAllPoints.minCostConnectPoints(
+                        new int[][]{{0,0},{2,2},{3,10}});
                 break;
-            case 112:
-                PathSum.hasPathSum_recursive(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}), 3);
+
+
+    /* =========================
+       BACKTRACKING
+       ========================= */
+
+            case 22:
+                Q0022_GenerateParentheses.generateParenthesis(3);
                 break;
-            case 113:
-                PathSum2.pathSum(buildTree(new Integer[]{5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1}), 22);
+
+
+    /* =========================
+       BIT
+       ========================= */
+
+            case 136:
+                Q0136_SingleNumber.singleNumber(new int[]{2,2,1});
                 break;
-            case 124:
-                BinaryTreeMaximumPathSum.maxPathSum(buildTree(new Integer[]{5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1}));
+
+            case 338:
+                Q0338_CountingBits.countBits(5);
                 break;
-            case 98:
-                ValidateBinarySearchTree.isValidBST(buildTree(new Integer[]{2, 1, 3}));
+
+
+    /* =========================
+       MATH
+       ========================= */
+
+            case 9:
+                Q0009_PalindromeNumber.isPalindrome(121);
                 break;
-            case 236:
-                LowestCommonAncestorOfABinaryTree.lowestCommonAncestor(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}),
-                        new TreeNode(5), new TreeNode(1));
+
+
+    /* =========================
+       DESIGN
+       ========================= */
+
+            case 706:
+                Q0706_DesignHashMap map = new Q0706_DesignHashMap();
+                map.get(1);
                 break;
-            case 235:
-                LowestCommonAncestorOfABinarySearchTree.lowestCommonAncestor2(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}),
-                        new TreeNode(5), new TreeNode(2));
-                break;
-            case 102:
-                BinaryTreeLevelOrderTraversal.levelOrder_bfs(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
-                break;
-            case 103:
-                BinaryTreeZigzagLevelOrderTraversal.zigzagLevelOrder(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
-                break;
-            case 199:
-                BinaryTreeRightSideView.rightSideView(buildTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}));
-                break;
-            case 515:
-                FindLargestValueInEachTreeRow.largestValues(buildTree(new Integer[]{1, 3, 2, 5, 3, null, 9}));
-                break;
-            case 783:
-                MinimumDistanceBetweenBSTNodes.minDiffInBST_stack(buildTree(new Integer[]{4, 2, 6, 1, 3}));
-                break;
-            case 530:
-                MinimumAbsoluteDifferenceInBST.getMinimumDifference_iterative(buildTree(new Integer[]{4, 2, 6, 1, 3}));
-                break;
-            case 230:
-                KthSmallestElementInaBST.kthSmallest_stack(buildTree(new Integer[]{5, 3, 6, 2, 4, null, null, 1}), 3);
-                break;
-            case 692:
-                MaximumWidthOfBinaryTree.widthOfBinaryTree(buildTree(new Integer[]{1, 3, 2, 5, 3, null, 9}));
-                break;
-            case 108:
-                ConvertSortedArrayToBinarySearchTree.sortedArrayToBST(new int[]{-10, -3, 0, 5, 9});
-                break;
-            case 222:
-                CountCompleteTreeNodes.countNodes(buildTree(new Integer[]{1, 2, 3, 4, 5, 6}));
-                break;
-            case 105:
-                ConstructBinaryTreeFromPreorderAndInorderTraversal.buildTree(new int[]{3, 9, 20, 15, 7}, new int[]{9, 3, 15, 20, 7});
-                break;
-            case 106:
-                ConstructBinaryTreeFromInorderAndPostorderTraversal.buildTree(new int[]{9, 3, 15, 20, 7}, new int[]{9, 3, 15, 20, 7});
-                break;
-            case 116:
-                PopulatingNextRightPointersInEachNode.connect_bfs(buildNode(new int[]{1, 2, 3, 4, 5, 6, 7}));
-                break;
-            case 117:
-                PopulatingNextRightPointersInEachNode2.connect_bfs(buildNode(new int[]{1,2,3,4,5,6,7}));
+
+            case 1472:
+                Q1472_DesignBrowserHistory browser =
+                        new Q1472_DesignBrowserHistory(
+                                "https://leetcode.com/");
+                browser.visit("https://leetcode.com/");
                 break;
         }
     }
