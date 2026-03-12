@@ -16,7 +16,9 @@ import graphs.matrix.dfs.Q0200_NumberOfIslands;
 import graphs.matrix.dfs.Q0417_PacificAtlanticWaterFlow;
 import graphs.matrix.dfs.Q0695_MaxAreaOfIsland;
 import graphs.shortestpath.dijkstra.Q0743_NetworkDelayTime;
+import graphs.topologicalsort.Q0207_CourseSchedule;
 import graphs.topologicalsort.Q0210_CourseSchedule2;
+import graphs.topologicalsort.Q0269_AlienDictionary;
 import graphs.traversal.dfs.Q0133_CloneGraph;
 import graphs.unionfind.Q0547_NumberOfProvinces;
 import heaps.topk.Q0703_KthLargestElementInAStream;
@@ -204,6 +206,14 @@ public class LeetCodeRunner {
 
         QUESTIONS.put(210, () ->
                 Q0210_CourseSchedule2.findOrder(
+                        2, new int[][]{{1, 0}}));
+
+        QUESTIONS.put(269, () ->
+                Q0269_AlienDictionary.alienOrder(
+                        new String[]{"wrt", "wrf", "er", "ett", "rftt"}));
+
+        QUESTIONS.put(207, () ->
+                Q0207_CourseSchedule.canFinish(
                         2, new int[][]{{1, 0}}));
 
         QUESTIONS.put(547, () ->
