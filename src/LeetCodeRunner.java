@@ -16,6 +16,7 @@ import graphs.matrix.dfs.Q0200_NumberOfIslands;
 import graphs.matrix.dfs.Q0417_PacificAtlanticWaterFlow;
 import graphs.matrix.dfs.Q0695_MaxAreaOfIsland;
 import graphs.shortestpath.dijkstra.Q0743_NetworkDelayTime;
+import graphs.shortestpath.stategraph.Q0787_CheapestFlightsWithinKStops;
 import graphs.topologicalsort.Q0207_CourseSchedule;
 import graphs.topologicalsort.Q0210_CourseSchedule2;
 import graphs.topologicalsort.Q0269_AlienDictionary;
@@ -224,6 +225,11 @@ public class LeetCodeRunner {
                 Q0743_NetworkDelayTime.networkDelayTime(
                         new int[][]{{2, 1, 1}, {2, 3, 1}, {3, 4, 1}},
                         4, 2));
+
+        QUESTIONS.put(787, () ->
+                Q0787_CheapestFlightsWithinKStops.findCheapestPrice(
+                        3, new int[][]{{0, 1, 100}, {1, 2, 100}, {0, 2, 500}},
+                        0, 2, 1));
 
 
         /* =========================

@@ -7,24 +7,22 @@ public class Q0269_AlienDictionary {
     // https://leetcode.com/problems/alien-dictionary/
     // PATTERN : directed graph + topological sort
 
-    // Time : O(V + E)
+    // Time  : O(V + E)
     // Space : O(V + E)
-    public static String alienOrder(String[] words) {
-
+    public static String alienOrder(String[] words) { // input: ["wrt","wrf","er","ett","rftt"]
         Map<Character, Set<Character>> graph = new HashMap<>();
         Map<Character, Integer> indegree = new HashMap<>();
 
         // add all chars
         for (String w : words) {
             for (char c : w.toCharArray()) {
-                graph.putIfAbsent(c, new HashSet<>());
-                indegree.putIfAbsent(c, 0);
+                graph.putIfAbsent(c, new HashSet<>()); // {w : [], r: [], t: [] ...}
+                indegree.putIfAbsent(c, 0); // {w: 0, r: 0, t: 0 ...}
             }
         }
 
         // build graph
         for (int i = 0; i < words.length - 1; i++) {
-
             String w1 = words[i];
             String w2 = words[i + 1];
 
@@ -57,7 +55,6 @@ public class Q0269_AlienDictionary {
 
         // topological sort
         Queue<Character> queue = new ArrayDeque<>();
-
         for (char c : indegree.keySet()) {
             if (indegree.get(c) == 0) {
                 queue.offer(c);
@@ -67,12 +64,10 @@ public class Q0269_AlienDictionary {
         StringBuilder order = new StringBuilder();
 
         while (!queue.isEmpty()) {
-
             char c = queue.poll();
             order.append(c);
 
             for (char next : graph.get(c)) {
-
                 indegree.put(next, indegree.get(next) - 1);
 
                 if (indegree.get(next) == 0) {

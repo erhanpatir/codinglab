@@ -23,10 +23,12 @@ public class Q0207_CourseSchedule {
             Bu directed graph'ta cycle var mı?
 
             cycle varsa → bazı course’lar birbirini bekler → bitiremezsin
-            cycle yoksa → bir topological ordering vardır → bitirebilirsin
+            cycle yoksa → bir topological ordering vardır  → bitirebilirsin
     */
 
-    // Yöntem 1 — Kahn’s Algorithm (BFS / indegree)
+    // |----------------------------------------------|
+    // |Yöntem 1 — Kahn’s Algorithm (BFS / indegree)  |
+    // |----------------------------------------------|
     /* Fikir
         Graph kur
         Her node için indegree hesapla
@@ -53,12 +55,12 @@ public class Q0207_CourseSchedule {
             int prereq = edge[1];
 
             graph.get(prereq).add(course); // prereq -> course
-            indegree[course]++;            // her node için indegree hesapla
+            indegree[course]++;            // her course için indegree hesapla
         }
 
         Queue<Integer> queue = new ArrayDeque<>();
         for (int i = 0; i < numCourses; i++) {
-            if (indegree[i] == 0) {
+            if (indegree[i] == 0) {  // indegree == 0 demek, o course’un beklediği prerequisite kalmamış
                 queue.offer(i);      // indegree == 0 olanları queue’ya koy
             }
         }
