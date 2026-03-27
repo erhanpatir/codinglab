@@ -12,7 +12,10 @@ public class Q0210_CourseSchedule2 {
 
     // Time : O(V + E)
     // Space : O(V + E)
-    // Kahn’s Algorithm
+
+    // |----------------------------------------------|
+    // | Kahn’s Algorithm                             |
+    // |----------------------------------------------|
     public static int[] findOrder(int numCourses, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>();
 

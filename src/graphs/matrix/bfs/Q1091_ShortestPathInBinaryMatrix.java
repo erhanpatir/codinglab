@@ -15,6 +15,7 @@ public class Q1091_ShortestPathInBinaryMatrix {
 
     // Time: O(m * n)
     // Space: O(m * n) - bfs icin standart maliyet
+    // unweighted shortest path → BFS
     public static int shortestPathBinaryMatrix(int[][] grid) {
         int n = grid.length;
 
