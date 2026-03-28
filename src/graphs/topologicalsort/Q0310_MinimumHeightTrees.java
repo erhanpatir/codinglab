@@ -20,7 +20,7 @@ public class Q0310_MinimumHeightTrees {
     */
 
     // input: n = 4, edges = [[1,0],[1,2],[1,3]]
-    public List<Integer> findMinHeightTrees(int n, int[][] edges) {
+    public static List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if (n == 1) {
             return List.of(0);
         }

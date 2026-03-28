@@ -3,7 +3,11 @@ import arrays.hashing.Q0169_MajorityElement;
 import arrays.hashing.Q0202_HappyNumber;
 import arrays.slidingwindow.Q0643_MaximumAverageSubarray1;
 import arrays.twopointers.*;
+import backtracking.combinations.Q0039_CombinationSum;
+import backtracking.combinations.Q0040_CombinationSumII;
+import backtracking.combinations.Q0077_Combinations;
 import backtracking.parentheses.Q0022_GenerateParentheses;
+import backtracking.subsets.Q0078_Subsets;
 import bit.Q0136_SingleNumber;
 import bit.Q0338_CountingBits;
 import common.model.ListNode;
@@ -17,9 +21,7 @@ import graphs.matrix.dfs.Q0417_PacificAtlanticWaterFlow;
 import graphs.matrix.dfs.Q0695_MaxAreaOfIsland;
 import graphs.shortestpath.dijkstra.Q0743_NetworkDelayTime;
 import graphs.shortestpath.stategraph.Q0787_CheapestFlightsWithinKStops;
-import graphs.topologicalsort.Q0207_CourseSchedule;
-import graphs.topologicalsort.Q0210_CourseSchedule2;
-import graphs.topologicalsort.Q0269_AlienDictionary;
+import graphs.topologicalsort.*;
 import graphs.traversal.dfs.Q0133_CloneGraph;
 import graphs.unionfind.Q0547_NumberOfProvinces;
 import heaps.topk.Q0703_KthLargestElementInAStream;
@@ -35,10 +37,7 @@ import strings.subsequence.Q0392_IsSubsequence;
 import strings.twopointers.Q0125_ValidPalindrome;
 import trees.recursion.Q0572_SubtreeOfAnotherTree;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 
 public class LeetCodeRunner {
 
@@ -199,11 +198,22 @@ public class LeetCodeRunner {
 
         QUESTIONS.put(417, () ->
                 Q0417_PacificAtlanticWaterFlow.pacificAtlantic(
-                        new int[][]{{1, 2, 2, 3, 5}, {3, 2, 3, 4, 4}, {2, 4, 5, 3, 1}, {6, 7, 1, 4, 5}, {5, 1, 1, 2, 4}}));
+                        new int[][]{{1, 2, 2, 3, 5},
+                                    {3, 2, 3, 4, 4},
+                                    {2, 4, 5, 3, 1},
+                                    {6, 7, 1, 4, 5},
+                                    {5, 1, 1, 2, 4}}));
 
         QUESTIONS.put(695, () ->
                 Q0695_MaxAreaOfIsland.maxAreaOfIsland(
-                        new int[][]{{0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0}, {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0}, {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}}));
+                        new int[][]{{0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+                                    {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                                    {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+                                    {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
+                                    {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
+                                    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                                    {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                                    {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}}));
 
         QUESTIONS.put(210, () ->
                 Q0210_CourseSchedule2.findOrder(
@@ -231,6 +241,33 @@ public class LeetCodeRunner {
                         3, new int[][]{{0, 1, 100}, {1, 2, 100}, {0, 2, 500}},
                         0, 2, 1));
 
+        QUESTIONS.put(210, () ->
+                Q0210_CourseSchedule2.findOrder(
+                        2, new int[][]{{1, 0}}));
+
+        QUESTIONS.put(310, () ->
+                Q0310_MinimumHeightTrees.findMinHeightTrees(
+                        2, new int[][]{{1, 0}}));
+
+        QUESTIONS.put(444, () -> {
+            List<List<Integer>> sequences = new ArrayList<>();
+            sequences.add(Arrays.asList(1, 2));
+            sequences.add(Arrays.asList(1, 3));
+            sequences.add(Arrays.asList(2, 3));
+            Q0444_SequenceReconstruction.sequenceReconstruction(
+                    new int[]{1,2,3,4}, sequences);
+        });
+
+        QUESTIONS.put(802, () ->
+                Q0802_FindEventualSafeStates.eventualSafeNodes(
+                        new int[][]{{1, 0}}));
+
+        QUESTIONS.put(1136, () ->
+                Q1136_ParallelCourses.minimumSemesters(
+                        2, new int[][]{{1, 0}}));
+
+
+
 
         /* =========================
            BACKTRACKING
@@ -238,6 +275,20 @@ public class LeetCodeRunner {
 
         QUESTIONS.put(22, () ->
                 Q0022_GenerateParentheses.generateParenthesis(3));
+
+        QUESTIONS.put(77, () ->
+                Q0077_Combinations.combine(4, 2));
+
+        QUESTIONS.put(39, () ->
+                Q0039_CombinationSum.combinationSum(
+                        new int[]{2, 3, 6, 7}, 7));
+        QUESTIONS.put(78, () ->
+                Q0078_Subsets.subsets(
+                        new int[]{1, 2, 3}));
+        QUESTIONS.put(40, () ->
+                Q0040_CombinationSumII.combinationSum2(
+                        new int[]{10,1,2,7,6,1,5}, 8));
+
 
 
         /* =========================
