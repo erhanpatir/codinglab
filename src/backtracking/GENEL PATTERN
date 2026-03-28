@@ -1,0 +1,31 @@
+🧠 Backtracking Nedir? (Temel Mantık)
+
+Backtracking =
+👉 Tüm olası çözümleri dene → yanlışsa geri dön → başka yolu dene
+
+Bunu şöyle düşünebilirsin:
+    Labirentte ilerliyorsun. Çıkmaz sokak? → geri dön → başka yolu dene.
+
+🔥 Backtracking Ne Zaman Kullanılır?
+
+Şu sinyalleri görürsen direkt aklına gelsin:
+
+“all combinations / subsets / permutations”
+“return all possible”
+“generate”
+exponential çözüm ok
+
+---------------------------------------------
+void backtrack(state) {                     |
+    if (base case) {                        |
+        result.add(copyOf(state));          |
+        return;                             |
+    }                                       |
+                                            |
+    for (choice : choices) {                |
+        make choice                         |
+        backtrack(updated state)            |
+        undo choice   // <- kritik!         |
+    }                                       |
+}                                           |
+---------------------------------------------

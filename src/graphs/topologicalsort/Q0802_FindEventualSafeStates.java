@@ -5,6 +5,7 @@ import java.util.*;
 public class Q0802_FindEventualSafeStates {
     // 802. Find Eventual Safe States - Medium
     // https://leetcode.com/problems/find-eventual-safe-states/
+    // Reverse graph + outdegree
 
     // Time: O(V + E)
     // Space: O(V + E)
@@ -39,7 +40,7 @@ public class Q0802_FindEventualSafeStates {
 
             Bu, reverse graph + outdegree ile yapılan topo benzeri bir çözüm.
     * */
-    public List<Integer> eventualSafeNodes(int[][] graph) {
+    public static List<Integer> eventualSafeNodes(int[][] graph) {
         int n = graph.length;
         List<List<Integer>> reverseGraph = new ArrayList<>();
 
