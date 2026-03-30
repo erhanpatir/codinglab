@@ -6,6 +6,10 @@ import java.util.List;
 public class Q0039_CombinationSum {
     // 39. Combination Sum - Medium
     // https://leetcode.com/problems/combination-sum/
+    // Backtracking: reuse allowed
+
+    // Time:  O(2^n * n)
+    // Space: O(n)
 
     /* 🌳 Recursion Tree Mantığı
             Örnek:
@@ -34,12 +38,8 @@ public class Q0039_CombinationSum {
         return result;
     }
 
-    private static void backtrack(List<List<Integer>> result,
-                           List<Integer> current,
-                           int[] candidates,
-                           int target,
-                           int start) {
-
+    private static void backtrack(List<List<Integer>> result, List<Integer> current,
+                                  int[] candidates, int target, int start) {
         if (target == 0) {
             result.add(new ArrayList<>(current)); // copy state
             return;
