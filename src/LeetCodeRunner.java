@@ -7,7 +7,11 @@ import backtracking.combinations.Q0039_CombinationSum;
 import backtracking.combinations.Q0040_CombinationSumII;
 import backtracking.combinations.Q0077_Combinations;
 import backtracking.parentheses.Q0022_GenerateParentheses;
+import backtracking.permutations.Q0046_Permutations;
+import backtracking.permutations.Q0047_PermutationsII;
+import backtracking.strings.Q0017_LetterCombinationsOfAPhoneNumber;
 import backtracking.subsets.Q0078_Subsets;
+import backtracking.subsets.Q0090_SubsetsII;
 import bit.Q0136_SingleNumber;
 import bit.Q0338_CountingBits;
 import common.model.ListNode;
@@ -266,30 +270,34 @@ public class LeetCodeRunner {
                 Q1136_ParallelCourses.minimumSemesters(
                         2, new int[][]{{1, 0}}));
 
-
-
-
         /* =========================
            BACKTRACKING
            ========================= */
 
+        QUESTIONS.put(17, () ->
+                Q0017_LetterCombinationsOfAPhoneNumber.letterCombinations("23"));
         QUESTIONS.put(22, () ->
                 Q0022_GenerateParentheses.generateParenthesis(3));
-
-        QUESTIONS.put(77, () ->
-                Q0077_Combinations.combine(4, 2));
-
         QUESTIONS.put(39, () ->
                 Q0039_CombinationSum.combinationSum(
                         new int[]{2, 3, 6, 7}, 7));
-        QUESTIONS.put(78, () ->
-                Q0078_Subsets.subsets(
-                        new int[]{1, 2, 3}));
         QUESTIONS.put(40, () ->
                 Q0040_CombinationSumII.combinationSum2(
                         new int[]{10,1,2,7,6,1,5}, 8));
-
-
+        QUESTIONS.put(46, () ->
+                Q0046_Permutations.permute(
+                        new int[]{1, 2, 3}));
+        QUESTIONS.put(47, () ->
+                Q0047_PermutationsII.permuteUnique(
+                        new int[]{1, 2, 3}));
+        QUESTIONS.put(77, () ->
+                Q0077_Combinations.combine(4, 2));
+        QUESTIONS.put(78, () ->
+                Q0078_Subsets.subsets(
+                        new int[]{1, 2, 3}));
+        QUESTIONS.put(90, () ->
+                Q0090_SubsetsII.subsetsWithDup(
+                        new int[]{1, 2, 2}));
 
         /* =========================
            BIT

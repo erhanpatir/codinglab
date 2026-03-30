@@ -6,7 +6,7 @@ import java.util.List;
 public class Q0077_Combinations {
     // 77. Combinations - Medium
     // https://leetcode.com/problems/combinations/
-    // Backtracking
+    // Backtracking: fixed size + no reuse
 
     // Time:  O(C(n, k))
     // Space: O(C(n, k))
@@ -19,11 +19,8 @@ public class Q0077_Combinations {
         return result;
     }
 
-    private static void backtrack(int n,
-                           int k,
-                           List<Integer> current,
-                           int start,
-                           List<List<Integer>> result) {
+    private static void backtrack(int n, int k, List<Integer> current,
+                                  int start, List<List<Integer>> result) {
         if (current.size() == k) { // base case
             result.add(new ArrayList<>(current));
             return;
@@ -33,7 +30,7 @@ public class Q0077_Combinations {
 
         for (int i = start; i <= n; i++) {
             current.add(i);
-            backtrack(n, k, current, i + 1, result);
+            backtrack(n, k, current, i + 1, result); // no reuse, bu yuzden i + 1
             current.remove(current.size() - 1);
         }
     }
