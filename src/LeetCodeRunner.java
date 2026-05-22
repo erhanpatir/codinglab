@@ -6,10 +6,13 @@ import arrays.twopointers.*;
 import backtracking.combinations.Q0039_CombinationSum;
 import backtracking.combinations.Q0040_CombinationSumII;
 import backtracking.combinations.Q0077_Combinations;
+import backtracking.grid.Q0051_NQueens;
+import backtracking.grid.Q0079_WordSearch;
 import backtracking.parentheses.Q0022_GenerateParentheses;
 import backtracking.permutations.Q0046_Permutations;
 import backtracking.permutations.Q0047_PermutationsII;
 import backtracking.strings.Q0017_LetterCombinationsOfAPhoneNumber;
+import backtracking.strings.Q0131_PalindromePartitioning;
 import backtracking.subsets.Q0078_Subsets;
 import backtracking.subsets.Q0090_SubsetsII;
 import bit.Q0136_SingleNumber;
@@ -290,14 +293,22 @@ public class LeetCodeRunner {
         QUESTIONS.put(47, () ->
                 Q0047_PermutationsII.permuteUnique(
                         new int[]{1, 2, 3}));
+        QUESTIONS.put(51, () ->
+                Q0051_NQueens.solveNQueens(4));
         QUESTIONS.put(77, () ->
                 Q0077_Combinations.combine(4, 2));
         QUESTIONS.put(78, () ->
                 Q0078_Subsets.subsets(
                         new int[]{1, 2, 3}));
+        QUESTIONS.put(79, () ->
+                Q0079_WordSearch.exist(new char[][] {{'A','B','C','E'},
+                        {'S','F','C','S'},
+                        {'A','D','E','E'}}, "ABCCED"));
         QUESTIONS.put(90, () ->
                 Q0090_SubsetsII.subsetsWithDup(
                         new int[]{1, 2, 2}));
+        QUESTIONS.put(131, () ->
+                Q0131_PalindromePartitioning.partition("aab"));
 
         /* =========================
            BIT
