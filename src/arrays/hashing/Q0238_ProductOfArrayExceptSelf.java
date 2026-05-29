@@ -10,7 +10,6 @@ public class Q0238_ProductOfArrayExceptSelf {
     /*
         Bir index’in sonucu şudur:
             solundaki sayıların çarpımı * sağındaki sayıların çarpımı
-
         Örnek:
             nums = [1,2,3,4]
         Index 2 için:
@@ -24,13 +23,12 @@ public class Q0238_ProductOfArrayExceptSelf {
         Time: O(n)
         Space: O(1) extra
     */
-    public int[] productExceptSelf(int[] nums) {
+    public static int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] answer = new int[n]; // prefix storage olarak kullanıyoruz.
 
         int leftProduct = 1; // current index’in solundaki tüm elemanların çarpımını tutar.
 
-        //
         for (int i = 0; i < n; i++) {
             answer[i] = leftProduct;
             leftProduct *= nums[i];

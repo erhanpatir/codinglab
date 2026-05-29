@@ -3,11 +3,14 @@ package arrays.hashing;
 import java.util.HashSet;
 import java.util.Set;
 
-// 202. Happy Number - Easy
-// https://leetcode.com/problems/happy-number/
 public class Q0202_HappyNumber {
-    /* Solution: Floyd's Cycle Detection (Tortoise and Hare) ✅
-       More space-optimized solution
+    // 202. Happy Number - Easy
+    // https://leetcode.com/problems/happy-number/
+
+    // -------------------------------------------------------------------------------
+    // |PATTERN: Floyd’s cycle detection - Fast & Slow Pointer (Tortoise and Hare) ✅|
+    // -------------------------------------------------------------------------------
+    /* More space-optimized solution
 
        Steps:
         Initialize slow and fast pointers both to the original number.
@@ -15,48 +18,54 @@ public class Q0202_HappyNumber {
         If fast pointer reaches 1, return true.
         If slow equals fast and they are not 1, a cycle is detected, return false.
         Repeat these steps until a conclusion is reached.
-
-      Complexity Analysis
-        Time Complexity:  O(log n)  Similar to the set-based approach, but faster in practice due to constant space usage.
-        Space Complexity: O(1)      no need for additional data structures.
+    */
+    /*
+        Time: O(log n)
+        Space: O(1)
     */
     public static boolean isHappy_2(int n) {
         int slow = n;
-        int fast = findSum(n);
+        int fast = getNext(n);
 
-        while (slow != fast && fast != 1) {
-            slow = findSum(slow);
-            fast = findSum(findSum(fast));
+        // Eger slow ve fast birbirine esit olursa, cycle var demektir.
+        while (fast != 1 && slow != fast) {
+            slow = getNext(slow);
+            fast = getNext(getNext(fast));
         }
+
         return fast == 1;
     }
 
-    private static int findSum(int n) {
+    /* Solution: HashSet cycle detection ✅
+      Eğer bir sayı tekrar görülürse, aynı hesaplar tekrar eder. Buna cycle denir.
+
+      Complexity Analysis
+        Time:  O(log n)
+        Space: O(log n)
+            Çünkü digit processing her step için digit sayısına bağlıdır.
+    */
+    public static boolean isHappy(int n) {
+        // seen, daha önce üretilmiş sayıları tutar.
+        Set<Integer> seen = new HashSet<>();
+
+        while (n != 1) {
+            if (seen.contains(n)) {
+                return false;
+            }
+
+            seen.add(n);
+            n = getNext(n);
+        }
+        return true;
+    }
+
+    private static int getNext(int n) {
         int sum = 0;
         while (n > 0) {
             int digit = n % 10;
             sum += digit * digit;
-            n = n / 10;
+            n /= 10;
         }
         return sum;
-    }
-
-    /* Solution: HashSet ✅
-      The simplest approach is to detect cycles by using a set to track sums of squared digits that we've seen.
-      If we encounter a sum that we've seen before, we know we're in a cycle
-
-      Complexity Analysis
-        Time Complexity:  O(log n). In the worst case, each number leads to a value with fewer digits.
-        Space Complexity: O(log n). We store each intermediate value in a set until we reach 1 or encounter a cycle.
-    */
-    public static boolean isHappy(int n) {
-        // Initialize a set to keep track of the sums we've encountered.
-        Set<Integer> trackSet = new HashSet<>();
-        // If the sum is already in the set, return false (cycle detected).
-        while (n != 1 && !trackSet.contains(n)) {
-            trackSet.add(n);
-            n = findSum(n);
-        }
-        return n == 1;
     }
 }
