@@ -1,26 +1,53 @@
 package arrays.slidingwindow;
 
-// 643. Maximum Average Subarray I - Easy
-// https://leetcode.com/problems/maximum-average-subarray-i/
 public class Q0643_MaximumAverageSubarray1 {
-    /* Complexity Analysis
-        Time Complexity:  O(n)
-        Space Complexity: O(1)
+    // 643. Maximum Average Subarray I - Easy
+    // https://leetcode.com/problems/maximum-average-subarray-i/
+    // --------------------------------------------
+    // |PATTERN: Fixed Size Sliding Window      ✅|
+    // --------------------------------------------
+    /*
+        Window size sabit: k
+
+        İlk k elemanın sum’ını hesapla.
+        Sonra window’u sağa kaydırırken:
+            yeni gelen elemanı ekle
+            çıkan elemanı çıkar
+
+        Yani her window için tekrar baştan toplama yok.
+
+        3. State / Invariant
+        State:
+            windowSum
+            maxSum
+
+        Invariant:
+            windowSum her zaman son k elemanın toplamını temsil eder.
+
+        Kaydırma kuralı:
+            windowSum += nums[right]
+            windowSum -= nums[right - k]
     */
-    // Sliding Window
+    /* Complexity Analysis
+        Time:  O(n)
+        Space: O(1)
+    */
     public static double findMaxAverage (int[] nums, int k) {
-        int slidingWindowSum = 0;
+        int windowSum = 0;
 
         for (int i = 0; i < k; i++) {
-            slidingWindowSum += nums[i];
+            windowSum += nums[i];
         }
 
-        int maxSum = slidingWindowSum;
+        int maxSum = windowSum;
 
-        for (int i = k; i < nums.length; i++) {
-            slidingWindowSum = slidingWindowSum - nums[i - k] + nums[i];
-            maxSum = Math.max(maxSum, slidingWindowSum);
+        for (int right = k; right < nums.length; right++) {
+            windowSum += nums[right];
+            windowSum -= nums[right - k];
+
+            maxSum = Math.max(maxSum, windowSum);
         }
+
         return (double) maxSum / k;
     }
 }
