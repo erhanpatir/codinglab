@@ -2,26 +2,39 @@ package arrays.twopointers;
 
 import java.util.Arrays;
 
-// 88. Merge Sorted Array - Easy
-// https://leetcode.com/problems/merge-sorted-array/
 public class Q0088_MergeSortedArray {
+    // 88. Merge Sorted Array - Easy
+    // https://leetcode.com/problems/merge-sorted-array/
     /*
-        Cozum: ✅
+        PATTERN: In-place two-pointer ✅
              Baştan değil, sondan merge et.
         Neden?
-            Baştan yazarsan, nums1’deki değerleri ezersin
+            Baştan yazarsan, nums1’deki değerleri ezersin (overwrite)
             Sondan yazarsan kimseyi ezmezsin.
     *
-    * Complexity Analysis
+    /* 3. State / Invariant
+        3 pointer:
+            i = m - 1
+            j = n - 1
+            k = m + n - 1
+
+        Anlamları:
+            i -> nums1'in son gerçek elemanı
+            j -> nums2'nin son elemanı
+            k -> yazılacak son pozisyon
+
+        Invariant:
+            k'nın sağ tarafı her zaman doğru şekilde merge edilmiş durumdadır.
+     */
+
+    /* Complexity Analysis
         Time Complexity:  O(m + n), as we process each element exactly once.
         Space Complexity: O(1),     in-place without extra space.
     */
-
-    // 1. In-place Two-Pointer
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
-        int i = m - 1;      // nums1'in dolu kısmının sonu
-        int j = n - 1;      // nums2'nin sonu
-        int k = m + n - 1;  // nums1'in en son index'i
+        int i = m - 1;
+        int j = n - 1;
+        int k = m + n - 1;
 
         // 1. ve 2. array'i bastan sona merge et.
         // Buyuk mu kucuk mu bakarak iki pointer ile takip et.
@@ -43,7 +56,7 @@ public class Q0088_MergeSortedArray {
         }
     }
 
-    // 2. Merge Then Sort
+    // 2. Merge Then Sort - (Brute Force)
     public static void merge_2(int[] nums1, int m, int[] nums2, int n) {
         // nums1 array ine nums2 array inin elementlerini ekle
         for (int i = 0; i < n; i++) {

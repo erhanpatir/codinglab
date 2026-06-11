@@ -1,18 +1,25 @@
 package strings.twopointers;
 
-// 125 - Valid Palindrome - Easy
-// https://leetcode.com/problems/valid-palindrome/
 public class Q0125_ValidPalindrome {
+    // 125 - Valid Palindrome - Easy
+    // https://leetcode.com/problems/valid-palindrome/
+    // --------------------------------------------
+    // |PATTERN: Two Pointers                   ✅|
+    // --------------------------------------------
+    /*
+        Bir pointer başta, bir pointer sonda:
+            left = 0
+            right = s.length() - 1
+
+        Alphanumeric olmayan karakterleri skip ederiz.
+        Sonra karakterleri lowercase olarak karşılaştırırız.
+    */
     /*
         Complexity Analysis
-            Time Complexity: O(n), where n is the length of the input string.
-                                   We traverse each character twice in the worst case
-                                   (once for cleaning and once for palindrome checking).
-            Space Complexity: O(n) for the cleaned buffer.
+        Time: O(n)
+        Space: O(n)
     */
-
     public static boolean isPalindrome(String s) {
-        // Step 1: Clean the string using StringBuilder
         StringBuilder cleaned = new StringBuilder();
 
         for (char c : s.toCharArray()) {
@@ -20,11 +27,10 @@ public class Q0125_ValidPalindrome {
                 cleaned.append(Character.toLowerCase(c));
             }
         }
-        // Step 2: Initialize two pointers ✅
+
         int left = 0;
         int right = cleaned.length() - 1;
 
-        // Step 3: Check palindrome property
         while (left < right) {
             if (cleaned.charAt(left) != cleaned.charAt(right)) {
                 return false; // Not a palindrome if any mismatch occurs
@@ -35,8 +41,8 @@ public class Q0125_ValidPalindrome {
         return true;
     }
 
-    // Two-pointers: O(1) space
-    //"A man, a plan, a canal: Panama")
+    // Time: O(n)
+    // Space: O(1)
     public static boolean isPalindrome_2(String s) {
         int left = 0;
         int right = s.length() - 1;
