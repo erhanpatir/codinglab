@@ -1,4 +1,4 @@
-package strings.stack;
+package stack.basic;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,6 +7,24 @@ import java.util.Stack;
 public class Q0020_ValidParentheses {
     // 20. Valid Parentheses - Easy
     // https://leetcode.com/problems/valid-parentheses/
+    /* ------------------------------------------------------
+       | PATTERN: Stack                                   ✅|
+       ------------------------------------------------------
+    /* Stack içinde sadece henüz kapanmamış açılış parantezlerini tutacağız.
+        Invariant:
+        Stack her zaman şu ana kadar açılmış ama kapanmamış parantezleri tutar.
+
+        Kurallar:
+        Eğer karakter açılışsa: (  {  [
+            stack’e push et.
+
+        Eğer karakter kapanışsa: )  }  ]
+
+        stack boşsa false.
+        Stack’in tepesindeki açılış bu kapanışla eşleşmiyorsa false.
+        Eşleşiyorsa pop et.
+        En sonda stack boşsa true.
+    */
     /*
         Complexity Analysis
             Time Complexity: O(n)

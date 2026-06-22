@@ -64,7 +64,7 @@ import strings.hashing.Q0049_GroupAnagrams;
 import strings.hashing.Q0242_ValidAnagram;
 import strings.hashing.Q0451_SortCharactersByFrequency;
 import strings.slidingwindow.Q0003_LongestSubstringWithoutRepeatingCharacters;
-import strings.stack.Q0020_ValidParentheses;
+import stack.basic.Q0020_ValidParentheses;
 import strings.stack.Q1047_RemoveAllAdjacentDuplicatesInString;
 import strings.subsequence.Q0392_IsSubsequence;
 import strings.twopointers.Q0125_ValidPalindrome;
