@@ -41,7 +41,6 @@ public class Q0402_RemoveKDigits {
         Time
             Her digit stack’e bir kere girer, en fazla bir kere çıkar.
                 O(n)
-
             Leading zero cleanup da bir kere gezer.
             Toplam: O(n)
         Space

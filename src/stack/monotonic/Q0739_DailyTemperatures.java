@@ -32,7 +32,7 @@ public class Q0739_DailyTemperatures {
         int n = temperatures.length;
         int[] answer = new int[n];
 
-        Deque<Integer> stack = new ArrayDeque<>();
+        Deque<Integer> stack = new ArrayDeque<>(); // index tutar
 
         for (int i = 0; i < n; i++) {
             while (!stack.isEmpty()

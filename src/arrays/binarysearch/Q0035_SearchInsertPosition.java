@@ -5,6 +5,6 @@ public class Q0035_SearchInsertPosition {
     // https://leetcode.com/problems/search-insert-position/
 
     public static int searchInsert(int[] nums, int target) {
-    return 1;
+        return 1;
     }
 }
