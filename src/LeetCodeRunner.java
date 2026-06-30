@@ -46,6 +46,7 @@ import graphs.shortestpath.stategraph.Q0787_CheapestFlightsWithinKStops;
 import graphs.topologicalsort.*;
 import graphs.traversal.dfs.Q0133_CloneGraph;
 import graphs.unionfind.Q0547_NumberOfProvinces;
+import hashing.Q0128_LongestConsecutiveSequence;
 import heaps.topk.Q0347_TopKFrequentElements;
 import heaps.topk.Q0373_FindKPairsWithSmallestSums;
 import heaps.topk.Q0703_KthLargestElementInAStream;
