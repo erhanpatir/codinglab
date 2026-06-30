@@ -2,7 +2,6 @@ import arrays.binarysearch.*;
 import arrays.greedy.Q1642_FurthestBuildingYouCanReach;
 import arrays.hashing.*;
 import arrays.intervals.*;
-import arrays.matrix.*;
 import arrays.prefixsum.*;
 import arrays.slidingwindow.*;
 import arrays.twopointers.*;
@@ -17,7 +16,6 @@ import bit.Q0338_CountingBits;
 import common.model.ListNode;
 import common.ds.Node;
 import common.model.TreeNode;
-import design.Q0146_LRUCache;
 import design.Q0208_ImplementTrie;
 import design.Q0706_DesignHashMap;
 import design.Q1472_DesignBrowserHistory;
@@ -46,7 +44,11 @@ import linkedlists.reversal.Q0206_ReverseLinkedList;
 import linkedlists.sorting.Q0148_SortList;
 import linkedlists.twopointers.Q0160_IntersectionOfTwoLinkedLists;
 import math.Q0009_PalindromeNumber;
-import queue.bfs.Q0933_NumberOfRecentCalls;
+import queue.Q0933_NumberOfRecentCalls;
+import queue.Q0950_RevealCardsInIncreasingOrder;
+import queue.Q2073_TimeNeededToBuyTickets;
+import queue.monotonic.Q0862_ShortestSubarrayWithSumAtLeastK;
+import queue.monotonic.Q1696_JumpGame6;
 import stack.Q0071_SimplifyPath;
 import stack.Q0227_BasicCalculator2;
 import stack.Q0394_DecodeString;
@@ -535,10 +537,27 @@ public class LeetCodeRunner {
            ========================= */
 
         QUESTIONS.put(933, () -> {
-            Q0933_NumberOfRecentCalls rc =
-                    new Q0933_NumberOfRecentCalls();
+            Q0933_NumberOfRecentCalls outer = new Q0933_NumberOfRecentCalls();
+            Q0933_NumberOfRecentCalls.RecentCounter rc = outer.new RecentCounter();
             rc.ping(1);
         });
+
+        QUESTIONS.put(950, () ->
+                Q0950_RevealCardsInIncreasingOrder.deckRevealedIncreasing(
+                        new int[]{17, 13, 11, 2, 3, 5, 7}));
+
+        QUESTIONS.put(2073, () ->
+                Q2073_TimeNeededToBuyTickets.timeRequiredToBuy(
+                        new int[]{2, 3, 2}, 2));
+
+
+        /* =========================
+           QUEUE / MONOTONIC
+           ========================= */
+
+        QUESTIONS.put(862, () ->
+                Q0862_ShortestSubarrayWithSumAtLeastK.shortestSubarray(
+                        new int[]{1}, 1));
 
 
         /* =========================
