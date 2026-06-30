@@ -44,7 +44,7 @@ public class Q0523_ContinuousSubarraySum {
         Time: O(n)
         Space: O(min(n, k))
     */
-    public boolean checkSubarraySum(int[] nums, int k) {
+    public static boolean checkSubarraySum(int[] nums, int k) {
         // <remainder, firstIndex>
         Map<Integer, Integer> firstSeen = new HashMap<>();
 

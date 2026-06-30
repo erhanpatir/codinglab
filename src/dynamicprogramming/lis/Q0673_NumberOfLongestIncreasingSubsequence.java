@@ -27,7 +27,7 @@ public class Q0673_NumberOfLongestIncreasingSubsequence {
         Time  : O(n²)
         Space : O(n)
     */
-    public int findNumberOfLIS(int[] nums) {
+    public static int findNumberOfLIS(int[] nums) {
         int n = nums.length;
 
         int[] length = new int[n];

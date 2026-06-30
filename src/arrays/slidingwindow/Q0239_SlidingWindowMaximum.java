@@ -48,7 +48,7 @@ public class Q0239_SlidingWindowMaximum {
         Space: O(k)
         Her index deque’e en fazla bir kere girer, en fazla bir kere çıkar.
     */
-    public int[] maxSlidingWindow(int[] nums, int k) {
+    public static int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
         int[] result = new int[n - k + 1];
 

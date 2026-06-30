@@ -18,7 +18,7 @@ public class Q0253_MeetingRoomsII {
         Toplam: O(n log n)
         Space: O(n)
     */
-    public int minMeetingRooms(int[][] intervals) {
+    public static int minMeetingRooms(int[][] intervals) {
         // sort meetings by start time
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 

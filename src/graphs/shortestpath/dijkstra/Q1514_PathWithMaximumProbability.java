@@ -32,7 +32,7 @@ public class Q1514_PathWithMaximumProbability {
     // This is a maximum probability path problem,
     // but it can be solved using Dijkstra by changing the relaxation
     // from sum to product and using a max-heap.
-    public double maxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node) {
+    public static double maxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node) {
         List<List<double[]>> graph = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             graph.add(new ArrayList<>());

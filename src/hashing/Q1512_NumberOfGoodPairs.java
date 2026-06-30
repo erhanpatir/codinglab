@@ -12,7 +12,7 @@ public class Q1512_NumberOfGoodPairs {
         Time  : O(n)
         Space : O(1)
     */
-    public int numIdenticalPairs(int[] nums) {
+    public static int numIdenticalPairs(int[] nums) {
         return 0;
     }
 }

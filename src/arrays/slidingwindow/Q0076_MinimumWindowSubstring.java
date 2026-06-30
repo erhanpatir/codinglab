@@ -42,7 +42,7 @@ public class Q0076_MinimumWindowSubstring {
         Time: O(n)
         Space: O(1)
     */
-    public String minWindow(String s, String t) {
+    public static String minWindow(String s, String t) {
         if (t.length() > s.length()) {
             return "";
         }

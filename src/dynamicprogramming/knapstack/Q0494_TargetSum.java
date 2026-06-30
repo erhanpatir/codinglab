@@ -20,7 +20,7 @@ public class Q0494_TargetSum {
 
     // Time: O(N * S)
     // Space: O(S)
-    public int findTargetSumWays(int[] nums, int target) {
+    public static int findTargetSumWays(int[] nums, int target) {
         int totalSum = 0;
         for (int num : nums) {
             totalSum += num;

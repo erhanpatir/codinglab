@@ -12,7 +12,7 @@ public class Q0036_ValidSudoku {
         Time : O(log nn)
         Space : O(1)
     */
-    public boolean isValidSudoku(char[][] board) {
+    public static boolean isValidSudoku(char[][] board) {
 
     }
 }

@@ -12,7 +12,7 @@ public class Q0048_RotateImage {
         Time : O(log nn)
         Space : O(1)
     */
-    public void rotate(int[][] matrix) {
+    public static void rotate(int[][] matrix) {
 
     }
 }

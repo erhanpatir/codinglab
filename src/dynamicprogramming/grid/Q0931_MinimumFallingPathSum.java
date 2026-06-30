@@ -11,7 +11,7 @@ public class Q0931_MinimumFallingPathSum {
        Space: O(n²)
         DP tablosu tutuyoruz.
     */
-    public int minFallingPathSum(int[][] matrix) {
+    public static int minFallingPathSum(int[][] matrix) {
         int n = matrix.length;
 
         int[][] dp = new int[n][n];

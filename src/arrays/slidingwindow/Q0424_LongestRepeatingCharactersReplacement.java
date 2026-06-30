@@ -29,7 +29,7 @@ public class Q0424_LongestRepeatingCharactersReplacement {
         Time: O(n)
         Space: O(1)
     */
-    public int characterReplacement(String s, int k) {
+    public static int characterReplacement(String s, int k) {
         int[] freq = new int[26];
 
         int left = 0;

@@ -1,28 +1,23 @@
-import arrays.binarysearch.Q0035_SearchInsertPosition;
+import arrays.binarysearch.*;
 import arrays.greedy.Q1642_FurthestBuildingYouCanReach;
 import arrays.hashing.*;
-import arrays.intervals.Q0056_MergeIntervals;
-import arrays.intervals.Q0252_MeetingRooms;
+import arrays.intervals.*;
+import arrays.matrix.*;
 import arrays.prefixsum.*;
 import arrays.slidingwindow.*;
 import arrays.twopointers.*;
-import backtracking.combinations.Q0039_CombinationSum;
-import backtracking.combinations.Q0040_CombinationSumII;
-import backtracking.combinations.Q0077_Combinations;
-import backtracking.grid.Q0051_NQueens;
-import backtracking.grid.Q0079_WordSearch;
+import backtracking.combinations.*;
+import backtracking.grid.*;
 import backtracking.parentheses.Q0022_GenerateParentheses;
-import backtracking.permutations.Q0046_Permutations;
-import backtracking.permutations.Q0047_PermutationsII;
-import backtracking.strings.Q0017_LetterCombinationsOfAPhoneNumber;
-import backtracking.strings.Q0131_PalindromePartitioning;
-import backtracking.subsets.Q0078_Subsets;
-import backtracking.subsets.Q0090_SubsetsII;
+import backtracking.permutations.*;
+import backtracking.strings.*;
+import backtracking.subsets.*;
 import bit.Q0136_SingleNumber;
 import bit.Q0338_CountingBits;
 import common.model.ListNode;
 import common.ds.Node;
 import common.model.TreeNode;
+import design.Q0146_LRUCache;
 import design.Q0208_ImplementTrie;
 import design.Q0706_DesignHashMap;
 import design.Q1472_DesignBrowserHistory;
@@ -34,38 +29,32 @@ import dynamicprogramming.state.*;
 import dynamicprogramming.subsequence.*;
 import dynamicprogramming.trees.Q0337_HouseRobber3;
 import graphs.matrix.bfs.Q1091_ShortestPathInBinaryMatrix;
-import graphs.matrix.dfs.Q0130_SurroundedRegions;
-import graphs.matrix.dfs.Q0200_NumberOfIslands;
-import graphs.matrix.dfs.Q0417_PacificAtlanticWaterFlow;
-import graphs.matrix.dfs.Q0695_MaxAreaOfIsland;
+import graphs.matrix.dfs.*;
 import graphs.matrix.multisource.Q0994_RottingOranges;
 import graphs.minimumspantree.Q1584_MinCostToConnectAllPoints;
-import graphs.shortestpath.dijkstra.Q0743_NetworkDelayTime;
-import graphs.shortestpath.dijkstra.Q1514_PathWithMaximumProbability;
+import graphs.shortestpath.dijkstra.*;
 import graphs.shortestpath.stategraph.Q0787_CheapestFlightsWithinKStops;
 import graphs.topologicalsort.*;
 import graphs.traversal.dfs.Q0133_CloneGraph;
 import graphs.unionfind.Q0547_NumberOfProvinces;
-import hashing.Q0128_LongestConsecutiveSequence;
-import heaps.topk.Q0347_TopKFrequentElements;
-import heaps.topk.Q0373_FindKPairsWithSmallestSums;
-import heaps.topk.Q0703_KthLargestElementInAStream;
+import hashing.*;
+import heaps.topk.*;
 import linkedlists.construction.Q0109_ConvertSortedListToBinarySearchTree;
-import linkedlists.fastslow.Q0234_PalindromeLinkedList;
-import linkedlists.fastslow.Q0876_MiddleOfTheLinkedList;
+import linkedlists.fastslow.*;
 import linkedlists.merge.Q0021_MergeTwoSortedLists;
 import linkedlists.reversal.Q0206_ReverseLinkedList;
 import linkedlists.sorting.Q0148_SortList;
 import linkedlists.twopointers.Q0160_IntersectionOfTwoLinkedLists;
 import math.Q0009_PalindromeNumber;
 import queue.bfs.Q0933_NumberOfRecentCalls;
-import stack.monotonic.Q0496_NextGreaterElement1;
+import stack.Q0071_SimplifyPath;
+import stack.Q0227_BasicCalculator2;
+import stack.Q0394_DecodeString;
+import stack.Q0853_CarFleet;
+import stack.basic.*;
+import stack.monotonic.*;
 import strings.basic.Q0014_LongestCommonPrefix;
-import strings.hashing.Q0049_GroupAnagrams;
-import strings.hashing.Q0242_ValidAnagram;
-import strings.hashing.Q0451_SortCharactersByFrequency;
-import strings.slidingwindow.Q0003_LongestSubstringWithoutRepeatingCharacters;
-import stack.basic.Q0020_ValidParentheses;
+import strings.hashing.*;
 import strings.stack.Q1047_RemoveAllAdjacentDuplicatesInString;
 import strings.subsequence.Q0392_IsSubsequence;
 import strings.twopointers.Q0125_ValidPalindrome;
@@ -77,6 +66,11 @@ import trees.pointer.*;
 import trees.recursion.Q0572_SubtreeOfAnotherTree;
 import trees.traversal.bfs.*;
 import trees.traversal.dfs.*;
+import tries.Q0211_DesignAddAndSearchWords;
+import tries.Q0212_WordSearchII;
+import tries.Q0648_ReplaceWords;
+import tries.Q0677_MapSumPairs;
+import tries.Q1268_SearchSuggestionsSystem;
 
 import java.util.*;
 
@@ -103,7 +97,7 @@ public class LeetCodeRunner {
                         new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
 
         QUESTIONS.put(15, () ->
-                new Q0015_3Sum().threeSum(
+                Q0015_3Sum.threeSum(
                         new int[]{-1, 0, 1, 2, -1, -4}));
 
         QUESTIONS.put(26, () ->
@@ -145,27 +139,27 @@ public class LeetCodeRunner {
            ========================= */
 
         QUESTIONS.put(76, () ->
-                new Q0076_MinimumWindowSubstring().minWindow(
+                Q0076_MinimumWindowSubstring.minWindow(
                         "ADOBECODEBANC", "ABC"));
 
         QUESTIONS.put(209, () ->
-                new Q0209_MinimumSizeSubarraySum().minSubArrayLen(
+                Q0209_MinimumSizeSubarraySum.minSubArrayLen(
                         7, new int[]{2, 3, 1, 2, 4, 3}));
 
         QUESTIONS.put(239, () ->
-                new Q0239_SlidingWindowMaximum().maxSlidingWindow(
+                Q0239_SlidingWindowMaximum.maxSlidingWindow(
                         new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3));
 
         QUESTIONS.put(424, () ->
-                new Q0424_LongestRepeatingCharactersReplacement().characterReplacement(
+                Q0424_LongestRepeatingCharactersReplacement.characterReplacement(
                         "AABABBA", 1));
 
         QUESTIONS.put(438, () ->
-                new Q0438_FindAllAnagramsInAString().findAnagrams(
+                Q0438_FindAllAnagramsInAString.findAnagrams(
                         "cbaebabacd", "abc"));
 
         QUESTIONS.put(567, () ->
-                new Q0567_PermutationInString().checkInclusion(
+                Q0567_PermutationInString.checkInclusion(
                         "ab", "eidbaooo"));
 
         QUESTIONS.put(643, () ->
@@ -173,7 +167,7 @@ public class LeetCodeRunner {
                         new int[]{1, 12, -5, -6, 50, 3}, 4));
 
         QUESTIONS.put(1004, () ->
-                new Q1004_MaxConsecutiveOnesIII().lonestOnes(
+                Q1004_MaxConsecutiveOnesIII.lonestOnes(
                         new int[]{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}, 2));
 
         QUESTIONS.put(1343, () ->
@@ -181,7 +175,7 @@ public class LeetCodeRunner {
                         .numOfSubarrays(new int[]{2, 2, 2, 2, 5, 5, 5, 8}, 3, 4));
 
         QUESTIONS.put(1456, () ->
-                new Q1456_MaximumNumberOfVowelsInASubstringOfGivenLength().maxVowels(
+                Q1456_MaximumNumberOfVowelsInASubstringOfGivenLength.maxVowels(
                         "abciiidef", 3));
 
 
@@ -190,11 +184,11 @@ public class LeetCodeRunner {
            ========================= */
 
         QUESTIONS.put(1, () ->
-                new Q0001_TwoSum().twoSum(
+                Q0001_TwoSum.twoSum(
                         new int[]{2, 7, 11, 15}, 9));
 
         QUESTIONS.put(36, () ->
-                Q0036_ValidSudoku.isValidSudoku(new char[][]{
+                arrays.hashing.Q0036_ValidSudoku.isValidSudoku(new char[][]{
                         {'5','3','.','.','7','.','.','.','.'},
                         {'6','.','.','1','9','5','.','.','.'},
                         {'.','9','8','.','.','.','.','6','.'},
@@ -204,10 +198,6 @@ public class LeetCodeRunner {
                         {'.','6','.','.','.','.','2','8','.'},
                         {'.','.','.','4','1','9','.','.','5'},
                         {'.','.','.','.','8','.','.','7','9'}}));
-
-        QUESTIONS.put(128, () ->
-                new Q0128_LongestConsecutiveSequence().longestConsecutive(
-                        new int[]{100, 4, 200, 1, 3, 2}));
 
         QUESTIONS.put(169, () ->
                 Q0169_MajorityElement.majorityElement(
@@ -229,9 +219,56 @@ public class LeetCodeRunner {
            ARRAYS / BINARY SEARCH
            ========================= */
 
+        QUESTIONS.put(33, () ->
+                Q0033_SearchInRotatedSortedArray.search(
+                        new int[]{4, 5, 6, 7, 0, 1, 2}, 0));
+
         QUESTIONS.put(35, () ->
                 Q0035_SearchInsertPosition.searchInsert(
                         new int[]{1, 3, 5, 6}, 5));
+
+        QUESTIONS.put(69, () ->
+                Q0069_Sqrt.mySqrt(8));
+
+        QUESTIONS.put(74, () ->
+                Q0074_SearchA2DMatrix.searchMatrix(
+                        new int[][]{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 60}}, 3));
+
+        QUESTIONS.put(153, () ->
+                Q0153_FindMinimumInRotatedSortedArray.findMin(
+                        new int[]{3, 4, 5, 1, 2}));
+
+        QUESTIONS.put(162, () ->
+                Q0162_FindPeakElement.findPeakElement(
+                        new int[]{1, 2, 3, 1}));
+
+        QUESTIONS.put(240, () ->
+                Q0240_SearchA2DMatrixII.searchMatrix(
+                        new int[][]{{1, 4, 7, 11, 15}, {2, 5, 8, 12, 19}}, 5));
+
+        QUESTIONS.put(278, () ->
+                Q0278_FirstBadVersion.firstBadVersion(5));
+
+        QUESTIONS.put(410, () ->
+                Q0410_SplitArrayLargestSum.splitArray(
+                        new int[]{7, 2, 5, 10, 8}, 2));
+
+        QUESTIONS.put(704, () ->
+                Q0704_BinarySearch.search(
+                        new int[]{-1, 0, 3, 5, 9, 12}, 9));
+
+        QUESTIONS.put(875, () ->
+                Q0875_KokoEatingBananas.minEatingSpeed(
+                        new int[]{3, 6, 7, 11}, 8));
+
+        QUESTIONS.put(1011, () ->
+                Q1011_CapacityToShipPackagesWithinDDays.shipWithinDays(
+                        new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 5));
+
+        QUESTIONS.put(1482, () ->
+                Q1482_MinimumDaysToMakeMBouqets.minDays(
+                        new int[]{1, 10, 3, 10, 2}, 3, 1));
+
 
 
         /* =========================
@@ -242,8 +279,16 @@ public class LeetCodeRunner {
                 Q0056_MergeIntervals.merge(
                         new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}}));
 
+        QUESTIONS.put(57, () ->
+                Q0057_InsertInterval.insert(
+                        new int[][]{{1, 3}, {6, 9}}, new int[]{2, 5}));
+
         QUESTIONS.put(252, () ->
-                new Q0252_MeetingRooms().canAttendMeetings(
+                Q0252_MeetingRooms.canAttendMeetings(
+                        new int[][]{{0, 30}, {5, 10}, {15, 20}}));
+
+        QUESTIONS.put(253, () ->
+                Q0253_MeetingRoomsII.minMeetingRooms(
                         new int[][]{{0, 30}, {5, 10}, {15, 20}}));
 
 
@@ -258,20 +303,41 @@ public class LeetCodeRunner {
         });
 
         QUESTIONS.put(523, () ->
-                new Q0523_ContinuousSubarraySum().checkSubarraySum(
+                Q0523_ContinuousSubarraySum.checkSubarraySum(
                         new int[]{23, 2, 4, 6, 7}, 6));
 
         QUESTIONS.put(525, () ->
-                new Q0525_ContiguousArray().findMaxLength(
+                Q0525_ContiguousArray.findMaxLength(
                         new int[]{0, 1, 0}));
 
         QUESTIONS.put(560, () ->
-                new Q0560_SubarraySumEqualsK().subarraySum(
+                Q0560_SubarraySumEqualsK.subarraySum(
                         new int[]{1, 1, 1}, 2));
 
         QUESTIONS.put(974, () ->
-                new Q0974_SubarraySumsDivisibleByK().subarraysDivByK(
+                Q0974_SubarraySumsDivisibleByK.subarraysDivByK(
                         new int[]{4, 5, 0, -2, -3, 1}, 5));
+
+
+        /* =========================
+           ARRAYS / MATRIX
+           ========================= */
+
+        QUESTIONS.put(48, () ->
+                arrays.matrix.Q0048_RotateImage.rotate(
+                        new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}));
+
+        QUESTIONS.put(54, () ->
+                arrays.matrix.Q0054_SpiralMatrix.spiralOrder(
+                        new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}));
+
+        QUESTIONS.put(73, () ->
+                arrays.matrix.Q0073_SetMatrixZeroes.setZeroes(
+                        new int[][]{{1, 1, 1}, {1, 0, 1}, {1, 1, 1}}));
+
+        QUESTIONS.put(289, () ->
+                arrays.matrix.Q0289_GameOfLife.gameOfLife(
+                        new int[][]{{0, 1, 0}, {0, 0, 1}, {1, 1, 1}, {0, 0, 0}}));
 
 
         /* =========================
@@ -288,15 +354,12 @@ public class LeetCodeRunner {
            ========================= */
 
         QUESTIONS.put(3, () ->
-                Q0003_LongestSubstringWithoutRepeatingCharacters
+                strings.slidingwindow.Q0003_LongestSubstringWithoutRepeatingCharacters
                         .lengthOfLongestSubstring("abcabcbb"));
 
         QUESTIONS.put(14, () ->
                 Q0014_LongestCommonPrefix.longestCommonPrefix_3(
                         new String[]{"flower", "flow", "flight"}));
-
-        QUESTIONS.put(20, () ->
-                Q0020_ValidParentheses.isValid("()[]{}"));
 
         QUESTIONS.put(49, () ->
                 Q0049_GroupAnagrams.groupAnagrams_sorting(
@@ -319,6 +382,46 @@ public class LeetCodeRunner {
         QUESTIONS.put(1047, () ->
                 Q1047_RemoveAllAdjacentDuplicatesInString
                         .removeDuplicates("abbaca"));
+
+
+        /* =========================
+           HASHING
+           ========================= */
+
+        QUESTIONS.put(128, () ->
+                Q0128_LongestConsecutiveSequence.longestConsecutive(
+                        new int[]{100, 4, 200, 1, 3, 2}));
+
+        QUESTIONS.put(205, () ->
+                Q0205_IsomorphicStrings.isIsomorphic("egg", "add"));
+
+        QUESTIONS.put(219, () ->
+                Q0219_ContainsDuplicateII.containsNearbyDuplicate(
+                        new int[]{1, 2, 3, 1}, 3));
+
+        QUESTIONS.put(290, () ->
+                Q0290_WordPattern.wordPattern("abba", "dog cat cat dog"));
+
+        QUESTIONS.put(383, () ->
+                Q0383_RansomNote.canConstruct("aa", "aab"));
+
+        QUESTIONS.put(659, () ->
+                Q0659_SplitArrayIntoConsecutiveSubsequences.isPossible(
+                        new int[]{1, 2, 3, 3, 4, 5}));
+
+        QUESTIONS.put(792, () ->
+                Q0792_NumberOfMatchingSubsequences.numMatchingSubseq(
+                        "abcde", new String[]{"a", "bb", "acd", "ace"}));
+
+        QUESTIONS.put(1189, () ->
+                Q1189_MaximumNumberOfBalloons.maxNumberOfBalloons("nlaebolko"));
+
+        QUESTIONS.put(1512, () ->
+                Q1512_NumberOfGoodPairs.numIdenticalPairs(
+                        new int[]{1, 2, 3, 1, 1, 3}));
+
+        QUESTIONS.put(1525, () ->
+                Q1525_NumberOfGoodWaysToSplitAString.numSplits("aacaba"));
 
 
         /* =========================
@@ -357,20 +460,93 @@ public class LeetCodeRunner {
 
 
         /* =========================
-           STACK
+           STACK / BASIC
            ========================= */
+
+        QUESTIONS.put(20, () ->
+                Q0020_ValidParentheses.isValid("()[]{}"));
+
+        QUESTIONS.put(150, () ->
+                Q0150_EvaluateReversePolishRotation.evalRPN(
+                        new String[]{"2", "1", "+", "3", "*"}));
+
+        QUESTIONS.put(155, () -> {
+            Q0155_MinStack minStack = new Q0155_MinStack();
+            minStack.push(-2);
+            minStack.push(0);
+            minStack.push(-3);
+            minStack.getMin();
+        });
+
+
+        /* =========================
+           STACK / GENERAL
+           ========================= */
+
+        QUESTIONS.put(71, () ->
+                Q0071_SimplifyPath.simplifyPath("/home/"));
+
+        QUESTIONS.put(227, () ->
+                Q0227_BasicCalculator2.calculate("3+2*2"));
+
+        QUESTIONS.put(394, () ->
+                Q0394_DecodeString.decodeString("3[a]2[bc]"));
+
+        QUESTIONS.put(853, () ->
+                Q0853_CarFleet.carFleet(12,
+                        new int[]{10, 8, 0, 5, 3},
+                        new int[]{2, 4, 1, 1, 3}));
+
+
+        /* =========================
+           STACK / MONOTONIC
+           ========================= */
+
+        QUESTIONS.put(84, () ->
+                Q0084_LargestRectangleInHistogram.largestRectangleArea(
+                        new int[]{2, 1, 5, 6, 2, 3}));
+
+        QUESTIONS.put(402, () ->
+                Q0402_RemoveKDigits.removeKdigits("1432219", 3));
 
         QUESTIONS.put(496, () ->
                 Q0496_NextGreaterElement1.nextGreaterElement_BruteForce(
                         new int[]{4, 1, 2}, new int[]{1, 3, 4, 2}));
 
+        QUESTIONS.put(503, () ->
+                Q0503_NextGreaterElement2.nextGreaterElements(
+                        new int[]{1, 2, 1}));
+
+        QUESTIONS.put(739, () ->
+                Q0739_DailyTemperatures.dailyTemperatures(
+                        new int[]{73, 74, 75, 71, 69, 72, 76, 73}));
+
+        QUESTIONS.put(901, () -> {
+            Q0901_OnlineStockSpan stockSpan = new Q0901_OnlineStockSpan();
+            stockSpan.next(100);
+            stockSpan.next(80);
+            stockSpan.next(60);
+            stockSpan.next(70);
+        });
+
 
         /* =========================
-           QUEUE / HEAP
+           QUEUE
+           ========================= */
+
+        QUESTIONS.put(933, () -> {
+            Q0933_NumberOfRecentCalls rc =
+                    new Q0933_NumberOfRecentCalls();
+            rc.ping(1);
+        });
+
+
+        /* =========================
+           HEAPS / TOP-K
            ========================= */
 
         QUESTIONS.put(347, () ->
-                new Q0347_TopKFrequentElements().topKFrequent_bucketsort(
+                Q0347_TopKFrequentElements.topKFrequent_bucketsort(
                         new int[]{1, 1, 1, 2, 2, 3}, 2));
 
         QUESTIONS.put(373, () ->
@@ -384,11 +560,9 @@ public class LeetCodeRunner {
             kth.add(3);
         });
 
-        QUESTIONS.put(933, () -> {
-            Q0933_NumberOfRecentCalls rc =
-                    new Q0933_NumberOfRecentCalls();
-            rc.ping(1);
-        });
+        QUESTIONS.put(973, () ->
+                Q0973_KClosestPointsToOrigin.kClosest(
+                        new int[][]{{1, 3}, {-2, 2}}, 1));
 
 
         /* =========================
@@ -686,7 +860,7 @@ public class LeetCodeRunner {
                         0, 2, 1));
 
         QUESTIONS.put(1514, () ->
-                new Q1514_PathWithMaximumProbability().maxProbability(
+                Q1514_PathWithMaximumProbability.maxProbability(
                         3, new int[][]{{0, 1}, {1, 2}, {0, 2}},
                         new double[]{0.5, 0.5, 0.2}, 0, 2));
 
@@ -761,19 +935,19 @@ public class LeetCodeRunner {
                         new int[]{2, 3, -2, 4}));
 
         QUESTIONS.put(198, () ->
-                new Q0198_HouseRobber().rob(
+                Q0198_HouseRobber.rob(
                         new int[]{1, 2, 3, 1}));
 
         QUESTIONS.put(213, () ->
-                new Q0213_HouseRobberII().rob(
+                Q0213_HouseRobberII.rob(
                         new int[]{2, 3, 2}));
 
         QUESTIONS.put(746, () ->
-                new Q0746_MinCostClimbingStairs().minCostClimbingStairs(
+                Q0746_MinCostClimbingStairs.minCostClimbingStairs(
                         new int[]{10, 15, 20}));
 
         QUESTIONS.put(918, () ->
-                new Q0918_MaximumCircularSubarray().maxSubarraySumCircular(
+                Q0918_MaximumCircularSubarray.maxSubarraySumCircular(
                         new int[]{1, -2, 3, -2}));
 
 
@@ -793,14 +967,14 @@ public class LeetCodeRunner {
                         new int[][]{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}));
 
         QUESTIONS.put(221, () ->
-                new Q0221_MaximalSquare().maximalSquare(
+                Q0221_MaximalSquare.maximalSquare(
                         new char[][]{{'1','0','1','0','0'},
                                      {'1','0','1','1','1'},
                                      {'1','1','1','1','1'},
                                      {'1','0','0','1','0'}}));
 
         QUESTIONS.put(931, () ->
-                new Q0931_MinimumFallingPathSum().minFallingPathSum(
+                Q0931_MinimumFallingPathSum.minFallingPathSum(
                         new int[][]{{2, 1, 3}, {6, 5, 4}, {7, 8, 9}}));
 
 
@@ -817,11 +991,11 @@ public class LeetCodeRunner {
                         new int[]{1, 5, 11, 5}));
 
         QUESTIONS.put(474, () ->
-                new Q0474_OnesAndZeroes().findMaxForm(
+                Q0474_OnesAndZeroes.findMaxForm(
                         new String[]{"10", "0001", "111001", "1", "0"}, 5, 3));
 
         QUESTIONS.put(494, () ->
-                new Q0494_TargetSum().findTargetSumWays(
+                Q0494_TargetSum.findTargetSumWays(
                         new int[]{1, 1, 1, 1, 1}, 3));
 
         QUESTIONS.put(518, () ->
@@ -842,7 +1016,7 @@ public class LeetCodeRunner {
                         new int[][]{{5, 4}, {6, 4}, {6, 7}, {2, 3}}));
 
         QUESTIONS.put(673, () ->
-                new Q0673_NumberOfLongestIncreasingSubsequence().findNumberOfLIS(
+                Q0673_NumberOfLongestIncreasingSubsequence.findNumberOfLIS(
                         new int[]{1, 3, 5, 4, 7}));
 
 
@@ -868,20 +1042,20 @@ public class LeetCodeRunner {
            ========================= */
 
         QUESTIONS.put(72, () ->
-                new Q0072_EditDistance().minDistance("horse", "ros"));
+                Q0072_EditDistance.minDistance("horse", "ros"));
 
         QUESTIONS.put(115, () ->
-                new Q0115_DistinctSubsequences().numDistinct("rabbbit", "rabbit"));
+                Q0115_DistinctSubsequences.numDistinct("rabbbit", "rabbit"));
 
         QUESTIONS.put(139, () ->
-                new Q0139_WordBreak().wordBreak(
+                Q0139_WordBreak.wordBreak(
                         "leetcode", Arrays.asList("leet", "code")));
 
         QUESTIONS.put(516, () ->
                 Q0516_LongestPalindromicSubsequence.longestPalindromeSubseq("bbbab"));
 
         QUESTIONS.put(1143, () ->
-                new Q1143_LongestCommonSubsequence().longestCommonSubsequence(
+                Q1143_LongestCommonSubsequence.longestCommonSubsequence(
                         "abcde", "ace"));
 
 
@@ -916,6 +1090,39 @@ public class LeetCodeRunner {
                             "https://leetcode.com/");
             browser.visit("https://leetcode.com/");
         });
+
+
+        /* =========================
+           TRIES
+           ========================= */
+
+        QUESTIONS.put(211, () -> {
+            Q0211_DesignAddAndSearchWords outer = new Q0211_DesignAddAndSearchWords();
+            Q0211_DesignAddAndSearchWords.WordDictionary dict = outer.new WordDictionary();
+            dict.addWord("bad");
+            dict.search("b.d");
+        });
+
+        QUESTIONS.put(212, () ->
+                Q0212_WordSearchII.findWords(
+                        new char[][]{{'o','a','a','n'},{'e','t','a','e'},{'i','h','k','r'},{'i','f','l','v'}},
+                        new String[]{"oath", "pea", "eat", "rain"}));
+
+        QUESTIONS.put(648, () ->
+                Q0648_ReplaceWords.replaceWords(
+                        Arrays.asList("cat", "bat", "rat"), "the cattle was rattled by the battery"));
+
+        QUESTIONS.put(677, () -> {
+            Q0677_MapSumPairs outer = new Q0677_MapSumPairs();
+            Q0677_MapSumPairs.MapSum mapSum = outer.new MapSum();
+            mapSum.insert("apple", 3);
+            mapSum.sum("ap");
+        });
+
+        QUESTIONS.put(1268, () ->
+                Q1268_SearchSuggestionsSystem.suggestedProducts(
+                        new String[]{"mobile", "mouse", "moneypot", "monitor", "mousepad"}, "mouse"));
+
     }
 
 
@@ -929,17 +1136,6 @@ public class LeetCodeRunner {
         }
 
         runnable.run();
-    }
-
-    static ListNode fromArray(int[] values) {
-        if (values == null || values.length == 0) return null;
-        ListNode dummy = new ListNode(0);
-        ListNode curr = dummy;
-        for (int v : values) {
-            curr.next = new ListNode(v);
-            curr = curr.next;
-        }
-        return dummy.next;
     }
 
     public static TreeNode buildTree(Integer[] arr) {
@@ -956,14 +1152,12 @@ public class LeetCodeRunner {
         while (i < arr.length) {
             TreeNode current = queue.poll();
 
-            // left child
             if (i < arr.length && arr[i] != null) {
                 current.left = new TreeNode(arr[i]);
                 queue.offer(current.left);
             }
             i++;
 
-            // right child
             if (i < arr.length && arr[i] != null) {
                 current.right = new TreeNode(arr[i]);
                 queue.offer(current.right);
@@ -995,14 +1189,11 @@ public class LeetCodeRunner {
 
         common.model.Node[] nodes = new common.model.Node[arr.length];
 
-        // create nodes
         for (int i = 0; i < arr.length; i++) {
             nodes[i] = new common.model.Node(arr[i]);
         }
 
-        // connect children
         for (int i = 0; i < arr.length; i++) {
-
             int left = 2 * i + 1;
             int right = 2 * i + 2;
 
@@ -1032,10 +1223,10 @@ public class LeetCodeRunner {
             Node toNode = nodes.get(to);
 
             fromNode.neighbors.add(toNode);
-            toNode.neighbors.add(fromNode); // undirected graph
+            toNode.neighbors.add(fromNode);
         }
 
-        return nodes.get(1); // start node
+        return nodes.get(1);
     }
 
 }

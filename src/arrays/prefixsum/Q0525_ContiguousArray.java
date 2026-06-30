@@ -40,7 +40,7 @@ public class Q0525_ContiguousArray {
         Time: O(n)
         Space: O(n)
     */
-    public int findMaxLength(int[] nums) {
+    public static int findMaxLength(int[] nums) {
         Map<Integer, Integer> firstSeen = new HashMap<>();
         firstSeen.put(0, -1);
 

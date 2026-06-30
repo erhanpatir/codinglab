@@ -12,7 +12,7 @@ public class Q1525_NumberOfGoodWaysToSplitAString {
         Time  : O(n)
         Space : O(1)
     */
-    public int numSplits(String s) {
+    public static int numSplits(String s) {
         return 1;
     }
 }

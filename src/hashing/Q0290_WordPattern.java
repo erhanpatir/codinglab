@@ -12,7 +12,7 @@ public class Q0290_WordPattern {
         Time  : O(n)
         Space : O(1)
     */
-    public boolean wordPattern(String pattern, String s) {
+    public static boolean wordPattern(String pattern, String s) {
         return true;
     }
 }

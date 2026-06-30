@@ -39,7 +39,7 @@ public class Q0347_TopKFrequentElements {
         Time: O(n * k log k)
         Space: O(n * k)
     */
-    public int[] topKFrequent_bucketsort(int[] nums, int k) {
+    public static int[] topKFrequent_bucketsort(int[] nums, int k) {
         Map<Integer, Integer> frequency = new HashMap<>();
         // frequency leri hesaplıyoruz.
         for (int num : nums) {
@@ -83,7 +83,7 @@ public class Q0347_TopKFrequentElements {
         Space: O(n)
     */
     // Eğer “top K” duyarsan önce heap düşün
-    public int[] topKFrequent_priorityQueue(int[] nums, int k) {
+    public static int[] topKFrequent_priorityQueue(int[] nums, int k) {
         Map<Integer, Integer> frequency = new HashMap<>();
 
         for (int num : nums) {

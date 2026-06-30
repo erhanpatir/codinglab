@@ -12,7 +12,7 @@ public class Q0205_IsomorphicStrings {
         Time  : O(n)
         Space : O(1)
     */
-    public boolean isIsomorphic(String s, String t) {
+    public static boolean isIsomorphic(String s, String t) {
         return true;
     }
 }

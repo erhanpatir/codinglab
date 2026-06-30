@@ -16,7 +16,7 @@ public class Q0054_SpiralMatrix {
         Time  : O(n)
         Space : O(1)
     */
-    public List<Integer> spiralOrder(int[][] matrix) {
+    public static List<Integer> spiralOrder(int[][] matrix) {
             return null;
     }
 }

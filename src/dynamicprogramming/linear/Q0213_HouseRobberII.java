@@ -18,7 +18,7 @@ public class Q0213_HouseRobberII {
         Time  : O(n)
         Space : O(1)
     */
-    public int rob(int[] nums) {
+    public static int rob(int[] nums) {
         int n = nums.length;
 
         if (n == 1) return nums[0];
@@ -28,7 +28,7 @@ public class Q0213_HouseRobberII {
                 robLinear(nums, 1, n - 1));
     }
 
-    private int robLinear(int[] nums, int start, int end) {
+    private static int robLinear(int[] nums, int start, int end) {
         int prev1 = 0;
         int prev2 = 0;
 
