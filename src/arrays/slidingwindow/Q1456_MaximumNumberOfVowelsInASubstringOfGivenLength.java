@@ -28,7 +28,7 @@ public class Q1456_MaximumNumberOfVowelsInASubstringOfGivenLength {
         Time:  O(n)
         Space: O(1)
     */
-    public int maxVowels(String s, int k) {
+    public static int maxVowels(String s, int k) {
         int currentVowels = 0;
 
         for (int i = 0; i < k; i++) {
@@ -54,7 +54,7 @@ public class Q1456_MaximumNumberOfVowelsInASubstringOfGivenLength {
         return maxVowels;
     }
 
-    private boolean isVowel(char c) {
+    private static boolean isVowel(char c) {
         return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
 }

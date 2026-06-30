@@ -15,7 +15,7 @@ public class Q0974_SubarraySumsDivisibleByK {
         Time: O(n)
         Space: O(min(n, k))
     */
-    public int subarraysDivByK(int[] nums, int k) {
+    public static int subarraysDivByK(int[] nums, int k) {
         // <remainder, frequency>
         Map<Integer, Integer> frequencyMap = new HashMap<>();
         frequencyMap.put(0, 1);

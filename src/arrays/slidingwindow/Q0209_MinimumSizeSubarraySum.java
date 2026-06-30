@@ -30,7 +30,7 @@ public class Q0209_MinimumSizeSubarraySum {
         Time:  O(n)
         Space: O(1)
     */
-    public int minSubArrayLen(int target, int[] nums) {
+    public static int minSubArrayLen(int target, int[] nums) {
         int left = 0;
         int sum = 0;
         int minLength = Integer.MAX_VALUE;

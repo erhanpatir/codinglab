@@ -12,7 +12,7 @@ public class Q1189_MaximumNumberOfBalloons {
         Time  : O(n)
         Space : O(1)
     */
-    public int maxNumberOfBalloons(String text) {
+    public static int maxNumberOfBalloons(String text) {
         return 0;
     }
 }

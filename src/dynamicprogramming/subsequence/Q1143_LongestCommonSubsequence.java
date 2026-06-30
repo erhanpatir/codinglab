@@ -4,7 +4,7 @@ public class Q1143_LongestCommonSubsequence {
     // 1143. Longest Common Subsequence - Medium
     // https://leetcode.com/problems/longest-common-subsequence/description/
 
-    public int longestCommonSubsequence(String text1, String text2) {
+    public static int longestCommonSubsequence(String text1, String text2) {
         int m = text1.length();
         int n = text2.length();
 

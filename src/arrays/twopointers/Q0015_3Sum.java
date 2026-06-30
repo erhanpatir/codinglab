@@ -33,7 +33,7 @@ public class Q0015_3Sum {
         Time: O(n²)
         Space: O(1) extra
     */
-    public List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSum(int[] nums) {
 
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums);

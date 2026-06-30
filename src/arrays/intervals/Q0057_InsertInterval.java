@@ -40,7 +40,7 @@ public class Q0057_InsertInterval {
         Time:  O(n)
         Space: O(n)
     */
-    public int[][] insert(int[][] intervals, int[] newInterval) {
+    public static int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> result = new ArrayList<>();
 
         int i = 0;

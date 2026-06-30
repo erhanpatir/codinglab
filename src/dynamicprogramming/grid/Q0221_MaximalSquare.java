@@ -11,7 +11,7 @@ public class Q0221_MaximalSquare {
         Space: O(m * n)
             DP tablosu tutuyoruz.
     */
-    public int maximalSquare(char[][] matrix) {
+    public static int maximalSquare(char[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
 

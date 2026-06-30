@@ -29,7 +29,7 @@ public class Q0072_EditDistance {
         Space : O(m * n)
     */
 
-    public int minDistance(String word1, String word2) {
+    public static int minDistance(String word1, String word2) {
         int m = word1.length();
         int n = word2.length();
 

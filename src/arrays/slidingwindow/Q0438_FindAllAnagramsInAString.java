@@ -33,7 +33,7 @@ public class Q0438_FindAllAnagramsInAString {
         Time: O(n)
         Space: O(1)
     */
-    public List<Integer> findAnagrams(String s, String p) {
+    public static List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
 
         if (p.length() > s.length()) {

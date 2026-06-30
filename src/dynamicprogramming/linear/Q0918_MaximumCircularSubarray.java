@@ -46,7 +46,7 @@ public class Q0918_MaximumCircularSubarray {
         Time  : O(n)
         Space : O(1)
     */
-    public int maxSubarraySumCircular(int[] nums) {
+    public static int maxSubarraySumCircular(int[] nums) {
         int total = 0;
 
         int currentMax = 0;

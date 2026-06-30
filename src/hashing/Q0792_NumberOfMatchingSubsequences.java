@@ -12,7 +12,7 @@ public class Q0792_NumberOfMatchingSubsequences {
         Time  : O(n)
         Space : O(1)
     */
-    public int numMatchingSubseq(String s, String[] words) {
+    public static int numMatchingSubseq(String s, String[] words) {
         return 0;
     }
 }

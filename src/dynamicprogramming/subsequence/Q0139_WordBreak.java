@@ -28,7 +28,7 @@ public class Q0139_WordBreak {
         Time  : genelde O(n² * k) denir.
         Space : O(n + dictionary size)
     */
-    public boolean wordBreak(String s, List<String> wordDict) {
+    public static boolean wordBreak(String s, List<String> wordDict) {
         Set<String> words = new HashSet<>(wordDict);
 
         boolean[] dp = new boolean[s.length() + 1];

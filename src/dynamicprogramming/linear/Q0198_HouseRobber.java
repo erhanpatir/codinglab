@@ -14,7 +14,7 @@ public class Q0198_HouseRobber {
         👉 Cevap: 1D DP + decision (choose / skip)
     */
 
-    public int rob(int[] nums) {
+    public static int rob(int[] nums) {
         int n = nums.length;
 
         if (n == 1) return nums[0];
@@ -33,7 +33,7 @@ public class Q0198_HouseRobber {
         return dp[n - 1];
     }
 
-    public int rob_optimized(int[] nums) {
+    public static int rob_optimized(int[] nums) {
         int prev2 = 0;
         int prev1 = 0;
 

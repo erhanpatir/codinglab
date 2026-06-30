@@ -35,7 +35,7 @@ public class Q0474_OnesAndZeroes {
             2D DP array tutuyoruz.
     */
 
-    public int findMaxForm(String[] strs, int m, int n) {
+    public static int findMaxForm(String[] strs, int m, int n) {
         int[][] dp = new int[m + 1][n + 1];
 
         for (String str : strs) {

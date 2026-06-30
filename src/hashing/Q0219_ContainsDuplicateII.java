@@ -12,7 +12,7 @@ public class Q0219_ContainsDuplicateII {
         Time  : O(n)
         Space : O(1)
     */
-    public boolean containsNearbyDuplicate(int[] nums, int k) {
+    public static boolean containsNearbyDuplicate(int[] nums, int k) {
         return true;
     }
 }

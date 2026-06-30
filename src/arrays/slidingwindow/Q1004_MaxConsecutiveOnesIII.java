@@ -17,7 +17,7 @@ public class Q1004_MaxConsecutiveOnesIII {
         Time:  O(n)
         Space: O(1)
     */
-    public int lonestOnes(int[] nums, int k) {
+    public static int lonestOnes(int[] nums, int k) {
         int left = 0;
         int zeroCount = 0;
         int maxLength = 0;

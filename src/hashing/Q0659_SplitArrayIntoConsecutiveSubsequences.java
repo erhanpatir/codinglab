@@ -12,7 +12,7 @@ public class Q0659_SplitArrayIntoConsecutiveSubsequences {
         Time  : O(n)
         Space : O(1)
     */
-    public boolean isPossible(int[] nums) {
+    public static boolean isPossible(int[] nums) {
         return true;
     }
 }

@@ -12,7 +12,7 @@ public class Q0289_GameOfLife {
         Time : O(log nn)
         Space : O(1)
     */
-    public void gameOfLife(int[][] board) {
+    public static void gameOfLife(int[][] board) {
 
     }
 }

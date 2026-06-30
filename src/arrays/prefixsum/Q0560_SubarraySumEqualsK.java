@@ -40,7 +40,7 @@ public class Q0560_SubarraySumEqualsK {
         Time: O(n)
         Space: O(n)
     */
-    public int subarraySum(int[] nums, int k) {
+    public static int subarraySum(int[] nums, int k) {
         Map<Integer, Integer> prefixFrequency = new HashMap<>(); // frequencies of prefix sums
 
         prefixFrequency.put(0, 1);

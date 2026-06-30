@@ -33,7 +33,7 @@ public class Q0567_PermutationInString {
             Time: O(26 * n) => O(n)
             Space: O(1)
     */
-    public boolean checkInclusion(String s1, String s2) {
+    public static boolean checkInclusion(String s1, String s2) {
         if (s1.length() > s2.length()) {
             return false;
         }

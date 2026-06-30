@@ -14,7 +14,7 @@ public class Q0073_SetMatrixZeroes {
         Time  : O(n)
         Space : O(1)
     */
-    public void setZeroes(int[][] matrix) {
+    public static void setZeroes(int[][] matrix) {
 
     }
 }

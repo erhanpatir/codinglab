@@ -10,7 +10,7 @@ public class Q0746_MinCostClimbingStairs {
         - sadece önceki state’lere mi bakıyorum? ✅
     */
 
-    public int minCostClimbingStairs(int[] cost) {
+    public static int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
 
         int[] dp = new int[n];
@@ -34,7 +34,7 @@ public class Q0746_MinCostClimbingStairs {
         return Math.min(dp[n - 1], dp[n - 2]);
     }
 
-    public int minCostClimbingStairs_optimized(int[] cost) {
+    public static int minCostClimbingStairs_optimized(int[] cost) {
         int prev2 = cost[0];
         int prev1 = cost[1];
 

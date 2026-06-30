@@ -34,7 +34,7 @@ public class Q0128_LongestConsecutiveSequence {
         Time : O(n)   Çünkü her sayı HashSet’e bir kere eklenir.
         Space: O(n)
     */
-    public int longestConsecutive(int[] nums) {
+    public static int longestConsecutive(int[] nums) {
         // I put all numbers into a HashSet for O(1) lookup.
         Set<Integer> numbers = new HashSet<>();
 

@@ -37,7 +37,7 @@ public class Q0252_MeetingRooms {
         Time: O(nlogn)
         Space: O(1)
     */
-    public boolean canAttendMeetings(int[][] intervals) {
+    public static boolean canAttendMeetings(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
 
         for (int i = 1; i < intervals.length; i++) {

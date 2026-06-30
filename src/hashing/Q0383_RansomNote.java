@@ -12,7 +12,7 @@ public class Q0383_RansomNote {
         Time  : O(n)
         Space : O(1)
     */
-    public boolean canConstruct(String ransomNote, String magazine) {
+    public static boolean canConstruct(String ransomNote, String magazine) {
         return true;
     }
 }

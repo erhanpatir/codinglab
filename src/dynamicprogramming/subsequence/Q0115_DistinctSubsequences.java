@@ -40,7 +40,7 @@ public class Q0115_DistinctSubsequences {
         Time  : O(m * n)
         Space : O(m * n)
     */
-    public int numDistinct(String s, String t) {
+    public static int numDistinct(String s, String t) {
         int m = s.length();
         int n = t.length();
 

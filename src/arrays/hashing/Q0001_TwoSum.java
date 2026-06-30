@@ -44,7 +44,7 @@ public class Q0001_TwoSum {
         array’i bir kez geziyoruz
         hashmap lookup O(1)
     */
-    public int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum(int[] nums, int target) {
         // HashMap her zaman daha önce gördüğüm sayıların indexlerini tutar.
         Map<Integer, Integer> map = new HashMap<>();
 
