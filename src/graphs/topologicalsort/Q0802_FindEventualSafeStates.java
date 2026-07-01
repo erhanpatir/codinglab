@@ -5,7 +5,10 @@ import java.util.*;
 public class Q0802_FindEventualSafeStates {
     // 802. Find Eventual Safe States - Medium
     // https://leetcode.com/problems/find-eventual-safe-states/
-    // Reverse graph + outdegree
+
+    /*--------------------------------------------------------------------
+    | PATTERN : reverse graph + outdegree
+     --------------------------------------------------------------------*/
 
     // Time: O(V + E)
     // Space: O(V + E)

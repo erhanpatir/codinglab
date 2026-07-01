@@ -19,9 +19,9 @@ public class Q0049_GroupAnagrams {
         O zaman:
             signature -> list of words şeklinde HashMap tutarız.
     */
-    /*
-        Time: O(n * k log k)
-        Space: O(n * k)
+    /* Complexity:
+        Time  : O(n * k log k)
+        Space : O(n * k)
     */
 
     // Sorted Signature

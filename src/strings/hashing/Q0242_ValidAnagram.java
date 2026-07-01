@@ -18,9 +18,9 @@ public class Q0242_ValidAnagram {
         Sıfır olmayan bir değer varsa:
             anagram değildir.
     */
-    /*
-        Time: O(n)
-        Space: O(1)
+    /* Complexity:
+        Time  : O(n)
+        Space : O(1)
     */
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {

@@ -7,9 +7,9 @@ public class Q1047_RemoveAllAdjacentDuplicatesInString {
     // 1047. Remove All Adjacent Duplicates In String
     // https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
     /*
-        Complexity Analysis
-            Time Complexity: O(n)
-            Space Complexity: O(n)
+        Complexity
+            Time : O(n)
+            Space : O(n)
     */
     public static String removeDuplicates(String s) {
         if (s == null || s.isEmpty()) return s;

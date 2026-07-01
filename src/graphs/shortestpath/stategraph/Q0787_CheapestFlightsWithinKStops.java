@@ -5,8 +5,9 @@ import java.util.*;
 public class Q0787_CheapestFlightsWithinKStops {
     // 787. Cheapest Flights Within K Stops - Medium
     // https://leetcode.com/problems/cheapest-flights-within-k-stops/
-    // PATTERN : directed graph + constrained shortest path + state graph
-
+    /*--------------------------------------------------------------------
+    | PATTERN : directed graph + constrained shortest path + state graph
+     --------------------------------------------------------------------*/
     /*-----------------------------------------------------
       |  shortest path?
       |    ├─ unweighted

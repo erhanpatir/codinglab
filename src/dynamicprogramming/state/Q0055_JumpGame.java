@@ -3,13 +3,11 @@ package dynamicprogramming.state;
 public class Q0055_JumpGame {
     // 55. Jump Game - Medium
     // https://leetcode.com/problems/jump-game/
-
     /*  -----------------------------------------------
         | PATTERN: Greedy - DP ile de cozulur.        |
         -----------------------------------------------
          Reachability + farthest reachable
     */
-
     /* Complexity
         Time: O(n)
         Space: O(1)
