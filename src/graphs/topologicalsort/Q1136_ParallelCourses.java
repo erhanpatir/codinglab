@@ -8,8 +8,10 @@ import java.util.Queue;
 public class Q1136_ParallelCourses {
     // 1136. Parallel Courses - Medium
     // https://leetcode.com/problems/parallel-courses/
+    /*--------------------------------------------------------------------
+    | PATTERN : directed graph + topological sort
+     --------------------------------------------------------------------*/
 
-    // PATTERN : directed graph + topological sort
     // Course Schedule + level counting
 
     // Time: O(V + E)

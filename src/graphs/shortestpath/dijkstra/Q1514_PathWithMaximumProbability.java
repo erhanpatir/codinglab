@@ -5,7 +5,9 @@ import java.util.*;
 public class Q1514_PathWithMaximumProbability {
     // 1514. Path With Maximum Probability - Medium
     // https://leetcode.com/problems/path-with-maximum-probability/
-    // PATTERN : directed graph + maximum product path + dijkstra
+    /*--------------------------------------------------------------------
+      PATTERN : directed graph + maximum product path + dijkstra
+     --------------------------------------------------------------------*/
 
       /*-----------------------------------------------------
       |  shortest path?

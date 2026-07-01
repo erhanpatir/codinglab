@@ -2,9 +2,9 @@ package strings.basic;
 
 import java.util.Arrays;
 
-// 14 - Longest Common Prefix - Easy
-// https://leetcode.com/problems/longest-common-prefix/
 public class Q0014_LongestCommonPrefix {
+    // 14 - Longest Common Prefix - Easy
+    // https://leetcode.com/problems/longest-common-prefix/
     /* COZUM :
         ✅ En pratik mantık (prefix’i kısaltarak gitmek)
         İlk kelimeyi prefix al.

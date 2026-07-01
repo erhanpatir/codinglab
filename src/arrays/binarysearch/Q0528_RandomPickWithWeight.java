@@ -67,7 +67,7 @@ public class Q0528_RandomPickWithWeight {
             Binary Search: O(log n)
             Space: O(n)
     */
-    class Solution {
+    public class Solution {
         private int[] prefix;
         private int total;
         private Random random;

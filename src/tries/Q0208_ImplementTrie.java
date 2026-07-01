@@ -12,7 +12,7 @@ public class Q0208_ImplementTrie {
         Time  : O(n)
         Space : O(1)
     */
-    class Trie {
+    public class Trie {
 
         public Trie() {
 

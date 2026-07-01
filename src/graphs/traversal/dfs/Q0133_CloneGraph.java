@@ -7,14 +7,20 @@ import java.util.*;
 public class Q0133_CloneGraph {
     // 133. Clone Graph - Medium
     // https://leetcode.com/problems/clone-graph/
+    /* ------------------------------------------------------------
+       | PATTERN:                                               ✅|
+       ------------------------------------------------------------
+    /* ⭐
+        The key is to maintain a mapping from original nodes to cloned nodes,
+        so we can both avoid infinite loops in cyclic graphs and reuse already-created clones.
 
-    //The key is to maintain a mapping from original nodes to cloned nodes,
-    //so we can both avoid infinite loops in cyclic graphs and reuse already-created clones.
-
+    */
+    /*  Complexity
+            Time: O(V + E)
+            Space: O(V)
+    */
     private static final Map<Node, Node> clones = new HashMap<>();
 
-    // Time: O(V + E)
-    // Space: O(V)
     public static Node cloneGraph(Node node) {
         if (node == null) {
             return null;
