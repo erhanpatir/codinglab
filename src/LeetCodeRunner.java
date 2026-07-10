@@ -1047,7 +1047,7 @@ public class LeetCodeRunner {
                         new int[]{17, 13, 11, 2, 3, 5, 7}));
 
         QUESTIONS.put(1696, () ->
-                Q1696_JumpGame6.maxResult(new int[]{1, -1, -2, 4, -7, 3}, 2));
+                Q1696_JumpGameVI.maxResult(new int[]{1, -1, -2, 4, -7, 3}, 2));
 
         QUESTIONS.put(2073, () ->
                 Q2073_TimeNeededToBuyTickets.timeRequiredToBuy(new int[]{2, 3, 2}, 2));
