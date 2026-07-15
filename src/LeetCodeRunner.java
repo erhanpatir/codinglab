@@ -1001,7 +1001,7 @@ public class LeetCodeRunner {
                 Q0290_WordPattern.wordPattern("abba", "dog cat cat dog"));
 
         QUESTIONS.put(383, () ->
-                Q0383_RansomNote.canConstruct("aa", "aab"));
+                Q0383_RansomNote.canConstruct_hashMap("aa", "aab"));
 
         QUESTIONS.put(659, () ->
                 Q0659_SplitArrayIntoConsecutiveSubsequences.isPossible(
