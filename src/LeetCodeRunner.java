@@ -1,69 +1,43 @@
-import arrays.binarysearch.*;
-import arrays.greedy.Q1642_FurthestBuildingYouCanReach;
-import arrays.hashing.*;
-import arrays.intervals.*;
-import arrays.matrix.*;
-import arrays.prefixsum.*;
-import arrays.slidingwindow.*;
-import arrays.twopointers.*;
-import backtracking.combinations.*;
-import backtracking.recursion.Q0022_GenerateParentheses;
-import backtracking.permutations.*;
-import backtracking.recursion.Q0017_LetterCombinationsOfAPhoneNumber;
-import backtracking.recursion.Q0051_NQueens;
-import backtracking.recursion.Q0079_WordSearch;
-import backtracking.recursion.Q0131_PalindromePartitioning;
-import backtracking.subsets.*;
+import backtracking.*;
+import binarysearch.*;
 import bit.*;
-import common.model.ListNode;
-import common.ds.Node;
-import common.model.TreeNode;
+import cyclicsort.*;
 import design.*;
-import dynamicprogramming.grid.*;
-import dynamicprogramming.knapsack.*;
-import dynamicprogramming.linear.*;
-import dynamicprogramming.lis.*;
-import dynamicprogramming.state.*;
-import dynamicprogramming.subsequence.*;
-import dynamicprogramming.trees.Q0337_HouseRobber3;
-import graphs.matrix.bfs.Q1091_ShortestPathInBinaryMatrix;
-import graphs.matrix.dfs.*;
-import graphs.matrix.bfs.Q0994_RottingOranges;
-import graphs.matrix.shortestpath.*;
-import graphs.minimumspantree.Q1584_MinCostToConnectAllPoints;
-import graphs.shortestpath.dijkstra.*;
-import graphs.shortestpath.stategraph.Q0787_CheapestFlightsWithinKStops;
+import dp.grid.*;
+import dp.knapsack.*;
+import dp.linear.*;
+import dp.state.*;
+import dp.subsequence.*;
+import graphs.bfs.*;
+import graphs.dfs.*;
+import graphs.mst.*;
+import graphs.shortestpath.*;
 import graphs.topologicalsort.*;
-import graphs.traversal.bfs.*;
-import graphs.traversal.dfs.*;
 import graphs.unionfind.*;
 import greedy.*;
 import hashing.*;
-import heaps.*;
-import linkedlists.*;
-import math.Q0009_PalindromeNumber;
-import queue.*;
-import queue.monotonic.*;
-import stack.Q0071_SimplifyPath;
-import stack.Q0227_BasicCalculator2;
-import stack.Q0394_DecodeString;
-import stack.Q0853_CarFleet;
-import stack.basic.*;
-import stack.monotonic.*;
-import strings.basic.Q0014_LongestCommonPrefix;
-import strings.hashing.*;
-import strings.stack.Q1047_RemoveAllAdjacentDuplicatesInString;
-import strings.subsequence.Q0392_IsSubsequence;
-import strings.twopointers.Q0125_ValidPalindrome;
+import heap.*;
+import intervals.*;
+import linkedlist.*;
+import math.*;
+import matrix.*;
+import monotonic.*;
+import prefixsum.*;
+import simulation.*;
+import slidingwindow.*;
+import sorting.*;
+import stack.*;
+import trees.bfs.*;
 import trees.bst.*;
 import trees.construction.*;
+import trees.dfs.*;
 import trees.lca.*;
-import trees.path.*;
-import trees.pointer.*;
-import trees.recursion.Q0572_SubtreeOfAnotherTree;
-import trees.traversal.bfs.*;
-import trees.traversal.dfs.*;
-import tries.*;
+import trie.*;
+import twopointers.*;
+import common.model.ListNode;
+import common.ds.Node;
+import common.model.TreeNode;
+import common.model.NestedInteger;
 
 import java.util.*;
 
@@ -1230,6 +1204,814 @@ public class LeetCodeRunner {
             Q0981_TimeBasedKeyValueStore outer = new Q0981_TimeBasedKeyValueStore();
         });
 
+
+
+        /* =========================
+           YENİ EKLENEN SORULAR (pattern bazlı)
+           ========================= */
+
+        // ---- Backtracking (backtracking)
+
+        QUESTIONS.put(140, () ->
+                Q0140_WordBreakII.wordBreak(
+                        "catsanddog", new ArrayList<>(Arrays.asList("cat", "cats", "and", "sand", "dog"))));
+
+        QUESTIONS.put(282, () ->
+                Q0282_ExpressionAddOperators.addOperators(
+                        "123", 6));
+
+        // 489: örnek girdi otomatik üretilemedi (missing robot). Gerekirse elle ekle.
+        QUESTIONS.put(489, () -> System.out.println("Q0489_RobotRoomCleaner: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(996, () ->
+                Q0996_NumberOfSquarefulArrays.numSquarefulPerms(
+                        new int[]{1, 17, 8}));
+
+        QUESTIONS.put(2397, () ->
+                Q2397_MaximumRowsCoveredByColumns.maximumRows(
+                        new int[][]{new int[]{0, 0, 0}, new int[]{1, 0, 1}, new int[]{0, 1, 1}, new int[]{0, 0, 1}}, 2));
+
+        // ---- Binary Search (binarysearch)
+
+        QUESTIONS.put(4, () ->
+                Q0004_MedianOfTwoSortedArrays.findMedianSortedArrays(
+                        new int[]{1, 3}, new int[]{2}));
+
+        QUESTIONS.put(34, () ->
+                Q0034_FindFirstAndLastPositionOfElementInSortedArray.searchRange(
+                        new int[]{5, 7, 7, 8, 8, 10}, 8));
+
+        QUESTIONS.put(540, () ->
+                Q0540_SingleElementInASortedArray.singleNonDuplicate(
+                        new int[]{1, 1, 2, 3, 3, 4, 4, 8, 8}));
+
+        QUESTIONS.put(658, () ->
+                Q0658_FindKClosestElements.findClosestElements(
+                        new int[]{1, 2, 3, 4, 5}, 4, 3));
+
+        QUESTIONS.put(1060, () ->
+                Q1060_MissingElementInSortedArray.missingElement(
+                        new int[]{4, 7, 9, 10}, 1));
+
+        // 1274: örnek girdi otomatik üretilemedi (Sea). Gerekirse elle ekle.
+        QUESTIONS.put(1274, () -> System.out.println("Q1274_NumberOfShipsInARectangle: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(1539, () ->
+                Q1539_KthMissingPositiveNumber.findKthPositive(
+                        new int[]{2, 3, 4, 7, 11}, 5));
+
+        // ---- Bit Manipulation (bit)
+
+        QUESTIONS.put(231, () ->
+                Q0231_PowerOfTwo.isPowerOfTwo(
+                        1));
+
+        QUESTIONS.put(477, () ->
+                Q0477_TotalHammingDistance.totalHammingDistance(
+                        new int[]{4, 14, 2}));
+
+        // ---- Cyclic Sort (cyclicsort)
+
+        QUESTIONS.put(41, () ->
+                Q0041_FirstMissingPositive.firstMissingPositive(
+                        new int[]{1, 2, 0}));
+
+        QUESTIONS.put(287, () ->
+                Q0287_FindTheDuplicateNumber.findDuplicate(
+                        new int[]{1, 3, 4, 2, 2}));
+
+        QUESTIONS.put(448, () ->
+                Q0448_FindAllNumbersDisappearedInAnArray.findDisappearedNumbers(
+                        new int[]{4, 3, 2, 7, 8, 2, 3, 1}));
+
+        QUESTIONS.put(565, () ->
+                Q0565_ArrayNesting.arrayNesting(
+                        new int[]{5, 4, 0, 3, 1, 6, 2}));
+
+        // ---- Data Structure Design (design)
+
+        // 284: örnek girdi otomatik üretilemedi (iterator). Gerekirse elle ekle.
+        QUESTIONS.put(284, () -> System.out.println("Q0284_PeekingIterator: örnek girdi eklenmedi"));
+
+        // 341: örnek girdi otomatik üretilemedi (design parse). Gerekirse elle ekle.
+        QUESTIONS.put(341, () -> System.out.println("Q0341_FlattenNestedListIterator: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(346, () -> {
+            Q0346_MovingAverageFromDataStream outer = new Q0346_MovingAverageFromDataStream();
+            Q0346_MovingAverageFromDataStream.MovingAverage obj = outer.new MovingAverage(3);
+            obj.next(1);
+            obj.next(10);
+            obj.next(3);
+            obj.next(5);
+        });
+
+        QUESTIONS.put(348, () -> {
+            Q0348_DesignTicTacToe outer = new Q0348_DesignTicTacToe();
+            Q0348_DesignTicTacToe.TicTacToe obj = outer.new TicTacToe(3);
+            obj.move(0, 0, 1);
+            obj.move(0, 2, 2);
+            obj.move(2, 2, 1);
+            obj.move(1, 1, 2);
+            obj.move(2, 0, 1);
+            obj.move(1, 0, 2);
+            obj.move(2, 1, 1);
+        });
+
+        QUESTIONS.put(359, () -> {
+            Q0359_LoggerRateLimiter outer = new Q0359_LoggerRateLimiter();
+            Q0359_LoggerRateLimiter.Logger obj = outer.new Logger();
+            obj.shouldPrintMessage(1, "foo");
+            obj.shouldPrintMessage(2, "bar");
+            obj.shouldPrintMessage(3, "foo");
+            obj.shouldPrintMessage(8, "bar");
+            obj.shouldPrintMessage(10, "foo");
+            obj.shouldPrintMessage(11, "foo");
+        });
+
+        QUESTIONS.put(362, () -> {
+            Q0362_DesignHitCounter outer = new Q0362_DesignHitCounter();
+            Q0362_DesignHitCounter.HitCounter obj = outer.new HitCounter();
+            obj.hit(1);
+            obj.hit(2);
+            obj.hit(3);
+            obj.getHits(4);
+            obj.hit(300);
+            obj.getHits(300);
+            obj.getHits(301);
+        });
+
+        QUESTIONS.put(380, () -> {
+            Q0380_InsertDeleteGetRandomO1 outer = new Q0380_InsertDeleteGetRandomO1();
+            Q0380_InsertDeleteGetRandomO1.RandomizedSet obj = outer.new RandomizedSet();
+            obj.insert(1);
+            obj.remove(2);
+            obj.insert(2);
+            obj.getRandom();
+            obj.remove(1);
+            obj.insert(2);
+            obj.getRandom();
+        });
+
+        QUESTIONS.put(460, () -> {
+            Q0460_LFUCache outer = new Q0460_LFUCache();
+            Q0460_LFUCache.LFUCache obj = outer.new LFUCache(2);
+            obj.put(1, 1);
+            obj.put(2, 2);
+            obj.get(1);
+            obj.put(3, 3);
+            obj.get(2);
+            obj.get(3);
+            obj.put(4, 4);
+            obj.get(1);
+            obj.get(3);
+            obj.get(4);
+        });
+
+        QUESTIONS.put(535, () -> {
+            Q0535_EncodeAndDecodeTinyURL outer = new Q0535_EncodeAndDecodeTinyURL();
+            Q0535_EncodeAndDecodeTinyURL.Codec_Integer codec = outer.new Codec_Integer();
+            codec.decode(codec.encode("https://leetcode.com/problems/design-tinyurl"));
+        });
+
+        QUESTIONS.put(622, () -> {
+            Q0622_DesignCircularQueue outer = new Q0622_DesignCircularQueue();
+            Q0622_DesignCircularQueue.MyCircularQueue obj = outer.new MyCircularQueue(3);
+            obj.enQueue(1);
+            obj.enQueue(2);
+            obj.enQueue(3);
+            obj.enQueue(4);
+            obj.Rear();
+            obj.isFull();
+            obj.deQueue();
+            obj.enQueue(4);
+            obj.Rear();
+        });
+
+        QUESTIONS.put(1146, () -> {
+            Q1146_SnapshotArray outer = new Q1146_SnapshotArray();
+            Q1146_SnapshotArray.SnapshotArray obj = outer.new SnapshotArray(3);
+            obj.set(0, 5);
+            obj.snap();
+            obj.set(0, 6);
+            obj.get(0, 0);
+        });
+
+        QUESTIONS.put(1396, () -> {
+            Q1396_DesignUndergroundSystem outer = new Q1396_DesignUndergroundSystem();
+            Q1396_DesignUndergroundSystem.UndergroundSystem obj = outer.new UndergroundSystem();
+            obj.checkIn(45, "Leyton", 3);
+            obj.checkIn(32, "Paradise", 8);
+            obj.checkIn(27, "Leyton", 10);
+            obj.checkOut(45, "Waterloo", 15);
+            obj.checkOut(27, "Waterloo", 20);
+            obj.checkOut(32, "Cambridge", 22);
+            obj.getAverageTime("Paradise", "Cambridge");
+            obj.getAverageTime("Leyton", "Waterloo");
+            obj.checkIn(10, "Leyton", 24);
+            obj.getAverageTime("Leyton", "Waterloo");
+            obj.checkOut(10, "Waterloo", 38);
+            obj.getAverageTime("Leyton", "Waterloo");
+        });
+
+        // 1570: örnek girdi otomatik üretilemedi ('int' object is not iterable). Gerekirse elle ekle.
+        QUESTIONS.put(1570, () -> System.out.println("Q1570_DotProductOfTwoSparseVectors: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(1656, () -> {
+            Q1656_DesignAnOrderedStream outer = new Q1656_DesignAnOrderedStream();
+            Q1656_DesignAnOrderedStream.OrderedStream obj = outer.new OrderedStream(5);
+            obj.insert(3, "ccccc");
+            obj.insert(1, "aaaaa");
+            obj.insert(2, "bbbbb");
+            obj.insert(5, "eeeee");
+            obj.insert(4, "ddddd");
+        });
+
+        QUESTIONS.put(2502, () -> {
+            Q2502_DesignMemoryAllocator outer = new Q2502_DesignMemoryAllocator();
+            Q2502_DesignMemoryAllocator.Allocator obj = outer.new Allocator(10);
+            obj.allocate(1, 1);
+            obj.allocate(1, 2);
+            obj.allocate(1, 3);
+            obj.freeMemory(2);
+            obj.allocate(3, 4);
+            obj.allocate(1, 1);
+            obj.allocate(1, 1);
+            obj.freeMemory(1);
+            obj.allocate(10, 2);
+            obj.freeMemory(7);
+        });
+
+        QUESTIONS.put(3408, () -> {
+            Q3408_DesignTaskManager outer = new Q3408_DesignTaskManager();
+            Q3408_DesignTaskManager.TaskManager obj = outer.new TaskManager(new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList(1, 101, 10)), new ArrayList<>(Arrays.asList(2, 102, 20)), new ArrayList<>(Arrays.asList(3, 103, 15)))));
+            obj.add(4, 104, 5);
+            obj.edit(102, 8);
+            obj.execTop();
+            obj.rmv(101);
+            obj.add(5, 105, 15);
+            obj.execTop();
+        });
+
+        // ---- Knapsack DP (dp.knapsack)
+
+        QUESTIONS.put(1049, () ->
+                Q1049_LastStoneWeightII.lastStoneWeightII(
+                        new int[]{2, 7, 4, 1, 8, 1}));
+
+        // ---- 1-D Dynamic Programming (dp.linear)
+
+        QUESTIONS.put(118, () ->
+                Q0118_PascalSTriangle.generate(
+                        5));
+
+        QUESTIONS.put(509, () ->
+                Q0509_FibonacciNumber.fib(
+                        2));
+
+        QUESTIONS.put(1387, () ->
+                Q1387_SortIntegersByThePowerValue.getKth(
+                        12, 15, 2));
+
+        // ---- State Machine DP (dp.state)
+
+        QUESTIONS.put(714, () ->
+                Q0714_BestTimeToBuyAndSellStockWithTransactionFee.maxProfit(
+                        new int[]{1, 3, 2, 8, 4, 9}, 2));
+
+        // ---- Subsequence / String DP (dp.subsequence)
+
+        QUESTIONS.put(10, () ->
+                Q0010_RegularExpressionMatching.isMatch(
+                        "aa", "a"));
+
+        QUESTIONS.put(1216, () ->
+                Q1216_ValidPalindromeIII.isValidPalindrome(
+                        "abcdeca", 2));
+
+        // ---- Graph BFS (graphs.bfs)
+
+        QUESTIONS.put(785, () ->
+                Q0785_IsGraphBipartite.isBipartite(
+                        new int[][]{new int[]{1, 2, 3}, new int[]{0, 2}, new int[]{0, 1, 3}, new int[]{0, 2}}));
+
+        // ---- Graph DFS (graphs.dfs)
+
+        QUESTIONS.put(399, () ->
+                Q0399_EvaluateDivision.calcEquation(
+                        new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList("a", "b")), new ArrayList<>(Arrays.asList("b", "c")))), new double[]{2.0, 3.0}, new ArrayList<>(Arrays.asList(new ArrayList<>(Arrays.asList("a", "c")), new ArrayList<>(Arrays.asList("b", "a")), new ArrayList<>(Arrays.asList("a", "e")), new ArrayList<>(Arrays.asList("a", "a")), new ArrayList<>(Arrays.asList("x", "x"))))));
+
+        QUESTIONS.put(733, () ->
+                Q0733_FloodFill.floodFill(
+                        new int[][]{new int[]{1, 1, 1}, new int[]{1, 1, 0}, new int[]{1, 0, 1}}, 1, 1, 2));
+
+        QUESTIONS.put(797, () ->
+                Q0797_AllPathsFromSourceToTarget.allPathsSourceTarget(
+                        new int[][]{new int[]{1, 2}, new int[]{3}, new int[]{3}, new int[]{}}));
+
+        QUESTIONS.put(827, () ->
+                Q0827_MakingALargeIsland.largestIsland(
+                        new int[][]{new int[]{1, 0}, new int[]{0, 1}}));
+
+        QUESTIONS.put(1254, () ->
+                Q1254_NumberOfClosedIslands.closedIsland(
+                        new int[][]{new int[]{1, 1, 1, 1, 1, 1, 1, 0}, new int[]{1, 0, 0, 0, 0, 1, 1, 0}, new int[]{1, 0, 1, 0, 1, 1, 1, 0}, new int[]{1, 0, 0, 0, 0, 1, 0, 1}, new int[]{1, 1, 1, 1, 1, 1, 1, 0}}));
+
+        // ---- Greedy (greedy)
+
+        QUESTIONS.put(122, () ->
+                Q0122_BestTimeToBuyAndSellStockII.maxProfit(
+                        new int[]{7, 1, 5, 3, 6, 4}));
+
+        QUESTIONS.put(134, () ->
+                Q0134_GasStation.canCompleteCircuit(
+                        new int[]{1, 2, 3, 4, 5}, new int[]{3, 4, 5, 1, 2}));
+
+        QUESTIONS.put(135, () ->
+                Q0135_Candy.candy(
+                        new int[]{1, 0, 2}));
+
+        QUESTIONS.put(670, () ->
+                Q0670_MaximumSwap.maximumSwap(
+                        2736));
+
+        QUESTIONS.put(1029, () ->
+                Q1029_TwoCityScheduling.twoCitySchedCost(
+                        new int[][]{new int[]{10, 20}, new int[]{30, 200}, new int[]{400, 50}, new int[]{30, 20}}));
+
+        QUESTIONS.put(3914, () ->
+                Q3914_MinimumOperationsToMakeArrayNonDecreasing.minOperations(
+                        new int[]{3, 3, 2, 1}));
+
+        // ---- Arrays & Hashing (hashing)
+
+        QUESTIONS.put(249, () ->
+                Q0249_GroupShiftedStrings.groupStrings(
+                        new String[]{"abc", "bcd", "acef", "xyz", "az", "ba", "a", "z"}));
+
+        QUESTIONS.put(266, () ->
+                Q0266_PalindromePermutation.canPermutePalindrome(
+                        "code"));
+
+        QUESTIONS.put(387, () ->
+                Q0387_FirstUniqueCharacterInAString.firstUniqChar(
+                        "leetcode"));
+
+        QUESTIONS.put(791, () ->
+                Q0791_CustomSortString.customSortString(
+                        "cba", "abcd"));
+
+        QUESTIONS.put(1152, () ->
+                Q1152_AnalyzeUserWebsiteVisitPattern.mostVisitedPattern(
+                        new String[]{"joe", "joe", "joe", "james", "james", "james", "james", "mary", "mary", "mary"}, new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, new String[]{"home", "about", "career", "home", "cart", "maps", "home", "home", "about", "career"}));
+
+        QUESTIONS.put(1169, () ->
+                Q1169_InvalidTransactions.invalidTransactions(
+                        new String[]{"alice,20,800,mtv", "alice,50,100,beijing"}));
+
+        QUESTIONS.put(2023, () ->
+                Q2023_NumberOfPairsOfStringsWithConcatenationEqualToTarget.numOfPairs(
+                        new String[]{"777", "7", "77", "77"}, "7777"));
+
+        QUESTIONS.put(2150, () ->
+                Q2150_FindAllLonelyNumbersInTheArray.findLonely(
+                        new int[]{10, 6, 5, 8}));
+
+        QUESTIONS.put(2423, () ->
+                Q2423_RemoveLetterToEqualizeFrequency.equalFrequency(
+                        "abcc"));
+
+        QUESTIONS.put(2451, () ->
+                Q2451_OddStringDifference.oddString(
+                        new String[]{"adc", "wzy", "abc"}));
+
+        QUESTIONS.put(3371, () ->
+                Q3371_IdentifyTheLargestOutlierInAnArray.getLargestOutlier(
+                        new int[]{2, 3, 5, 10}));
+
+        // ---- Heap / Top-K (heap)
+
+        QUESTIONS.put(23, () ->
+                Q0023_MergeKSortedLists.mergeKLists(
+                        new ListNode[]{buildList(new int[]{1, 4, 5}), buildList(new int[]{1, 3, 4}), buildList(new int[]{2, 6})}));
+
+        QUESTIONS.put(215, () ->
+                Q0215_KthLargestElementInAnArray.findKthLargest(
+                        new int[]{3, 2, 1, 5, 6, 4}, 2));
+
+        QUESTIONS.put(295, () -> {
+            Q0295_FindMedianFromDataStream outer = new Q0295_FindMedianFromDataStream();
+            Q0295_FindMedianFromDataStream.MedianFinder obj = outer.new MedianFinder();
+            obj.addNum(1);
+            obj.addNum(2);
+            obj.findMedian();
+            obj.addNum(3);
+            obj.findMedian();
+        });
+
+        QUESTIONS.put(378, () ->
+                Q0378_KthSmallestElementInASortedMatrix.kthSmallest(
+                        new int[][]{new int[]{1, 5, 9}, new int[]{10, 11, 13}, new int[]{12, 13, 15}}, 8));
+
+        QUESTIONS.put(480, () ->
+                Q0480_SlidingWindowMedian.medianSlidingWindow(
+                        new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3));
+
+        QUESTIONS.put(767, () ->
+                new Q0767_ReorganizeString().reorganizeString("aab"));
+
+        QUESTIONS.put(857, () ->
+                Q0857_MinimumCostToHireKWorkers.mincostToHireWorkers(
+                        new int[]{10, 20, 5}, new int[]{70, 50, 30}, 2));
+
+        QUESTIONS.put(1606, () ->
+                Q1606_FindServersThatHandledMostNumberOfRequests.busiestServers(
+                        3, new int[]{1, 2, 3, 4, 5}, new int[]{5, 2, 3, 3, 3}));
+
+        QUESTIONS.put(2402, () ->
+                Q2402_MeetingRoomsIII.mostBooked(
+                        2, new int[][]{new int[]{0, 10}, new int[]{1, 5}, new int[]{2, 7}, new int[]{3, 4}}));
+
+        // ---- Intervals (intervals)
+
+        QUESTIONS.put(163, () ->
+                Q0163_MissingRanges.findMissingRanges(
+                        new int[]{0, 1, 3, 50, 75}, 0, 99));
+
+        QUESTIONS.put(986, () ->
+                Q0986_IntervalListIntersections.intervalIntersection(
+                        new int[][]{new int[]{0, 2}, new int[]{5, 10}, new int[]{13, 23}, new int[]{24, 25}}, new int[][]{new int[]{1, 5}, new int[]{8, 12}, new int[]{15, 24}, new int[]{25, 26}}));
+
+        // ---- Linked List (linkedlist)
+
+        QUESTIONS.put(2, () ->
+                Q0002_AddTwoNumbers.addTwoNumbers(
+                        buildList(new int[]{2, 4, 3}), buildList(new int[]{5, 6, 4})));
+
+        QUESTIONS.put(19, () ->
+                Q0019_RemoveNthNodeFromEndOfList.removeNthFromEnd(
+                        buildList(new int[]{1, 2, 3, 4, 5}), 2));
+
+        QUESTIONS.put(25, () ->
+                Q0025_ReverseNodesInKGroup.reverseKGroup(
+                        buildList(new int[]{1, 2, 3, 4, 5}), 2));
+
+        QUESTIONS.put(61, () ->
+                Q0061_RotateList.rotateRight(
+                        buildList(new int[]{1, 2, 3, 4, 5}), 2));
+
+        // 138: örnek girdi otomatik üretilemedi (Node). Gerekirse elle ekle.
+        QUESTIONS.put(138, () -> System.out.println("Q0138_CopyListWithRandomPointer: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(143, () ->
+                Q0143_ReorderList.reorderList(
+                        buildList(new int[]{1, 2, 3, 4})));
+
+        // 237: örnek girdi otomatik üretilemedi (ListNode). Gerekirse elle ekle.
+        QUESTIONS.put(237, () -> System.out.println("Q0237_DeleteNodeInALinkedList: örnek girdi eklenmedi"));
+
+        // 430: örnek girdi otomatik üretilemedi (Node). Gerekirse elle ekle.
+        QUESTIONS.put(430, () -> System.out.println("Q0430_FlattenAMultilevelDoublyLinkedList: örnek girdi eklenmedi"));
+
+        // 708: örnek girdi otomatik üretilemedi (Node). Gerekirse elle ekle.
+        QUESTIONS.put(708, () -> System.out.println("Q0708_InsertIntoASortedCircularLinkedList: örnek girdi eklenmedi"));
+
+        // ---- Math & Geometry (math)
+
+        QUESTIONS.put(7, () ->
+                Q0007_ReverseInteger.reverse(
+                        123));
+
+        QUESTIONS.put(50, () ->
+                Q0050_PowXN.myPow(
+                        2.0, 10));
+
+        QUESTIONS.put(66, () ->
+                Q0066_PlusOne.plusOne(
+                        new int[]{1, 2, 3}));
+
+        QUESTIONS.put(67, () ->
+                Q0067_AddBinary.addBinary(
+                        "11", "1"));
+
+        QUESTIONS.put(149, () ->
+                Q0149_MaxPointsOnALine.maxPoints(
+                        new int[][]{new int[]{1, 1}, new int[]{2, 2}, new int[]{3, 3}}));
+
+        QUESTIONS.put(398, () -> {
+            Q0398_RandomPickIndex outer = new Q0398_RandomPickIndex();
+            Q0398_RandomPickIndex.Solution obj = outer.new Solution(new int[]{1, 2, 3, 3, 3});
+            obj.pick(3);
+            obj.pick(1);
+            obj.pick(3);
+        });
+
+        QUESTIONS.put(415, () ->
+                Q0415_AddStrings.addStrings(
+                        "11", "123"));
+
+        QUESTIONS.put(2235, () ->
+                Q2235_AddTwoIntegers.sum(
+                        12, 5));
+
+        QUESTIONS.put(3625, () ->
+                Q3625_CountNumberOfTrapezoidsII.countTrapezoids(
+                        new int[][]{new int[]{-3, 2}, new int[]{3, 0}, new int[]{2, 3}, new int[]{3, 2}, new int[]{2, -3}}));
+
+        // ---- Matrix Simulation (matrix)
+
+        QUESTIONS.put(498, () ->
+                Q0498_DiagonalTraverse.findDiagonalOrder(
+                        new int[][]{new int[]{1, 2, 3}, new int[]{4, 5, 6}, new int[]{7, 8, 9}}));
+
+        QUESTIONS.put(3030, () ->
+                Q3030_FindTheGridOfRegionAverage.resultGrid(
+                        new int[][]{new int[]{5, 6, 7, 10}, new int[]{8, 9, 10, 10}, new int[]{11, 12, 13, 10}}, 3));
+
+        // ---- Monotonic Stack / Queue (monotonic)
+
+        QUESTIONS.put(85, () ->
+                Q0085_MaximalRectangle.maximalRectangle(
+                        new char[][]{new char[]{'1', '0', '1', '0', '0'}, new char[]{'1', '0', '1', '1', '1'}, new char[]{'1', '1', '1', '1', '1'}, new char[]{'1', '0', '0', '1', '0'}}));
+
+        QUESTIONS.put(1762, () ->
+                Q1762_BuildingsWithAnOceanView.findBuildings(
+                        new int[]{4, 2, 3, 1}));
+
+        QUESTIONS.put(1944, () ->
+                Q1944_NumberOfVisiblePeopleInAQueue.canSeePersonsCount(
+                        new int[]{10, 6, 8, 5, 11, 9}));
+
+        // ---- Prefix Sum (prefixsum)
+
+        QUESTIONS.put(1480, () ->
+                Q1480_RunningSumOf1dArray.runningSum(
+                        new int[]{1, 2, 3, 4}));
+
+        // ---- String / Array Simulation (simulation)
+
+        QUESTIONS.put(6, () ->
+                Q0006_ZigzagConversion.convert(
+                        "PAYPALISHIRING", 3));
+
+        QUESTIONS.put(8, () ->
+                Q0008_StringToIntegerAtoi.myAtoi(
+                        "42"));
+
+        QUESTIONS.put(12, () ->
+                Q0012_IntegerToRoman.intToRoman(
+                        3749));
+
+        QUESTIONS.put(13, () ->
+                Q0013_RomanToInteger.romanToInt(
+                        "III"));
+
+        QUESTIONS.put(28, () ->
+                Q0028_FindTheIndexOfTheFirstOccurrenceInAString.strStr(
+                        "sadbutsad", "sad"));
+
+        QUESTIONS.put(58, () ->
+                Q0058_LengthOfLastWord.lengthOfLastWord(
+                        "Hello World"));
+
+        QUESTIONS.put(65, () ->
+                Q0065_ValidNumber.isNumber(
+                        "0"));
+
+        QUESTIONS.put(273, () ->
+                Q0273_IntegerToEnglishWords.numberToWords(
+                        123));
+
+        QUESTIONS.put(824, () ->
+                Q0824_GoatLatin.toGoatLatin(
+                        "I speak Goat Latin"));
+
+        QUESTIONS.put(1752, () ->
+                Q1752_CheckIfArrayIsSortedAndRotated.check(
+                        new int[]{3, 4, 5, 1, 2}));
+
+        QUESTIONS.put(1929, () ->
+                Q1929_ConcatenationOfArray.getConcatenation(
+                        new int[]{1, 2, 1}));
+
+        QUESTIONS.put(3522, () ->
+                Q3522_CalculateScoreAfterPerformingInstructions.calculateScore(
+                        new String[]{"jump", "add", "add", "jump", "add", "jump"}, new int[]{2, 1, 3, 1, -2, -3}));
+
+        // ---- Sliding Window (slidingwindow)
+
+        QUESTIONS.put(485, () ->
+                Q0485_MaxConsecutiveOnes.findMaxConsecutiveOnes(
+                        new int[]{1, 1, 0, 1, 1, 1}));
+
+        QUESTIONS.put(713, () ->
+                Q0713_SubarrayProductLessThanK.numSubarrayProductLessThanK(
+                        new int[]{10, 5, 2, 6}, 100));
+
+        QUESTIONS.put(904, () ->
+                Q0904_FruitIntoBaskets.totalFruit(
+                        new int[]{1, 2, 1}));
+
+        QUESTIONS.put(3413, () ->
+                Q3413_MaximumCoinsFromKConsecutiveBags.maximumCoins(
+                        new int[][]{{8, 10, 1}, {1, 3, 2}, {5, 6, 4}}, 4));
+
+        // ---- Sorting (sorting)
+
+        QUESTIONS.put(912, () ->
+                Q0912_SortAnArray.sortArray(
+                        new int[]{5, 2, 3, 1}));
+
+        // ---- Stack (stack)
+
+        QUESTIONS.put(32, () ->
+                Q0032_LongestValidParentheses.longestValidParentheses(
+                        "(()"));
+
+        QUESTIONS.put(224, () ->
+                Q0224_BasicCalculator.calculate(
+                        "1 + 1"));
+
+        QUESTIONS.put(232, () -> {
+            Q0232_ImplementQueueUsingStacks outer = new Q0232_ImplementQueueUsingStacks();
+            Q0232_ImplementQueueUsingStacks.MyQueue obj = outer.new MyQueue();
+            obj.push(1);
+            obj.push(2);
+            obj.peek();
+            obj.pop();
+            obj.empty();
+        });
+
+        QUESTIONS.put(636, () ->
+                Q0636_ExclusiveTimeOfFunctions.exclusiveTime(
+                        2, new ArrayList<>(Arrays.asList("0:start:0", "1:start:2", "1:end:5", "0:end:6"))));
+
+        QUESTIONS.put(735, () ->
+                Q0735_AsteroidCollision.asteroidCollision(
+                        new int[]{5, 10, -5}));
+
+        QUESTIONS.put(736, () ->
+                Q0736_ParseLispExpression.evaluate(
+                        "(let x 2 (mult x (let x 3 y 4 (add x y))))"));
+
+        QUESTIONS.put(921, () ->
+                Q0921_MinimumAddToMakeParenthesesValid.minAddToMakeValid(
+                        "())"));
+
+        QUESTIONS.put(1209, () ->
+                Q1209_RemoveAllAdjacentDuplicatesInStringII.removeDuplicates(
+                        "abcd", 2));
+
+        QUESTIONS.put(1249, () ->
+                Q1249_MinimumRemoveToMakeValidParentheses.minRemoveToMakeValid(
+                        "lee(t(c)o)de)"));
+
+        // ---- Tree BFS (trees.bfs)
+
+        QUESTIONS.put(314, () ->
+                Q0314_BinaryTreeVerticalOrderTraversal.verticalOrder(
+                        buildTree(new Integer[]{3, 9, 20, null, null, 15, 7})));
+
+        // 863: örnek girdi otomatik üretilemedi (TreeNode). Gerekirse elle ekle.
+        QUESTIONS.put(863, () -> System.out.println("Q0863_AllNodesDistanceKInBinaryTree: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(958, () ->
+                Q0958_CheckCompletenessOfABinaryTree.isCompleteTree(
+                        buildTree(new Integer[]{1, 2, 3, 4, 5, 6})));
+
+        QUESTIONS.put(987, () ->
+                Q0987_VerticalOrderTraversalOfABinaryTree.verticalTraversal(
+                        buildTree(new Integer[]{3, 9, 20, null, null, 15, 7})));
+
+        // ---- Binary Search Tree (trees.bst)
+
+        QUESTIONS.put(173, () -> {
+            Q0173_BinarySearchTreeIterator outer = new Q0173_BinarySearchTreeIterator();
+            Q0173_BinarySearchTreeIterator.BSTIterator obj = outer.new BSTIterator(buildTree(new Integer[]{7, 3, 15, null, null, 9, 20}));
+            obj.next();
+            obj.next();
+            obj.hasNext();
+            obj.next();
+            obj.hasNext();
+            obj.next();
+            obj.hasNext();
+            obj.next();
+            obj.hasNext();
+        });
+
+        QUESTIONS.put(270, () ->
+                Q0270_ClosestBinarySearchTreeValue.closestValue(
+                        buildTree(new Integer[]{4, 2, 5, 1, 3}), 3.714286));
+
+        // 426: örnek girdi otomatik üretilemedi (Node). Gerekirse elle ekle.
+        QUESTIONS.put(426, () -> System.out.println("Q0426_ConvertBinarySearchTreeToSortedDoublyLinkedList: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(938, () ->
+                Q0938_RangeSumOfBST.rangeSumBST(
+                        buildTree(new Integer[]{10, 5, 15, 3, 7, null, 18}), 7, 15));
+
+        // ---- Tree Construction / Serialization (trees.construction)
+
+        // 297: örnek girdi otomatik üretilemedi (design parse). Gerekirse elle ekle.
+        QUESTIONS.put(297, () -> System.out.println("Q0297_SerializeAndDeserializeBinaryTree: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(889, () ->
+                Q0889_ConstructBinaryTreeFromPreorderAndPostorderTraversal.constructFromPrePost(
+                        new int[]{1, 2, 4, 5, 3, 6, 7}, new int[]{4, 5, 2, 6, 7, 3, 1}));
+
+        // ---- Tree DFS (trees.dfs)
+
+        QUESTIONS.put(129, () ->
+                Q0129_SumRootToLeafNumbers.sumNumbers(
+                        buildTree(new Integer[]{1, 2, 3})));
+
+        // 339: örnek girdi otomatik üretilemedi (NestedInteger). Gerekirse elle ekle.
+        QUESTIONS.put(339, () -> System.out.println("Q0339_NestedListWeightSum: örnek girdi eklenmedi"));
+
+        QUESTIONS.put(2265, () ->
+                Q2265_CountNodesEqualToAverageOfSubtree.averageOfSubtree(
+                        buildTree(new Integer[]{4, 8, 5, 0, 1, null, 6})));
+
+        // ---- Lowest Common Ancestor (trees.lca)
+
+        // 1644: örnek girdi otomatik üretilemedi (TreeNode). Gerekirse elle ekle.
+        QUESTIONS.put(1644, () -> System.out.println("Q1644_LowestCommonAncestorOfABinaryTreeII: örnek girdi eklenmedi"));
+
+        // 1650: örnek girdi otomatik üretilemedi (Node). Gerekirse elle ekle.
+        QUESTIONS.put(1650, () -> System.out.println("Q1650_LowestCommonAncestorOfABinaryTreeIII: örnek girdi eklenmedi"));
+
+        // ---- Two Pointers (twopointers)
+
+        QUESTIONS.put(5, () ->
+                Q0005_LongestPalindromicSubstring.longestPalindrome(
+                        "babad"));
+
+        QUESTIONS.put(16, () ->
+                Q0016_3SumClosest.threeSumClosest(
+                        new int[]{-1, 2, 1, -4}, 1));
+
+        QUESTIONS.put(18, () ->
+                Q0018_4Sum.fourSum(
+                        new int[]{1, 0, -1, 0, -2, 2}, 0));
+
+        QUESTIONS.put(31, () ->
+                Q0031_NextPermutation.nextPermutation(
+                        new int[]{1, 2, 3}));
+
+        QUESTIONS.put(151, () ->
+                Q0151_ReverseWordsInAString.reverseWords(
+                        "the sky is blue"));
+
+        QUESTIONS.put(165, () ->
+                Q0165_CompareVersionNumbers.compareVersion(
+                        "1.2", "1.10"));
+
+        QUESTIONS.put(189, () ->
+                Q0189_RotateArray.rotate(
+                        new int[]{1, 2, 3, 4, 5, 6, 7}, 3));
+
+        QUESTIONS.put(344, () ->
+                Q0344_ReverseString.reverseString(
+                        new char[]{'h', 'e', 'l', 'l', 'o'}));
+
+        QUESTIONS.put(408, () ->
+                Q0408_ValidWordAbbreviation.validWordAbbreviation(
+                        "internationalization", "i12iz4n"));
+
+        QUESTIONS.put(443, () ->
+                Q0443_StringCompression.compress(
+                        new char[]{'a', 'a', 'b', 'b', 'c', 'c', 'c'}));
+
+        QUESTIONS.put(611, () ->
+                Q0611_ValidTriangleNumber.triangleNumber(
+                        new int[]{2, 2, 3, 4}));
+
+        QUESTIONS.put(647, () ->
+                Q0647_PalindromicSubstrings.countSubstrings(
+                        "abc"));
+
+        QUESTIONS.put(680, () ->
+                Q0680_ValidPalindromeII.validPalindrome(
+                        "aba"));
+
+        QUESTIONS.put(977, () ->
+                Q0977_SquaresOfASortedArray.sortedSquares(
+                        new int[]{-4, -1, 0, 3, 10}));
+
+        QUESTIONS.put(1768, () ->
+                Q1768_MergeStringsAlternately.mergeAlternately(
+                        "abc", "pqr"));
+
+        QUESTIONS.put(2970, () ->
+                Q2970_CountTheNumberOfIncremovableSubarraysI.incremovableSubarrayCount(
+                        new int[]{1, 2, 3, 4}));
+
+        QUESTIONS.put(2972, () ->
+                Q2972_CountTheNumberOfIncremovableSubarraysII.incremovableSubarrayCount(
+                        new int[]{1, 2, 3, 4}));
+
+        QUESTIONS.put(3649, () ->
+                Q3649_NumberOfPerfectPairs.perfectPairs(
+                        new int[]{0, 1, 2, 3}));
 
     }
 
