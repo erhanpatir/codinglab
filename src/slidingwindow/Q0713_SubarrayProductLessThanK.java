@@ -7,14 +7,26 @@ public class Q0713_SubarrayProductLessThanK {
     // https://leetcode.com/problems/subarray-product-less-than-k/
 
     /* ------------------------------------------------------------
-       | PATTERN: Sliding Window
+       | PATTERN: Sliding Window (çarpım)
        ------------------------------------------------------------
+       Sağ ucu genişlet, çarpımı güncelle; çarpım >= k olduğu sürece soldan daralt.
+       Sağ ucu r'de biten geçerli alt dizi sayısı r - l + 1; hepsini topla. k <= 1 için cevap 0.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(1)
     */
+
     public static int numSubarrayProductLessThanK(int[] nums, int k) {
-        return 0;
+        int ans = 0, l = 0;
+        int p = 1;
+        for (int r = 0; r < nums.length; ++r) {
+            p *= nums[r];
+            while (l <= r && p >= k) {
+                p /= nums[l++];
+            }
+            ans += r - l + 1;
+        }
+        return ans;
     }
 }

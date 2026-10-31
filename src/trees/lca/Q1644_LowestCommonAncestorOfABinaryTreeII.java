@@ -8,14 +8,36 @@ public class Q1644_LowestCommonAncestorOfABinaryTreeII {
     // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/
 
     /* ------------------------------------------------------------
-       | PATTERN: Lowest Common Ancestor
+       | PATTERN: LCA - DFS (p ve q var olmayabilir)
        ------------------------------------------------------------
+       236'dan farkı: p ya da q ağaçta olmayabilir, bu yüzden erken çıkış yapılamaz; tüm ağaç gezilir.
+       dfs, alt ağaçta p ya da q bulunup bulunmadığını döndürür. Sol ve sağdan ikisi de true ise ya da
+       düğümün kendisi biri olup diğeri alt ağaçtaysa bu düğüm LCA'dır. Bulunamazsa null.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(h)
     */
-    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        return null;
+
+    private TreeNode ans;
+
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        dfs(root, p, q);
+        return ans;
+    }
+
+    private boolean dfs(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) {
+            return false;
+        }
+        boolean l = dfs(root.left, p, q);
+        boolean r = dfs(root.right, p, q);
+        if (l && r) {
+            ans = root;
+        }
+        if ((l || r) && (root.val == p.val || root.val == q.val)) {
+            ans = root;
+        }
+        return l || r || root.val == p.val || root.val == q.val;
     }
 }

@@ -8,14 +8,42 @@ public class Q0314_BinaryTreeVerticalOrderTraversal {
     // https://leetcode.com/problems/binary-tree-vertical-order-traversal/
 
     /* ------------------------------------------------------------
-       | PATTERN: Tree BFS
+       | PATTERN: Tree BFS + sütun indeksi
        ------------------------------------------------------------
+       Kök sütun 0, sol çocuk sütun - 1, sağ çocuk sütun + 1. BFS kullanmak, aynı sütunda
+       yukarıdaki düğümlerin önce gelmesini garanti eder (sıralama gerekmez).
+       Sütun -> liste map'i tut, min ve max sütunu takip et; sonunda minCol'dan maxCol'a sırayla ekle.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(n)
     */
+
     public static List<List<Integer>> verticalOrder(TreeNode root) {
-        return null;
+        List<List<Integer>> result = new ArrayList<>();
+        if (root == null) return result;
+        Map<Integer, List<Integer>> columns = new HashMap<>();
+        Deque<TreeNode> nodes = new ArrayDeque<>();
+        Deque<Integer> cols = new ArrayDeque<>();
+        nodes.offer(root);
+        cols.offer(0);
+        int minCol = 0, maxCol = 0;
+        while (!nodes.isEmpty()) {
+            TreeNode node = nodes.poll();
+            int col = cols.poll();
+            columns.computeIfAbsent(col, c -> new ArrayList<>()).add(node.val);
+            minCol = Math.min(minCol, col);
+            maxCol = Math.max(maxCol, col);
+            if (node.left != null) {
+                nodes.offer(node.left);
+                cols.offer(col - 1);
+            }
+            if (node.right != null) {
+                nodes.offer(node.right);
+                cols.offer(col + 1);
+            }
+        }
+        for (int c = minCol; c <= maxCol; c++) result.add(columns.get(c));
+        return result;
     }
 }

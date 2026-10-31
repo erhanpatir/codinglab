@@ -8,14 +8,36 @@ public class Q0270_ClosestBinarySearchTreeValue {
     // https://leetcode.com/problems/closest-binary-search-tree-value/
 
     /* ------------------------------------------------------------
-       | PATTERN: Binary Search Tree
+       | PATTERN: BST - yönlendirilmiş arama
        ------------------------------------------------------------
+       BST özelliğini kullan: target kökten küçükse sola, büyükse sağa git.
+       Yol boyunca |değer - target| en küçük olan (eşitlikte küçük değer) düğümü tut.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(h)
+        Space : O(h) (recursion)
     */
-    public static int closestValue(TreeNode root, double target) {
-        return 0;
+
+    private int ans;
+    private double target;
+    private double diff = Double.MAX_VALUE;
+
+    public int closestValue(TreeNode root, double target) {
+        this.target = target;
+        dfs(root);
+        return ans;
+    }
+
+    private void dfs(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        double nxt = Math.abs(node.val - target);
+        if (nxt < diff || (nxt == diff && node.val < ans)) {
+            diff = nxt;
+            ans = node.val;
+        }
+        node = target < node.val ? node.left : node.right;
+        dfs(node);
     }
 }

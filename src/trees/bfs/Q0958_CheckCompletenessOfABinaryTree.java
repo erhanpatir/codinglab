@@ -8,14 +8,27 @@ public class Q0958_CheckCompletenessOfABinaryTree {
     // https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 
     /* ------------------------------------------------------------
-       | PATTERN: Tree BFS
+       | PATTERN: Tree BFS (null'dan sonra düğüm olmamalı)
        ------------------------------------------------------------
+       Level order gezerken null çocukları da kuyruğa koy. İlk null'a ulaşınca dur;
+       kuyruğun kalanında null olmayan bir düğüm varsa ağaç complete değildir.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(n)
     */
+
     public static boolean isCompleteTree(TreeNode root) {
-        return false;
+        Deque<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        while (q.peek() != null) {
+            TreeNode node = q.poll();
+            q.offer(node.left);
+            q.offer(node.right);
+        }
+        while (!q.isEmpty() && q.peek() == null) {
+            q.poll();
+        }
+        return q.isEmpty();
     }
 }

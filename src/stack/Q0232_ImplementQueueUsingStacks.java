@@ -7,32 +7,47 @@ public class Q0232_ImplementQueueUsingStacks {
     // https://leetcode.com/problems/implement-queue-using-stacks/
 
     /* ------------------------------------------------------------
-       | PATTERN: Stack
+       | PATTERN: Stack - iki stack ile queue
        ------------------------------------------------------------
+       push hep stk1'e. pop/peek için stk2 boşsa stk1'deki her şeyi stk2'ye aktar (sıra tersine döner, FIFO olur).
+       Her eleman en fazla bir kez aktarıldığı için işlemler amortize O(1).
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : Amortize O(1)
+        Space : O(n)
     */
+
     public class MyQueue {
+        private Deque<Integer> stk1 = new ArrayDeque<>();
+        private Deque<Integer> stk2 = new ArrayDeque<>();
 
         public MyQueue() {
-
         }
 
         public void push(int x) {
+            stk1.push(x);
         }
 
         public int pop() {
-            return 0;
+            move();
+            return stk2.pop();
         }
 
         public int peek() {
-            return 0;
+            move();
+            return stk2.peek();
         }
 
         public boolean empty() {
-            return false;
+            return stk1.isEmpty() && stk2.isEmpty();
+        }
+
+        private void move() {
+            while (stk2.isEmpty()) {
+                while (!stk1.isEmpty()) {
+                    stk2.push(stk1.pop());
+                }
+            }
         }
     }
 }

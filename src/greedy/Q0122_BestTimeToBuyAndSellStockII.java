@@ -7,14 +7,21 @@ public class Q0122_BestTimeToBuyAndSellStockII {
     // https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
     /* ------------------------------------------------------------
-       | PATTERN: Greedy
+       | PATTERN: Greedy (her artışı topla)
        ------------------------------------------------------------
+       Sınırsız işlem yapılabildiği için her yükselişi kâra çevirmek yeterli:
+       prices[i] > prices[i-1] ise farkı ekle. Bu, tüm yükselen dönemlerin toplamına eşittir.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(1)
     */
+
     public static int maxProfit(int[] prices) {
-        return 0;
+        int ans = 0;
+        for (int i = 1; i < prices.length; ++i) {
+            ans += Math.max(0, prices[i] - prices[i - 1]);
+        }
+        return ans;
     }
 }

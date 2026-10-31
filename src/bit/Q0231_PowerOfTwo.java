@@ -9,12 +9,14 @@ public class Q0231_PowerOfTwo {
     /* ------------------------------------------------------------
        | PATTERN: Bit Manipulation
        ------------------------------------------------------------
+       2'nin kuvvetlerinde tam bir 1 biti vardır. n > 0 ve n & (n - 1) == 0 ise n 2'nin kuvvetidir.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(1)
+        Space : O(1)
     */
+
     public static boolean isPowerOfTwo(int n) {
-        return false;
+        return n > 0 && (n & (n - 1)) == 0;
     }
 }

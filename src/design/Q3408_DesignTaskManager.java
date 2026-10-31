@@ -7,30 +7,57 @@ public class Q3408_DesignTaskManager {
     // https://leetcode.com/problems/design-task-manager/
 
     /* ------------------------------------------------------------
-       | PATTERN: Data Structure Design
+       | PATTERN: Design - Hash Map + TreeSet
        ------------------------------------------------------------
+       Map: taskId -> (userId, priority). TreeSet: (priority, taskId) çiftleri, öncelik ve id'ye göre azalan sırada.
+       add/edit/rmv iki yapıyı birlikte günceller. execTop TreeSet'in ilkini alıp siler ve kullanıcıyı döndürür.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(log n) her işlem
+        Space : O(n)
     */
+
     public class TaskManager {
+        private final Map<Integer, int[]> d = new HashMap<>();
+        private final TreeSet<int[]> st = new TreeSet<>((a, b) -> {
+            if (a[0] == b[0]) {
+                return b[1] - a[1];
+            }
+            return b[0] - a[0];
+        });
 
         public TaskManager(List<List<Integer>> tasks) {
-
+            for (var task : tasks) {
+                add(task.get(0), task.get(1), task.get(2));
+            }
         }
 
         public void add(int userId, int taskId, int priority) {
+            d.put(taskId, new int[] {userId, priority});
+            st.add(new int[] {priority, taskId});
         }
 
         public void edit(int taskId, int newPriority) {
+            var e = d.get(taskId);
+            int userId = e[0], priority = e[1];
+            st.remove(new int[] {priority, taskId});
+            st.add(new int[] {newPriority, taskId});
+            d.put(taskId, new int[] {userId, newPriority});
         }
 
         public void rmv(int taskId) {
+            var e = d.remove(taskId);
+            int priority = e[1];
+            st.remove(new int[] {priority, taskId});
         }
 
         public int execTop() {
-            return 0;
+            if (st.isEmpty()) {
+                return -1;
+            }
+            var e = st.pollFirst();
+            var t = d.remove(e[1]);
+            return t[0];
         }
     }
 }

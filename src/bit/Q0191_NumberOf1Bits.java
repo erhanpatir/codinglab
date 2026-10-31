@@ -1,18 +1,29 @@
 package bit;
 
+import java.util.*;
+
 public class Q0191_NumberOf1Bits {
     // 191. Number of 1 Bits - Easy
     // https://leetcode.com/problems/number-of-1-bits/description/
+
     /* ------------------------------------------------------------
-       | PATTERN:                                               ✅|
+       | PATTERN: Bit Manipulation - n & (n - 1)
        ------------------------------------------------------------
-    /* ⭐
-     */
+       n & (n - 1) en sağdaki 1 bitini siler. n sıfır olana kadar kaç kez yapıldığı = 1 bit sayısı.
+       Döngü yalnızca 1 bitlerinin sayısı kadar döner.
+    */
     /*  Complexity
-        Time  : O(n)
+        Time  : O(1) (en fazla 32)
         Space : O(1)
     */
+
+    // you need to treat n as an unsigned value
     public static int hammingWeight(int n) {
-        return 1;
+        int ans = 0;
+        while (n != 0) {
+            n &= n - 1;
+            ++ans;
+        }
+        return ans;
     }
 }

@@ -7,14 +7,23 @@ public class Q0028_FindTheIndexOfTheFirstOccurrenceInAString {
     // https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 
     /* ------------------------------------------------------------
-       | PATTERN: String / Array Simulation
+       | PATTERN: String - Brute Force karşılaştırma (KMP opsiyonel)
        ------------------------------------------------------------
+       haystack'teki her i başlangıcı için needle ile karakter karakter karşılaştır; ilk eşleşmede i döner.
+       Mülakatta bu çözüm genelde yeterli. Takip sorusu olarak KMP (LPS dizisi) ile O(n + m) yapılabilir.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O((n - m) * m)
+        Space : O(1)
     */
+
     public static int strStr(String haystack, String needle) {
-        return 0;
+        int n = haystack.length(), m = needle.length();
+        for (int i = 0; i + m <= n; ++i) {
+            if (haystack.substring(i, i + m).equals(needle)) {
+                return i;
+            }
+        }
+        return -1;
     }
 }

@@ -7,14 +7,26 @@ public class Q0921_MinimumAddToMakeParenthesesValid {
     // https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 
     /* ------------------------------------------------------------
-       | PATTERN: Stack
+       | PATTERN: Stack (eşleşmeyen parantezler)
        ------------------------------------------------------------
+       ')' geldiğinde tepede '(' varsa eşleşir, pop et; değilse push et.
+       Sonunda stack'te kalan her karakter eşleşmemiş bir parantezdir; sayısı cevap.
+       O(1) bellek için iki sayaç da yeterlidir.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(n)
     */
+
     public static int minAddToMakeValid(String s) {
-        return 0;
+        Deque<Character> stk = new ArrayDeque<>();
+        for (char c : s.toCharArray()) {
+            if (c == ')' && !stk.isEmpty() && stk.peek() == '(') {
+                stk.pop();
+            } else {
+                stk.push(c);
+            }
+        }
+        return stk.size();
     }
 }

@@ -7,14 +7,31 @@ public class Q0006_ZigzagConversion {
     // https://leetcode.com/problems/zigzag-conversion/
 
     /* ------------------------------------------------------------
-       | PATTERN: String / Array Simulation
+       | PATTERN: Simülasyon (satır satır yürüme)
        ------------------------------------------------------------
+       numRows kadar StringBuilder tut. Karakterleri sırayla satırlara dağıt;
+       satır indeksi 0'a ya da numRows-1'e geldiğinde yön değiştir (zigzag).
+       Sonunda satırları sırayla birleştir. numRows == 1 ise string aynen döner.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(n)
     */
+
     public static String convert(String s, int numRows) {
-        return null;
+        if (numRows == 1) {
+            return s;
+        }
+        StringBuilder[] g = new StringBuilder[numRows];
+        Arrays.setAll(g, k -> new StringBuilder());
+        int i = 0, k = -1;
+        for (char c : s.toCharArray()) {
+            g[i].append(c);
+            if (i == 0 || i == numRows - 1) {
+                k = -k;
+            }
+            i += k;
+        }
+        return String.join("", g);
     }
 }

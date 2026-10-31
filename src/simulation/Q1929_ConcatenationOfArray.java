@@ -7,14 +7,21 @@ public class Q1929_ConcatenationOfArray {
     // https://leetcode.com/problems/concatenation-of-array/
 
     /* ------------------------------------------------------------
-       | PATTERN: String / Array Simulation
+       | PATTERN: Array Simülasyon
        ------------------------------------------------------------
+       2n uzunlukta dizi oluştur; ans[i] = ans[i + n] = nums[i].
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(1) (çıktı hariç)
     */
+
     public static int[] getConcatenation(int[] nums) {
-        return null;
+        int n = nums.length;
+        int[] ans = new int[n << 1];
+        for (int i = 0; i < n << 1; ++i) {
+            ans[i] = nums[i % n];
+        }
+        return ans;
     }
 }

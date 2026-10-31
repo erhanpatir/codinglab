@@ -7,14 +7,29 @@ public class Q0050_PowXN {
     // https://leetcode.com/problems/powx-n/
 
     /* ------------------------------------------------------------
-       | PATTERN: Math & Geometry
+       | PATTERN: Math - Fast Power (binary exponentiation)
        ------------------------------------------------------------
+       n'nin bitlerini gez: bit 1 ise ans *= x; her adımda x = x * x, n >>= 1.
+       Negatif üs için sonucu 1 / qpow(x, -n) olarak hesapla.
+       -n işleminin taşmaması için n long olarak işlenir (Integer.MIN_VALUE durumu).
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(log n)
+        Space : O(1)
     */
+
     public static double myPow(double x, int n) {
-        return 0.0;
+        return n >= 0 ? qpow(x, n) : 1 / qpow(x, -(long) n);
+    }
+
+    private static double qpow(double a, long n) {
+        double ans = 1;
+        for (; n > 0; n >>= 1) {
+            if ((n & 1) == 1) {
+                ans = ans * a;
+            }
+            a = a * a;
+        }
+        return ans;
     }
 }

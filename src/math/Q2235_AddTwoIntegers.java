@@ -7,14 +7,16 @@ public class Q2235_AddTwoIntegers {
     // https://leetcode.com/problems/add-two-integers/
 
     /* ------------------------------------------------------------
-       | PATTERN: Math & Geometry
+       | PATTERN: Math
        ------------------------------------------------------------
+       İki sayının toplamını döndür.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(1)
+        Space : O(1)
     */
+
     public static int sum(int num1, int num2) {
-        return 0;
+        return num1 + num2;
     }
 }

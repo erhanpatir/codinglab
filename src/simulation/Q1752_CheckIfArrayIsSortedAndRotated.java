@@ -7,14 +7,23 @@ public class Q1752_CheckIfArrayIsSortedAndRotated {
     // https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 
     /* ------------------------------------------------------------
-       | PATTERN: String / Array Simulation
+       | PATTERN: Array Simülasyon (düşüş sayma)
        ------------------------------------------------------------
+       Diziyi dairesel düşün; nums[i] > nums[(i+1) % n] olan konumları say.
+       Sıralı ve döndürülmüş bir dizide bu düşüş en fazla bir kez olur.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(1)
     */
+
     public static boolean check(int[] nums) {
-        return false;
+        int cnt = 0;
+        for (int i = 0, n = nums.length; i < n; ++i) {
+            if (nums[i] > nums[(i + 1) % n]) {
+                ++cnt;
+            }
+        }
+        return cnt <= 1;
     }
 }

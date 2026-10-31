@@ -7,14 +7,21 @@ public class Q3914_MinimumOperationsToMakeArrayNonDecreasing {
     // https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/
 
     /* ------------------------------------------------------------
-       | PATTERN: Greedy
+       | PATTERN: Greedy (düşüşleri toplama)
        ------------------------------------------------------------
+       Her düşüş (nums[i-1] > nums[i]) en az fark kadar işlem gerektirir; artışlar ücretsizdir.
+       Tüm pozitif farkları topla.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(1)
     */
+
     public static long minOperations(int[] nums) {
-        return 0;
+        long ans = 0;
+        for (int i = 1; i < nums.length; ++i) {
+            ans += Math.max(nums[i - 1] - nums[i], 0);
+        }
+        return ans;
     }
 }

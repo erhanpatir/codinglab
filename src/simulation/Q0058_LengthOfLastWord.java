@@ -7,14 +7,25 @@ public class Q0058_LengthOfLastWord {
     // https://leetcode.com/problems/length-of-last-word/
 
     /* ------------------------------------------------------------
-       | PATTERN: String / Array Simulation
+       | PATTERN: String - sondan gezme
        ------------------------------------------------------------
+       Sondaki boşlukları atla, sonra boşluk görene kadar geriye doğru say.
+       Split kullanmadan tek geçişte çözülür.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(1)
     */
+
     public static int lengthOfLastWord(String s) {
-        return 0;
+        int i = s.length() - 1;
+        while (i >= 0 && s.charAt(i) == ' ') {
+            --i;
+        }
+        int j = i;
+        while (j >= 0 && s.charAt(j) != ' ') {
+            --j;
+        }
+        return i - j;
     }
 }

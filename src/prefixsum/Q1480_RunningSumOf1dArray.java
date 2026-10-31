@@ -9,12 +9,17 @@ public class Q1480_RunningSumOf1dArray {
     /* ------------------------------------------------------------
        | PATTERN: Prefix Sum
        ------------------------------------------------------------
+       nums[i] += nums[i-1] ile diziyi yerinde koşan toplama çevir.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n)
+        Space : O(1)
     */
+
     public static int[] runningSum(int[] nums) {
-        return null;
+        for (int i = 1; i < nums.length; ++i) {
+            nums[i] += nums[i - 1];
+        }
+        return nums;
     }
 }

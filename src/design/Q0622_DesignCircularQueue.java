@@ -7,41 +7,67 @@ public class Q0622_DesignCircularQueue {
     // https://leetcode.com/problems/design-circular-queue/
 
     /* ------------------------------------------------------------
-       | PATTERN: Data Structure Design
+       | PATTERN: Design - Circular Queue (dizi + front + size)
        ------------------------------------------------------------
+       front ve size tut. Ekleme indeksi (front + size) % k, son eleman (front + size - 1) % k.
+       deQueue front'u bir ilerletir. Boş ve dolu kontrolü size ile yapılır.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(1) her işlem
+        Space : O(k)
     */
+
     public class MyCircularQueue {
+        private int[] q;
+        private int front;
+        private int size;
+        private int capacity;
 
         public MyCircularQueue(int k) {
-
+            q = new int[k];
+            capacity = k;
         }
 
         public boolean enQueue(int value) {
-            return false;
+            if (isFull()) {
+                return false;
+            }
+            int idx = (front + size) % capacity;
+            q[idx] = value;
+            ++size;
+            return true;
         }
 
         public boolean deQueue() {
-            return false;
+            if (isEmpty()) {
+                return false;
+            }
+            front = (front + 1) % capacity;
+            --size;
+            return true;
         }
 
         public int Front() {
-            return 0;
+            if (isEmpty()) {
+                return -1;
+            }
+            return q[front];
         }
 
         public int Rear() {
-            return 0;
+            if (isEmpty()) {
+                return -1;
+            }
+            int idx = (front + size - 1) % capacity;
+            return q[idx];
         }
 
         public boolean isEmpty() {
-            return false;
+            return size == 0;
         }
 
         public boolean isFull() {
-            return false;
+            return size == capacity;
         }
     }
 }

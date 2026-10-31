@@ -7,14 +7,25 @@ public class Q0215_KthLargestElementInAnArray {
     // https://leetcode.com/problems/kth-largest-element-in-an-array/
 
     /* ------------------------------------------------------------
-       | PATTERN: Heap / Top-K
+       | PATTERN: Heap - Top K (size k min-heap)
        ------------------------------------------------------------
+       Boyutu k olan bir min-heap tut; heap k'yı aşınca en küçüğü at.
+       Sonunda heap'te en büyük k eleman kalır, tepedeki k. en büyüktür.
+       Takip: Quickselect ile ortalama O(n) (worst O(n^2)), mülakatta genelde konuşulur.
     */
     /*  Complexity
-        Time  :
-        Space :
+        Time  : O(n log k)
+        Space : O(k)
     */
+
     public static int findKthLargest(int[] nums, int k) {
-        return 0;
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        for (int num : nums) {
+            minHeap.offer(num);
+            if (minHeap.size() > k) {
+                minHeap.poll(); // en küçüğü at, heap'te en büyük k eleman kalsın
+            }
+        }
+        return minHeap.peek();
     }
 }
