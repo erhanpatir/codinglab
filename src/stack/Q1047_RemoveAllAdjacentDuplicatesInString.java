@@ -4,6 +4,9 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q1047_RemoveAllAdjacentDuplicatesInString {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#111), Apple (#81)
+    //
     // 1047. Remove All Adjacent Duplicates In String
     // https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/
     /*

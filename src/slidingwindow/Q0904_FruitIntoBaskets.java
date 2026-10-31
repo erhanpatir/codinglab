@@ -3,6 +3,9 @@ package slidingwindow;
 import java.util.*;
 
 public class Q0904_FruitIntoBaskets {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#81), Amazon ✅ (#41), Bloomberg ✅ (#165)
+    //
     // 904. Fruit Into Baskets - Medium
     // https://leetcode.com/problems/fruit-into-baskets/
 

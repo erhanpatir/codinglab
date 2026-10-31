@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Q0039_CombinationSum {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#160), Google ✅ (#112), Bloomberg ✅ (#117)
+    //
     // 39. Combination Sum - Medium
     // https://leetcode.com/problems/combination-sum/
     // Backtracking: reuse allowed

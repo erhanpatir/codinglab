@@ -3,6 +3,9 @@ package matrix;
 import java.util.*;
 
 public class Q0498_DiagonalTraverse {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#54)
+    //
     // 498. Diagonal Traverse - Medium
     // https://leetcode.com/problems/diagonal-traverse/
 

@@ -3,6 +3,12 @@ package binarysearch;
 import java.util.*;
 
 public class Q1539_KthMissingPositiveNumber {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#50)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5501360/MetaorLondonorOnsite/
+    //
     // 1539. Kth Missing Positive Number - Easy
     // https://leetcode.com/problems/kth-missing-positive-number/
 

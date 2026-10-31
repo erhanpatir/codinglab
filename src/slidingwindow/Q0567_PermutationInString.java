@@ -3,6 +3,9 @@ package slidingwindow;
 import java.util.Arrays;
 
 public class Q0567_PermutationInString {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Meta ✅ (#242)
+    //
     // 567. Permutation in String - Medium
     // https://leetcode.com/problems/permutation-in-string/
     /* ------------------------------------------------------------------

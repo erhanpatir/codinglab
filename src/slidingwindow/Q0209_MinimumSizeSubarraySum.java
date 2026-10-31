@@ -1,6 +1,9 @@
 package slidingwindow;
 
 public class Q0209_MinimumSizeSubarraySum {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#155), Bloomberg ✅ (#113)
+    //
     // 209. Minimum Size Subarray Sum - Medium
     // https://leetcode.com/problems/minimum-size-subarray-sum/
      /* ------------------------------------------

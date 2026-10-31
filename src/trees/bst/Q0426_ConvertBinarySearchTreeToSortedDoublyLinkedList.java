@@ -4,6 +4,9 @@ import common.model.Node;
 import java.util.*;
 
 public class Q0426_ConvertBinarySearchTreeToSortedDoublyLinkedList {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#69)
+    //
     // 426. Convert Binary Search Tree to Sorted Doubly Linked List - Medium
     // https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
 

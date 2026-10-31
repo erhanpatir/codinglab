@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q0205_IsomorphicStrings {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#112)
+    //
     // 205. Isomorphic Strings - Easy
     // https://leetcode.com/problems/isomorphic-strings/
     /* ------------------------------------------------------------

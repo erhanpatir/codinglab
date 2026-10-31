@@ -3,6 +3,9 @@ package stack;
 import java.util.*;
 
 public class Q0921_MinimumAddToMakeParenthesesValid {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#43)
+    //
     // 921. Minimum Add to Make Parentheses Valid - Medium
     // https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
 

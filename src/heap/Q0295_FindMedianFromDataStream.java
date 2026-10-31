@@ -3,6 +3,9 @@ package heap;
 import java.util.*;
 
 public class Q0295_FindMedianFromDataStream {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Apple ✅
+    //
     // 295. Find Median from Data Stream - Hard
     // https://leetcode.com/problems/find-median-from-data-stream/
 

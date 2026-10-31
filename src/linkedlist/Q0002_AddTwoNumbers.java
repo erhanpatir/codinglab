@@ -4,6 +4,9 @@ import common.model.ListNode;
 import java.util.*;
 
 public class Q0002_AddTwoNumbers {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 2. Add Two Numbers - Medium
     // https://leetcode.com/problems/add-two-numbers/
 

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Q0131_PalindromePartitioning {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#157), Bloomberg ✅ (#74)
+    //
     // 131. Palindrome Partitioning - Medium
     // https://leetcode.com/problems/palindrome-partitioning/description/
     // PATTERN : backtracking - partition / cut positions + validity check

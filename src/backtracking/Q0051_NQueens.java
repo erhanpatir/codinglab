@@ -3,6 +3,9 @@ package backtracking;
 import java.util.*;
 
 public class Q0051_NQueens {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 51. N-Queens - Hard
     // https://leetcode.com/problems/n-queens/description/
     // PATTERN: Backtracking - constraint-based placement

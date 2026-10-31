@@ -4,6 +4,12 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q1644_LowestCommonAncestorOfABinaryTreeII {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#289), Amazon
+    // Seviye    : Mid
+    // Raporlar  : 2 (1 📍London)
+    //             https://leetcode.com/discuss/post/7646418/
+    //
     // 1644. Lowest Common Ancestor of a Binary Tree II - Medium
     // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/
 

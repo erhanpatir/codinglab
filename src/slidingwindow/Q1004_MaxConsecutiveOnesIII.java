@@ -1,6 +1,12 @@
 package slidingwindow;
 
 public class Q1004_MaxConsecutiveOnesIII {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#33), Google ✅ (#102), Amazon ✅ (#93)
+    // Seviye    : Senior
+    // Raporlar  : 1
+    //             https://leetcode.com/discuss/post/6076356/Meta-E5-phone-screen/
+    //
     // 1004. Max Consecutive Ones III - Medium
     // https://leetcode.com/problems/max-consecutive-ones-iii/
      /* ------------------------------------------

@@ -3,6 +3,12 @@ package binarysearch;
 import java.util.*;
 
 public class Q1060_MissingElementInSortedArray {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#176)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/interview-experience/5351906/Meta-or-E5-or-London-or-Passed/
+    //
     // 1060. Missing Element in Sorted Array - Medium
     // https://leetcode.com/problems/missing-element-in-sorted-array/
 

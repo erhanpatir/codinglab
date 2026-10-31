@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q0219_ContainsDuplicateII {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#79), Google ✅ (#104), Bloomberg ✅ (#92)
+    //
     // 219. Contains Duplicate II - Easy
     // https://leetcode.com/problems/contains-duplicate-ii/
     /* ------------------------------------------------------------

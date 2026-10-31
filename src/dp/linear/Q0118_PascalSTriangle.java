@@ -3,6 +3,9 @@ package dp.linear;
 import java.util.*;
 
 public class Q0118_PascalSTriangle {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    //
     // 118. Pascal's Triangle - Easy
     // https://leetcode.com/problems/pascals-triangle/
 

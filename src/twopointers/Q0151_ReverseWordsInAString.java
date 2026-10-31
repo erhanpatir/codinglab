@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q0151_ReverseWordsInAString {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#30)
+    //
     // 151. Reverse Words in a String - Medium
     // https://leetcode.com/problems/reverse-words-in-a-string/
 

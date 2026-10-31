@@ -3,6 +3,9 @@ package simulation;
 import java.util.*;
 
 public class Q0012_IntegerToRoman {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Meta ✅ (#206)
+    //
     // 12. Integer to Roman - Medium
     // https://leetcode.com/problems/integer-to-roman/
 

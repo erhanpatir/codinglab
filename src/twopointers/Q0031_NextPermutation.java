@@ -3,6 +3,12 @@ package twopointers;
 import java.util.*;
 
 public class Q0031_NextPermutation {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5264755/Meta-or-E5-or-London-or-Offer/
+    //
     // 31. Next Permutation - Medium
     // https://leetcode.com/problems/next-permutation/
 

@@ -3,6 +3,9 @@ package simulation;
 import java.util.*;
 
 public class Q0058_LengthOfLastWord {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#111)
+    //
     // 58. Length of Last Word - Easy
     // https://leetcode.com/problems/length-of-last-word/
 

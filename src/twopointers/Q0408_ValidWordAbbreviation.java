@@ -3,6 +3,12 @@ package twopointers;
 import java.util.*;
 
 public class Q0408_ValidWordAbbreviation {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#2)
+    // Seviye    : Mid, Senior
+    // Raporlar  : 3 (2 📍London)
+    //             https://leetcode.com/discuss/post/6485719/meta-e4-software-engineer-interview-expe-osx7/
+    //
     // 408. Valid Word Abbreviation - Easy
     // https://leetcode.com/problems/valid-word-abbreviation/
 

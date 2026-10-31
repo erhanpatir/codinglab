@@ -4,6 +4,9 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0958_CheckCompletenessOfABinaryTree {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#100)
+    //
     // 958. Check Completeness of a Binary Tree - Medium
     // https://leetcode.com/problems/check-completeness-of-a-binary-tree/
 

@@ -5,6 +5,11 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class Q0200_NumberOfIslands {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Raporlar  : 2 (1 📍London)
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 200. Number of Islands - Medium
     // https://leetcode.com/problems/number-of-islands/
 

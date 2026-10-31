@@ -3,6 +3,12 @@ package trees.dfs;
 import common.model.TreeNode;
 
 public class Q0543_DiameterOfBinaryTree {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#10)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/interview-experience/5351906/Meta-or-E5-or-London-or-Passed/
+    //
     // 543. Diameter of Binary Tree - Easy
     // https://leetcode.com/problems/diameter-of-binary-tree/
     // The maximum path of a node is calculated as the sum of the heights of its left and right subtrees.

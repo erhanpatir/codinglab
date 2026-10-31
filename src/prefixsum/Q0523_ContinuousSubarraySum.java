@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q0523_ContinuousSubarraySum {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#81)
+    //
     // 523. Continuous Subarray Sum - Medium
     // https://leetcode.com/problems/continuous-subarray-sum/
     /* -------------------------------------------------------

@@ -4,6 +4,9 @@ import common.model.ListNode;
 import java.util.*;
 
 public class Q0019_RemoveNthNodeFromEndOfList {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Apple
+    //
     // 19. Remove Nth Node From End of List - Medium
     // https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 

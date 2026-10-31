@@ -3,6 +3,9 @@ package heap;
 import java.util.*;
 
 public class Q0347_TopKFrequentElements {
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // 347. Top K Frequent Elements - Medium
     // https://leetcode.com/problems/top-k-frequent-elements/
 

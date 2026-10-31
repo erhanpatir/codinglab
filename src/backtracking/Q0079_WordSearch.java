@@ -1,6 +1,12 @@
 package backtracking;
 
 public class Q0079_WordSearch {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Amazon ✅ (#42), Bloomberg ✅ (#15)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/interview-experience/6614891/
+    //
     // 79. Word Search - Medium
     // https://leetcode.com/problems/word-search/description/
 

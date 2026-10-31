@@ -6,6 +6,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Q0015_3Sum {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/interview-experience/5351906/Meta-or-E5-or-London-or-Passed/
+    //
     // 15. 3Sum - Medium
     // https://leetcode.com/problems/3sum/
 

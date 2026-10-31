@@ -6,6 +6,12 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Q0056_MergeIntervals {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Seviye    : Mid, Senior
+    // Raporlar  : 6 (3 📍London)
+    //             https://leetcode.com/discuss/post/5501360/MetaorLondonorOnsite/
+    //
     // 56. Merge Intervals - Medium
     // https://leetcode.com/problems/merge-intervals/
     /* ---------------------------------------------------------

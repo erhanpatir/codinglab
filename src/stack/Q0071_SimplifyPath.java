@@ -4,6 +4,12 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0071_SimplifyPath {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#21)
+    // Seviye    : Mid, Senior
+    // Raporlar  : 2 (1 📍London)
+    //             https://leetcode.com/discuss/post/5096206/Meta-E4-or-London-or-Offer/
+    //
     // 71. Simplify Path - Medium
     // https://leetcode.com/problems/simplify-path/
     /* -----------------------------------------

@@ -3,6 +3,12 @@ package hashing;
 import java.util.*;
 
 public class Q1169_InvalidTransactions {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Bloomberg ✅ (#14)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/interview-experience/6614891/
+    //
     // 1169. Invalid Transactions - Medium
     // https://leetcode.com/problems/invalid-transactions/
 

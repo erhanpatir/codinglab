@@ -3,6 +3,12 @@ package stack;
 import java.util.*;
 
 public class Q1249_MinimumRemoveToMakeValidParentheses {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#1), Bloomberg (#107)
+    // Seviye    : Senior, Staff
+    // Raporlar  : 4 (2 📍London)
+    //             https://leetcode.com/discuss/post/5501360/MetaorLondonorOnsite/
+    //
     // 1249. Minimum Remove to Make Valid Parentheses - Medium
     // https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 

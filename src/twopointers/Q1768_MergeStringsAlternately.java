@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q1768_MergeStringsAlternately {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅
+    //
     // 1768. Merge Strings Alternately - Easy
     // https://leetcode.com/problems/merge-strings-alternately/
 

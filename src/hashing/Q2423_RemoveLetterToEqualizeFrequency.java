@@ -3,6 +3,9 @@ package hashing;
 import java.util.*;
 
 public class Q2423_RemoveLetterToEqualizeFrequency {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#78)
+    //
     // 2423. Remove Letter To Equalize Frequency - Easy
     // https://leetcode.com/problems/remove-letter-to-equalize-frequency/
 

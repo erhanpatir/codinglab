@@ -4,6 +4,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Q0003_LongestSubstringWithoutRepeatingCharacters {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 3. Longest Substring Without Repeating Characters - Medium
     // https://leetcode.com/problems/longest-substring-without-repeating-characters/
     /* -------------------------------------------------------

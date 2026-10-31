@@ -3,6 +3,9 @@ package graphs.topologicalsort;
 import java.util.*;
 
 public class Q0269_AlienDictionary {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#110)
+    //
     // 269. Alien Dictionary - Hard
     // https://leetcode.com/problems/alien-dictionary/
     // PATTERN : directed graph + topological sort

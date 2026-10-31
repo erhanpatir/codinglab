@@ -3,6 +3,9 @@ package design;
 import java.util.*;
 
 public class Q0460_LFUCache {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#115), Apple ✅ (#79)
+    //
     // 460. LFU Cache - Hard
     // https://leetcode.com/problems/lfu-cache/
 

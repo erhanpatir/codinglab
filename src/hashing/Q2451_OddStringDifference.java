@@ -3,6 +3,9 @@ package hashing;
 import java.util.*;
 
 public class Q2451_OddStringDifference {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Wise
+    //
     // 2451. Odd String Difference - Easy
     // https://leetcode.com/problems/odd-string-difference/
 

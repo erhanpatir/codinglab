@@ -1,6 +1,9 @@
 package slidingwindow;
 
 public class Q0424_LongestRepeatingCharactersReplacement {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 424. Longest Repeating Characters Replacement - Medium
     // https://leetcode.com/problems/longest-repeating-characters-replacement/
 

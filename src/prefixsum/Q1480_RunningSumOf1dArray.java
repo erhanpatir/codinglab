@@ -3,6 +3,9 @@ package prefixsum;
 import java.util.*;
 
 public class Q1480_RunningSumOf1dArray {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#105)
+    //
     // 1480. Running Sum of 1d Array - Easy
     // https://leetcode.com/problems/running-sum-of-1d-array/
 

@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q0977_SquaresOfASortedArray {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#101)
+    //
     // 977. Squares of a Sorted Array - Easy
     // https://leetcode.com/problems/squares-of-a-sorted-array/
 

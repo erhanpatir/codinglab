@@ -4,6 +4,9 @@ import common.model.Node;
 import java.util.*;
 
 public class Q0138_CopyListWithRandomPointer {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta (#30), Amazon ✅ (#30), Bloomberg ✅ (#111)
+    //
     // 138. Copy List with Random Pointer - Medium
     // https://leetcode.com/problems/copy-list-with-random-pointer/
 

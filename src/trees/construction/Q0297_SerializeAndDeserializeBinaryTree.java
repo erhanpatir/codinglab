@@ -4,6 +4,9 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0297_SerializeAndDeserializeBinaryTree {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#96), Apple (#73)
+    //
     // 297. Serialize and Deserialize Binary Tree - Hard
     // https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 

@@ -3,6 +3,12 @@ package heap;
 import java.util.*;
 
 public class Q2402_MeetingRoomsIII {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Amazon (#485), Apple ✅ (#127)
+    // Seviye    : Mid
+    // Raporlar  : 2
+    //             https://leetcode.com/discuss/post/7646418/
+    //
     // 2402. Meeting Rooms III - Hard
     // https://leetcode.com/problems/meeting-rooms-iii/
 

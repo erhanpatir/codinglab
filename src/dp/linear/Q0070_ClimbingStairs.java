@@ -1,6 +1,9 @@
 package dp.linear;
 
 public class Q0070_ClimbingStairs {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    //
     // 70. Climbing Stairs - Easy
     // https://leetcode.com/problems/climbing-stairs/
 

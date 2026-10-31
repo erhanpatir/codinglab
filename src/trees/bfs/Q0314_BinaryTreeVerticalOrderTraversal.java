@@ -4,6 +4,12 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0314_BinaryTreeVerticalOrderTraversal {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#5), Bloomberg ✅ (#87)
+    // Seviye    : Mid, Senior, Staff
+    // Raporlar  : 5 (3 📍London)
+    //             https://leetcode.com/discuss/post/5732927/META-or-PHONE-SCREEN-or-E4-or-London-or-Sept-2024-or-PASSED/
+    //
     // 314. Binary Tree Vertical Order Traversal - Medium
     // https://leetcode.com/problems/binary-tree-vertical-order-traversal/
 

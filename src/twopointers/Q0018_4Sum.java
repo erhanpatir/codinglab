@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q0018_4Sum {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 18. 4Sum - Medium
     // https://leetcode.com/problems/4sum/
 

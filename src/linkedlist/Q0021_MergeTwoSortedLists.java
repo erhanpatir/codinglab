@@ -4,6 +4,9 @@ import common.model.ListNode;
 import java.util.*;
 
 public class Q0021_MergeTwoSortedLists {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    //
     // 21. Merge Two Sorted Lists - Easy
     // https://leetcode.com/problems/merge-two-sorted-lists/
 

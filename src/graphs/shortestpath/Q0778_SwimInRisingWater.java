@@ -3,6 +3,12 @@ package graphs.shortestpath;
 import java.util.*;
 
 public class Q0778_SwimInRisingWater {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Amazon (#508)
+    // Seviye    : Mid
+    // Raporlar  : 1
+    //             https://leetcode.com/discuss/post/7646418/
+    //
     // 778. Swim in Rising Water - Hard
     // https://leetcode.com/problems/swim-in-rising-water/description/
 

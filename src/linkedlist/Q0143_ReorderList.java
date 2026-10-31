@@ -4,6 +4,9 @@ import common.model.ListNode;
 import java.util.*;
 
 public class Q0143_ReorderList {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#111), Bloomberg ✅ (#100)
+    //
     // 143. Reorder List - Medium
     // https://leetcode.com/problems/reorder-list/
 

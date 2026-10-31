@@ -1,6 +1,9 @@
 package binarysearch;
 
 public class Q1011_CapacityToShipPackagesWithinDDays {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#65)
+    //
     // 1011. Capacity To Ship Packages Within D Days - Medium
     // https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
     /* ----------------------------------------------------------------------

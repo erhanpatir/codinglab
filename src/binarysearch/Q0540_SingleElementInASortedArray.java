@@ -3,6 +3,9 @@ package binarysearch;
 import java.util.*;
 
 public class Q0540_SingleElementInASortedArray {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 540. Single Element in a Sorted Array - Medium
     // https://leetcode.com/problems/single-element-in-a-sorted-array/
 

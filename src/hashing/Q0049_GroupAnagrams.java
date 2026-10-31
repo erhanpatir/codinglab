@@ -3,6 +3,11 @@ package hashing;
 import java.util.*;
 
 public class Q0049_GroupAnagrams {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 49. Group Anagrams - Medium
     // https://leetcode.com/problems/group-anagrams/
 

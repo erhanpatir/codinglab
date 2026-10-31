@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Q0046_Permutations {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Apple
+    //
     // 46. Permutations - Medium
     // https://leetcode.com/problems/permutations/
     // Backtracking

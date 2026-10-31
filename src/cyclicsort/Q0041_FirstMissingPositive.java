@@ -3,6 +3,9 @@ package cyclicsort;
 import java.util.*;
 
 public class Q0041_FirstMissingPositive {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#109), Amazon ✅ (#61)
+    //
     // 41. First Missing Positive - Hard
     // https://leetcode.com/problems/first-missing-positive/
 

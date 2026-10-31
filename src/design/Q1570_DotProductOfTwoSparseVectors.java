@@ -3,6 +3,12 @@ package design;
 import java.util.*;
 
 public class Q1570_DotProductOfTwoSparseVectors {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#28)
+    // Seviye    : Mid
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5279925/Meta-(London)-or-E4-or-Reject/
+    //
     // 1570. Dot Product of Two Sparse Vectors - Medium
     // https://leetcode.com/problems/dot-product-of-two-sparse-vectors/
 

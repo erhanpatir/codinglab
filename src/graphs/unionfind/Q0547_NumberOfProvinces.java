@@ -3,6 +3,9 @@ package graphs.unionfind;
 import java.util.*;
 
 public class Q0547_NumberOfProvinces {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#115)
+    //
     // 547. Number of Provinces - Medium
     // https://leetcode.com/problems/number-of-provinces/description/
 

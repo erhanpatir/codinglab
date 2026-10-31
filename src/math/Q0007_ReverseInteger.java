@@ -3,6 +3,9 @@ package math;
 import java.util.*;
 
 public class Q0007_ReverseInteger {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    //
     // 7. Reverse Integer - Medium
     // https://leetcode.com/problems/reverse-integer/
 

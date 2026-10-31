@@ -4,6 +4,9 @@ import common.model.NestedInteger;
 import java.util.*;
 
 public class Q0341_FlattenNestedListIterator {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Apple ✅ (#61)
+    //
     // 341. Flatten Nested List Iterator - Medium
     // https://leetcode.com/problems/flatten-nested-list-iterator/
 

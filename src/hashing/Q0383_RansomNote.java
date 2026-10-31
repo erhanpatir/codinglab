@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q0383_RansomNote {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#63)
+    //
     // 383. Ransom Note - Easy
     // https://leetcode.com/problems/ransom-note/
     /* -----------------------------------------------------------

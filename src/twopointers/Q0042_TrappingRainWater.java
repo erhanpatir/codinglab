@@ -2,6 +2,12 @@ package twopointers;
 
 public class Q0042_TrappingRainWater {
     // 42 - Trapping Rain Water - Hard
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Seviye    : Mid
+    // Raporlar  : 4 (1 📍London)
+    //             https://www.glassdoor.ca/Interview/Amazon-Interview-E6036-RVW97141639.htm
+    //
     // https://leetcode.com/problems/trapping-rain-water/
     // --------------------------------------------
     // |PATTERN: Two Pointers + Running Max     ✅|

@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class Q0014_LongestCommonPrefix {
     // 14 - Longest Common Prefix - Easy
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // https://leetcode.com/problems/longest-common-prefix/
     /* COZUM :
         ✅ En pratik mantık (prefix’i kısaltarak gitmek)

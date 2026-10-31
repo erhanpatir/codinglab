@@ -3,6 +3,9 @@ package binarysearch;
 import java.util.*;
 
 public class Q0034_FindFirstAndLastPositionOfElementInSortedArray {
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // 34. Find First and Last Position of Element in Sorted Array - Medium
     // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 

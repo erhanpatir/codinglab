@@ -3,6 +3,9 @@ package twopointers;
 import java.util.Arrays;
 
 public class Q0075_SortColors {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 75. Sort Colors - Medium
     // https://leetcode.com/problems/sort-colors/
 

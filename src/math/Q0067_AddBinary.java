@@ -3,6 +3,9 @@ package math;
 import java.util.*;
 
 public class Q0067_AddBinary {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#118), Google ✅ (#71)
+    //
     // 67. Add Binary - Easy
     // https://leetcode.com/problems/add-binary/
 

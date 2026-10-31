@@ -1,6 +1,9 @@
 package dp.linear;
 
 public class Q0152_MaximumProductSubarray {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#231), Google ✅ (#86), Amazon ✅ (#123)
+    //
     // 152. Maximum Product Subarray - Medium
     // https://leetcode.com/problems/maximum-product-subarray/
 

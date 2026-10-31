@@ -1,6 +1,11 @@
 package dp.linear;
 
 public class Q0198_HouseRobber {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 198. House Robber - Medium
     // https://leetcode.com/problems/house-robber/
 

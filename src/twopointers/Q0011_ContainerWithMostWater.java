@@ -2,6 +2,9 @@ package twopointers;
 
 
 public class Q0011_ContainerWithMostWater {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    //
     // 11. Container With Most Water - Medium
     // https://leetcode.com/problems/container-with-most-water/
 

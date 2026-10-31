@@ -4,6 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Q0128_LongestConsecutiveSequence {
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // 128. Longest Consecutive Sequence - Medium
     // https://leetcode.com/problems/longest-consecutive-sequence/
 

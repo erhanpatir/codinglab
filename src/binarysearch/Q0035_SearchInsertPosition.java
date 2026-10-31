@@ -1,6 +1,9 @@
 package binarysearch;
 
 public class Q0035_SearchInsertPosition {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 35. Search Insert Position - Easy
     // https://leetcode.com/problems/search-insert-position/
     /* ------------------------------------------------------------

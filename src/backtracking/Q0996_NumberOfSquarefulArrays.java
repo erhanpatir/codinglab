@@ -3,6 +3,9 @@ package backtracking;
 import java.util.*;
 
 public class Q0996_NumberOfSquarefulArrays {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#65)
+    //
     // 996. Number of Squareful Arrays - Hard
     // https://leetcode.com/problems/number-of-squareful-arrays/
 

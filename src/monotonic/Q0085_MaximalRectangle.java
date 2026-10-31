@@ -3,6 +3,9 @@ package monotonic;
 import java.util.*;
 
 public class Q0085_MaximalRectangle {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#89)
+    //
     // 85. Maximal Rectangle - Hard
     // https://leetcode.com/problems/maximal-rectangle/
 

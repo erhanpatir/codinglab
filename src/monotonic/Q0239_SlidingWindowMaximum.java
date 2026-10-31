@@ -4,6 +4,9 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0239_SlidingWindowMaximum {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#103), Google ✅ (#61), Amazon ✅ (#36), Bloomberg ✅ (#130)
+    //
     // 239. Sliding Window Maximum - Hard
     // https://leetcode.com/problems/sliding-window-maximum/
     /* ------------------------------------------

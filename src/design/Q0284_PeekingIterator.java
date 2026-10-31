@@ -3,6 +3,9 @@ package design;
 import java.util.*;
 
 public class Q0284_PeekingIterator {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#55)
+    //
     // 284. Peeking Iterator - Medium
     // https://leetcode.com/problems/peeking-iterator/
 

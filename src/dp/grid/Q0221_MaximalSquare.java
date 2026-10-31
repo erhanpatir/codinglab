@@ -1,6 +1,9 @@
 package dp.grid;
 
 public class Q0221_MaximalSquare {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#87), Apple (#71), Wise
+    //
     // 221. Maximal Square - Medium
     // https://leetcode.com/problems/maximal-square/
     // Pattern: Grid 2D DP + Shape DP

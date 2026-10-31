@@ -2,6 +2,9 @@ package twopointers;
 
 public class Q0125_ValidPalindrome {
     // 125 - Valid Palindrome - Easy
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // https://leetcode.com/problems/valid-palindrome/
     // --------------------------------------------
     // |PATTERN: Two Pointers                   ✅|

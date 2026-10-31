@@ -3,6 +3,12 @@ package slidingwindow;
 import java.util.*;
 
 public class Q3413_MaximumCoinsFromKConsecutiveBags {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Amazon ✅ (#71)
+    // Seviye    : Mid
+    // Raporlar  : 1
+    //             https://www.hellointerview.com/guides/amazon/l5
+    //
     // 3413. Maximum Coins From K Consecutive Bags - Medium
     // https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags/
 

@@ -3,6 +3,12 @@ package dp.subsequence;
 import java.util.*;
 
 public class Q1216_ValidPalindromeIII {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#86)
+    // Seviye    : Mid
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5096206/Meta-E4-or-London-or-Offer/
+    //
     // 1216. Valid Palindrome III - Hard
     // https://leetcode.com/problems/valid-palindrome-iii/
 

@@ -3,6 +3,12 @@ package twopointers;
 import java.util.Arrays;
 
 public class Q0088_MergeSortedArray {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Seviye    : Mid, Senior
+    // Raporlar  : 3 (3 📍London)
+    //             https://leetcode.com/discuss/post/5264755/Meta-or-E5-or-London-or-Offer/
+    //
     // 88. Merge Sorted Array - Easy
     // https://leetcode.com/problems/merge-sorted-array/
     /*

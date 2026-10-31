@@ -4,6 +4,9 @@ import common.model.NestedInteger;
 import java.util.*;
 
 public class Q0339_NestedListWeightSum {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#13)
+    //
     // 339. Nested List Weight Sum - Medium
     // https://leetcode.com/problems/nested-list-weight-sum/
 

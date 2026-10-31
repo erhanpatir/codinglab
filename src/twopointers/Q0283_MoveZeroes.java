@@ -3,6 +3,9 @@ package twopointers;
 
 public class Q0283_MoveZeroes {
     // LeetCode 283 - Move Zeroes - Easy
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // https://leetcode.com/problems/move-zeroes/
     /*
         Bu soru aslında:

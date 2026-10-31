@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.Deque;
 
 public class Q0503_NextGreaterElement2 {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#102)
+    //
     // 503. Next Greater Element II - Medium
     // https://leetcode.com/problems/next-greater-element-ii/
     /* ------------------------------------------------------------

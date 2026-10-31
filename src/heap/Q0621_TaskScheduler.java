@@ -3,6 +3,12 @@ package heap;
 import java.util.*;
 
 public class Q0621_TaskScheduler {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Amazon ✅ (#53), Apple ✅ (#80)
+    // Seviye    : Mid
+    // Raporlar  : 1
+    //             https://medium.com/@saiteja.dasari123/interview-experience-sde-2-at-amazon-accepted-offer-57655fab76b8
+    //
     // 621. Task Scheduler - Medium
     // https://leetcode.com/problems/task-scheduler/description/
 

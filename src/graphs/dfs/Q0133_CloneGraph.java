@@ -5,6 +5,9 @@ import common.ds.Node;
 import java.util.*;
 
 public class Q0133_CloneGraph {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#45)
+    //
     // 133. Clone Graph - Medium
     // https://leetcode.com/problems/clone-graph/
     /* ------------------------------------------------------------

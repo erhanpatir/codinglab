@@ -3,6 +3,9 @@ package stack;
 import java.util.*;
 
 public class Q0736_ParseLispExpression {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Apple ✅ (#194)
+    //
     // 736. Parse Lisp Expression - Hard
     // https://leetcode.com/problems/parse-lisp-expression/
 

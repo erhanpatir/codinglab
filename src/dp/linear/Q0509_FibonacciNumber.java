@@ -3,6 +3,9 @@ package dp.linear;
 import java.util.*;
 
 public class Q0509_FibonacciNumber {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#102)
+    //
     // 509. Fibonacci Number - Easy
     // https://leetcode.com/problems/fibonacci-number/
 

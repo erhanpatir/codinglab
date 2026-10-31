@@ -3,6 +3,9 @@ package monotonic;
 import java.util.*;
 
 public class Q1944_NumberOfVisiblePeopleInAQueue {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#68)
+    //
     // 1944. Number of Visible People in a Queue - Hard
     // https://leetcode.com/problems/number-of-visible-people-in-a-queue/
 

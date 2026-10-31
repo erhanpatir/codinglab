@@ -3,6 +3,9 @@ package math;
 import java.util.*;
 
 public class Q0415_AddStrings {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#62)
+    //
     // 415. Add Strings - Easy
     // https://leetcode.com/problems/add-strings/
 

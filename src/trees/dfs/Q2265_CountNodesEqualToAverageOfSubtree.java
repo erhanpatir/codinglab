@@ -4,6 +4,9 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q2265_CountNodesEqualToAverageOfSubtree {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#107)
+    //
     // 2265. Count Nodes Equal to Average of Subtree - Medium
     // https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/
 

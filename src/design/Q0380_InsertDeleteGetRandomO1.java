@@ -3,6 +3,11 @@ package design;
 import java.util.*;
 
 public class Q0380_InsertDeleteGetRandomO1 {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Amazon ✅, Apple ✅, Bloomberg ✅
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 380. Insert Delete GetRandom O(1) - Medium
     // https://leetcode.com/problems/insert-delete-getrandom-o1/
 

@@ -4,6 +4,12 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0863_AllNodesDistanceKInBinaryTree {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#56), Amazon ✅ (#103)
+    // Seviye    : Mid
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/6485719/meta-e4-software-engineer-interview-expe-osx7/
+    //
     // 863. All Nodes Distance K in Binary Tree - Medium
     // https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 

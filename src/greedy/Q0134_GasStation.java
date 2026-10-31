@@ -3,6 +3,9 @@ package greedy;
 import java.util.*;
 
 public class Q0134_GasStation {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#110)
+    //
     // 134. Gas Station - Medium
     // https://leetcode.com/problems/gas-station/
 

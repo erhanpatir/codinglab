@@ -1,6 +1,9 @@
 package dp.subsequence;
 
 public class Q0072_EditDistance {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Apple ✅ (#126)
+    //
     // 72. Edit Distance - Medium
     // https://leetcode.com/problems/edit-distance/
 

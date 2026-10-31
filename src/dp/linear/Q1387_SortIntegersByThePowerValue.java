@@ -3,6 +3,9 @@ package dp.linear;
 import java.util.*;
 
 public class Q1387_SortIntegersByThePowerValue {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Bloomberg (#63)
+    //
     // 1387. Sort Integers by The Power Value - Medium
     // https://leetcode.com/problems/sort-integers-by-the-power-value/
 

@@ -4,6 +4,9 @@ import java.util.stream.*;
 import java.util.*;
 
 public class Q0735_AsteroidCollision {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#64)
+    //
     // 735. Asteroid Collision - Medium
     // https://leetcode.com/problems/asteroid-collision/
 

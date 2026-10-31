@@ -4,6 +4,9 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0084_LargestRectangleInHistogram {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 84. Largest Rectangle in Histogram - Hard
     // https://leetcode.com/problems/largest-rectangle-in-histogram/
     /* ------------------------------------------------------------

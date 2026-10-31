@@ -3,6 +3,9 @@ package greedy;
 import java.util.*;
 
 public class Q0045_JumpGame2 {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#77)
+    //
     // 45. Jump Game II - Medium
     // https://leetcode.com/problems/jump-game-ii/
 

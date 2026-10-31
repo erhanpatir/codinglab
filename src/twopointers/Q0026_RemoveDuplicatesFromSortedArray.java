@@ -2,6 +2,9 @@ package twopointers;
 
 public class Q0026_RemoveDuplicatesFromSortedArray {
     // LeetCode 26 - Remove Duplicates from Sorted Array - Easy
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    //
     // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
     /*
         Cozum mantigi: ✅

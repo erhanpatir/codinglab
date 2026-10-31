@@ -3,6 +3,9 @@ package design;
 import java.util.*;
 
 public class Q3408_DesignTaskManager {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Apple ✅ (#196)
+    //
     // 3408. Design Task Manager - Medium
     // https://leetcode.com/problems/design-task-manager/
 

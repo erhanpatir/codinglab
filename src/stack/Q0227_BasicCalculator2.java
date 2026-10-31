@@ -4,6 +4,12 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0227_BasicCalculator2 {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#7), Apple ✅ (#46)
+    // Seviye    : Mid, Senior, Staff
+    // Raporlar  : 3 (1 📍London)
+    //             https://leetcode.com/discuss/post/6485719/meta-e4-software-engineer-interview-expe-osx7/
+    //
     // 227. Basic Calculator II - Medium
     // https://leetcode.com/problems/basic-calculator-ii/
     /* ------------------------------------------------------------

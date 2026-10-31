@@ -4,6 +4,9 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0394_DecodeString {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#114), Google ✅ (#47), Bloomberg ✅ (#18)
+    //
     // 394. Decode String - Medium
     // https://leetcode.com/problems/decode-string/
     /* ------------------------------------------------------------

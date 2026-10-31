@@ -3,6 +3,9 @@ package math;
 import java.util.*;
 
 public class Q0149_MaxPointsOnALine {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#70)
+    //
     // 149. Max Points on a Line - Hard
     // https://leetcode.com/problems/max-points-on-a-line/
 

@@ -5,6 +5,9 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class Q0253_MeetingRoomsII {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    //
     // 253. Meeting Rooms II - Medium
     // https://leetcode.com/problems/meeting-rooms-ii/
     /* ---------------------------------------------------------

@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q0443_StringCompression {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#112), Apple ✅ (#49), Bloomberg ✅ (#114)
+    //
     // 443. String Compression - Medium
     // https://leetcode.com/problems/string-compression/
 

@@ -3,6 +3,11 @@ package design;
 import java.util.*;
 
 public class Q0362_DesignHitCounter {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Apple ✅ (#4), Wise
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 362. Design Hit Counter - Medium
     // https://leetcode.com/problems/design-hit-counter/
 

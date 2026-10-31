@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Q1091_ShortestPathInBinaryMatrix {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#24)
+    //
     // 1091. Shortest Path in Binary Matrix - Medium
     // https://leetcode.com/problems/shortest-path-in-binary-matrix/
 

@@ -4,6 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Q0202_HappyNumber {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#63)
+    //
     // 202. Happy Number - Easy
     // https://leetcode.com/problems/happy-number/
 

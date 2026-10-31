@@ -3,6 +3,12 @@ package design;
 import java.util.*;
 
 public class Q0146_LRUCache {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Seviye    : Mid
+    // Raporlar  : 2
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 146. LRU Cache - Medium
     // https://leetcode.com/problems/lru-cache/
 

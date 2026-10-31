@@ -3,6 +3,12 @@ package intervals;
 import java.util.*;
 
 public class Q0986_IntervalListIntersections {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#38)
+    // Seviye    : Staff
+    // Raporlar  : 1
+    //             https://leetcode.com/discuss/post/6298191/Meta-E6-Phone-Screen-or-pass/
+    //
     // 986. Interval List Intersections - Medium
     // https://leetcode.com/problems/interval-list-intersections/
 

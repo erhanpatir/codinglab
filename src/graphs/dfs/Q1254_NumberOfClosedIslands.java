@@ -3,6 +3,12 @@ package graphs.dfs;
 import java.util.*;
 
 public class Q1254_NumberOfClosedIslands {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Google ✅ (#344)
+    // Seviye    : Senior
+    // Raporlar  : 1
+    //             https://www.hellointerview.com/guides/google/l5
+    //
     // 1254. Number of Closed Islands - Medium
     // https://leetcode.com/problems/number-of-closed-islands/
 

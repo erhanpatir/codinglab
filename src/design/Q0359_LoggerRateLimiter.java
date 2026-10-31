@@ -3,6 +3,12 @@ package design;
 import java.util.*;
 
 public class Q0359_LoggerRateLimiter {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Google ✅ (#84)
+    // Seviye    : Senior
+    // Raporlar  : 2 (1 📍London)
+    //             https://www.hellointerview.com/guides/google/l5
+    //
     // 359. Logger Rate Limiter - Easy
     // https://leetcode.com/problems/logger-rate-limiter/
 

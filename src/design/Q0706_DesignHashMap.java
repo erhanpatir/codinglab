@@ -1,6 +1,9 @@
 package design;
 
 public class Q0706_DesignHashMap {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Apple ✅ (#57)
+    //
     // 706. Design HashMap - Easy
     // https://leetcode.com/problems/design-hashmap/description/
     /* ------------------------------------------------------------

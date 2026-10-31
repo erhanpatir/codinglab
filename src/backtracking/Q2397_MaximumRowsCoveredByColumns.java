@@ -3,6 +3,9 @@ package backtracking;
 import java.util.*;
 
 public class Q2397_MaximumRowsCoveredByColumns {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#83)
+    //
     // 2397. Maximum Rows Covered by Columns - Medium
     // https://leetcode.com/problems/maximum-rows-covered-by-columns/
 

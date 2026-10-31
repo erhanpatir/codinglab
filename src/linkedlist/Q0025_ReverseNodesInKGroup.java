@@ -4,6 +4,9 @@ import common.model.ListNode;
 import java.util.*;
 
 public class Q0025_ReverseNodesInKGroup {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#109)
+    //
     // 25. Reverse Nodes in k-Group - Hard
     // https://leetcode.com/problems/reverse-nodes-in-k-group/
 

@@ -3,6 +3,9 @@ package matrix;
 import java.util.*;
 
 public class Q3030_FindTheGridOfRegionAverage {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#86)
+    //
     // 3030. Find the Grid of Region Average - Medium
     // https://leetcode.com/problems/find-the-grid-of-region-average/
 

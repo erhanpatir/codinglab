@@ -3,6 +3,9 @@ package bit;
 import java.util.*;
 
 public class Q0191_NumberOf1Bits {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#53)
+    //
     // 191. Number of 1 Bits - Easy
     // https://leetcode.com/problems/number-of-1-bits/description/
 

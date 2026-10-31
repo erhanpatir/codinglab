@@ -3,6 +3,12 @@ package binarysearch;
 import java.util.*;
 
 public class Q0658_FindKClosestElements {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#185)
+    // Seviye    : Mid
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5548151/Meta-or-SWE-E4-or-London-or-Pass/
+    //
     // 658. Find K Closest Elements - Medium
     // https://leetcode.com/problems/find-k-closest-elements/
 

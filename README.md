@@ -9,6 +9,14 @@ Java LeetCode çözümleri, pattern bazlı klasörlerde.
 
 **İşaretler:** ✅ çözüldü · ⬜ boş şablon · ⭐ mülakat listesinde
 
+## Soru başlıklarındaki etiketler
+
+Mülakat listesindeki her sorunun başlığında, soru adının üstünde öncelik, şirketler ve raporlar yazar:
+
+- **Öncelik:** ⭐ Gerçek deneyim (aday raporunda geçiyor) · 🔴 Yüksek (klasik ve son 6 ayda aktif) · 🔵 Trend (son dönemde yükselen) · 🟡 Orta (klasik, son 6 ayda görünmüyor) · 🌍 Ortak soru (birden çok şirkette sık)
+- **Şirketler:** ✅ o şirkette son 6 ayda raporlandı · (#n) şirketin LeetCode etiketindeki tüm zamanlar sırası
+- **Raporlar:** toplam rapor sayısı, kaçının 📍 London'dan olduğu, 👤 senin mülakatın. Altındaki link varsa en güncel LeetCode Discuss raporu, yoksa en güncel kaynak.
+
 ## Pattern özeti
 
 | Pattern | Paket | Soru | Çözülen | Listede |

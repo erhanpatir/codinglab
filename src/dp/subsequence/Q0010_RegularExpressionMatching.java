@@ -3,6 +3,9 @@ package dp.subsequence;
 import java.util.*;
 
 public class Q0010_RegularExpressionMatching {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#83), Amazon ✅ (#108), Apple (#88), Bloomberg ✅ (#116)
+    //
     // 10. Regular Expression Matching - Hard
     // https://leetcode.com/problems/regular-expression-matching/
 

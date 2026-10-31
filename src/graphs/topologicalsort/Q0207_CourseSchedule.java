@@ -6,6 +6,12 @@ import java.util.List;
 import java.util.Queue;
 
 public class Q0207_CourseSchedule {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅
+    // Seviye    : Mid
+    // Raporlar  : 1
+    //             https://www.hellointerview.com/guides/amazon/l5
+    //
     // 207. Course Schedule - Medium
     // https://leetcode.com/problems/course-schedule/
 

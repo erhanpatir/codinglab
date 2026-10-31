@@ -4,6 +4,9 @@ import common.model.ListNode;
 import java.util.*;
 
 public class Q0023_MergeKSortedLists {
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // 23. Merge k Sorted Lists - Hard
     // https://leetcode.com/problems/merge-k-sorted-lists/
 

@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Map;
 
 public class Q0981_TimeBasedKeyValueStore {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Apple ✅ (#21)
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 981. Time Based Key-Value Store - Medium
     // https://leetcode.com/problems/time-based-key-value-store/
     /* ------------------------------------------------------------

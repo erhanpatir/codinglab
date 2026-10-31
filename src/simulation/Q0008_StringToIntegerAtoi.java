@@ -3,6 +3,12 @@ package simulation;
 import java.util.*;
 
 public class Q0008_StringToIntegerAtoi {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Apple ✅, Bloomberg ✅
+    // Seviye    : Mid
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5548151/Meta-or-SWE-E4-or-London-or-Pass/
+    //
     // 8. String to Integer (atoi) - Medium
     // https://leetcode.com/problems/string-to-integer-atoi/
 

@@ -3,6 +3,9 @@ package math;
 import java.util.*;
 
 public class Q2235_AddTwoIntegers {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#35)
+    //
     // 2235. Add Two Integers - Easy
     // https://leetcode.com/problems/add-two-integers/
 

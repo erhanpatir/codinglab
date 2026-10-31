@@ -3,6 +3,9 @@ package greedy;
 import java.util.*;
 
 public class Q0135_Candy {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#116), Bloomberg ✅ (#105)
+    //
     // 135. Candy - Hard
     // https://leetcode.com/problems/candy/
 

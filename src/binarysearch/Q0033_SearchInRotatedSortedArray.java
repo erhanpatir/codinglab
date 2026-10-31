@@ -1,6 +1,9 @@
 package binarysearch;
 
 public class Q0033_SearchInRotatedSortedArray {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 33. Search in Rotated Sorted Array - Medium
     // https://leetcode.com/problems/search-in-rotated-sorted-array/
     /* ------------------------------------------------------------

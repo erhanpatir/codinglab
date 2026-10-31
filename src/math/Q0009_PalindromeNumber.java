@@ -3,6 +3,9 @@ package math;
 import java.util.*;
 
 public class Q0009_PalindromeNumber {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 9. Palindrome Number - Easy
     // https://leetcode.com/problems/palindrome-number/description/
 

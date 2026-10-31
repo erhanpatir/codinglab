@@ -4,6 +4,9 @@ import common.model.Robot;
 import java.util.*;
 
 public class Q0489_RobotRoomCleaner {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#67)
+    //
     // 489. Robot Room Cleaner - Hard
     // https://leetcode.com/problems/robot-room-cleaner/
 

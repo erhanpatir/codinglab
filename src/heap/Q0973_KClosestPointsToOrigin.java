@@ -3,6 +3,12 @@ package heap;
 import java.util.PriorityQueue;
 
 public class Q0973_KClosestPointsToOrigin {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#31)
+    // Seviye    : Senior
+    // Raporlar  : 1
+    //             https://leetcode.com/discuss/post/6080203/
+    //
     // 973. K Closest Points to Origin - Medium
     // https://leetcode.com/problems/k-closest-points-to-origin/
     // ------------------------------------------------------

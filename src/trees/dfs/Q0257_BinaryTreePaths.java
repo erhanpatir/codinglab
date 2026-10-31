@@ -8,6 +8,9 @@ import java.util.Deque;
 import java.util.List;
 
 public class Q0257_BinaryTreePaths {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#78)
+    //
     // 257. Binary Tree Paths - Easy
     // https://leetcode.com/problems/binary-tree-paths/
 

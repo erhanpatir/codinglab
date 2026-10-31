@@ -3,6 +3,9 @@ package stack;
 import java.util.*;
 
 public class Q0032_LongestValidParentheses {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#104)
+    //
     // 32. Longest Valid Parentheses - Hard
     // https://leetcode.com/problems/longest-valid-parentheses/
 

@@ -4,6 +4,12 @@ import java.util.stream.*;
 import java.util.*;
 
 public class Q0791_CustomSortString {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#41)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5501360/MetaorLondonorOnsite/
+    //
     // 791. Custom Sort String - Medium
     // https://leetcode.com/problems/custom-sort-string/
 

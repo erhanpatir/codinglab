@@ -6,6 +6,12 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0098_ValidateBinarySearchTree {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#161), Amazon ✅ (#110), Bloomberg ✅ (#45)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5600735/Meta-or-E5-or-London-or-July-orReject/
+    //
     // 98. Validate Binary Search Tree - Medium
     // https://leetcode.com/problems/validate-binary-search-tree/
 

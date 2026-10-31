@@ -3,6 +3,9 @@ package simulation;
 import java.util.*;
 
 public class Q0273_IntegerToEnglishWords {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#94)
+    //
     // 273. Integer to English Words - Hard
     // https://leetcode.com/problems/integer-to-english-words/
 

@@ -4,6 +4,9 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0173_BinarySearchTreeIterator {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#74)
+    //
     // 173. Binary Search Tree Iterator - Medium
     // https://leetcode.com/problems/binary-search-tree-iterator/
 

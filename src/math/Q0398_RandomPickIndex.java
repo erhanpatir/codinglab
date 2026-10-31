@@ -3,6 +3,9 @@ package math;
 import java.util.*;
 
 public class Q0398_RandomPickIndex {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#88)
+    //
     // 398. Random Pick Index - Medium
     // https://leetcode.com/problems/random-pick-index/
 

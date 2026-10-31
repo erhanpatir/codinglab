@@ -3,6 +3,12 @@ package design;
 import java.util.*;
 
 public class Q0346_MovingAverageFromDataStream {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#40)
+    // Seviye    : Senior, Staff
+    // Raporlar  : 2 (1 📍London)
+    //             https://leetcode.com/discuss/interview-experience/5351906/Meta-or-E5-or-London-or-Passed/
+    //
     // 346. Moving Average from Data Stream - Easy
     // https://leetcode.com/problems/moving-average-from-data-stream/
 

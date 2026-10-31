@@ -3,6 +3,9 @@ package hashing;
 import java.util.*;
 
 public class Q2150_FindAllLonelyNumbersInTheArray {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Apple ✅ (#109)
+    //
     // 2150. Find All Lonely Numbers in the Array - Medium
     // https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/
 

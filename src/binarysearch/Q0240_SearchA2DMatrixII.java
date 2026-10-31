@@ -1,6 +1,9 @@
 package binarysearch;
 
 public class Q0240_SearchA2DMatrixII {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Meta ✅ (#245), Apple (#54)
+    //
     // 240. Search a 2D Matrix II - Medium
     // https://leetcode.com/problems/search-a-2d-matrix-ii/
     /* ------------------------------------------------------------

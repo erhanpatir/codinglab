@@ -3,6 +3,9 @@ package bit;
 import java.util.*;
 
 public class Q0190_ReverseBits {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#45)
+    //
     // 190. Reverse Bits - Easy
     // https://leetcode.com/problems/reverse-bits/description/
 

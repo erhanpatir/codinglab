@@ -3,6 +3,9 @@ package graphs.unionfind;
 import java.util.*;
 
 public class Q0721_AccountsMerge {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#73)
+    //
     // 721. Accounts Merge - Medium
     // https://leetcode.com/problems/accounts-merge/description/
 

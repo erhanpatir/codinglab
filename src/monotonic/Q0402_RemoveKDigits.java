@@ -4,6 +4,9 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0402_RemoveKDigits {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Amazon ✅ (#181)
+    //
     // 402. Remove K Digits - Medium
     // https://leetcode.com/problems/remove-k-digits/
     /* ------------------------------------------------------------

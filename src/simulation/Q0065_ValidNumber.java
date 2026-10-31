@@ -3,6 +3,12 @@ package simulation;
 import java.util.*;
 
 public class Q0065_ValidNumber {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#53)
+    // Seviye    : Senior
+    // Raporlar  : 1
+    //             https://leetcode.com/discuss/post/6080203/
+    //
     // 65. Valid Number - Hard
     // https://leetcode.com/problems/valid-number/
 

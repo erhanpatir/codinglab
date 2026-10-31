@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q2972_CountTheNumberOfIncremovableSubarraysII {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#84)
+    //
     // 2972. Count the Number of Incremovable Subarrays II - Hard
     // https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-ii/
 

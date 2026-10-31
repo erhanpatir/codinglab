@@ -4,6 +4,12 @@ import java.util.stream.*;
 import java.util.*;
 
 public class Q1762_BuildingsWithAnOceanView {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#22)
+    // Seviye    : Mid
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5096206/Meta-E4-or-London-or-Offer/
+    //
     // 1762. Buildings With an Ocean View - Medium
     // https://leetcode.com/problems/buildings-with-an-ocean-view/
 

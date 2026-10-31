@@ -3,6 +3,9 @@ package bit;
 import java.util.*;
 
 public class Q0136_SingleNumber {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 136. Single Number - Easy
     // https://leetcode.com/problems/single-number/
 

@@ -3,6 +3,12 @@ package twopointers;
 import java.util.*;
 
 public class Q0611_ValidTriangleNumber {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Bloomberg ✅ (#93)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/interview-experience/6614891/
+    //
     // 611. Valid Triangle Number - Medium
     // https://leetcode.com/problems/valid-triangle-number/
 

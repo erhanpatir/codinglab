@@ -5,6 +5,9 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 public class Q0767_ReorganizeString {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#11)
+    //
     // 767. Reorganize String - Medium
     // https://leetcode.com/problems/reorganize-string/
     /* ---------------------------------------------------------------

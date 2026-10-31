@@ -3,6 +3,12 @@ package binarysearch;
 import java.util.Random;
 
 public class Q0528_RandomPickWithWeight {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#11), Amazon ✅ (#217)
+    // Seviye    : Mid, Senior, Staff
+    // Raporlar  : 6 (3 📍London)
+    //             https://leetcode.com/discuss/post/6374737/Amazonor-SDE2-or-Onsite-Loop-Interview/
+    //
     // 528. Random Pick with Weight - Medium
     // https://leetcode.com/problems/random-pick-with-weight/
     /* ------------------------------------------------------------

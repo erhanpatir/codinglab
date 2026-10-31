@@ -3,6 +3,9 @@ package simulation;
 import java.util.*;
 
 public class Q1752_CheckIfArrayIsSortedAndRotated {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#75)
+    //
     // 1752. Check if Array Is Sorted and Rotated - Easy
     // https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 

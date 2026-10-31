@@ -3,6 +3,12 @@ package math;
 import java.util.*;
 
 public class Q0050_PowXN {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Bloomberg ✅
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5600735/Meta-or-E5-or-London-or-July-orReject/
+    //
     // 50. Pow(x, n) - Medium
     // https://leetcode.com/problems/powx-n/
 

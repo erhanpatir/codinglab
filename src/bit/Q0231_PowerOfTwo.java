@@ -3,6 +3,9 @@ package bit;
 import java.util.*;
 
 public class Q0231_PowerOfTwo {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#75)
+    //
     // 231. Power of Two - Easy
     // https://leetcode.com/problems/power-of-two/
 

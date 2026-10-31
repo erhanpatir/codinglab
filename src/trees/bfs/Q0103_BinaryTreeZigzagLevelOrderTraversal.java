@@ -5,6 +5,9 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0103_BinaryTreeZigzagLevelOrderTraversal {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#113)
+    //
     // 103. Binary Tree Zigzag Level Order Traversal - Medium
     // https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 

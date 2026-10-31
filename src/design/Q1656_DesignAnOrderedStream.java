@@ -3,6 +3,11 @@ package design;
 import java.util.*;
 
 public class Q1656_DesignAnOrderedStream {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Bloomberg (#108)
+    // Raporlar  : 1 (1 📍London)
+    //             https://arpita0412.medium.com/bloomberg-london-interview-experience-fd2a6a65c84c
+    //
     // 1656. Design an Ordered Stream - Easy
     // https://leetcode.com/problems/design-an-ordered-stream/
 

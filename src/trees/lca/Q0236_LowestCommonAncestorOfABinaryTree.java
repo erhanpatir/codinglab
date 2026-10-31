@@ -5,6 +5,12 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0236_LowestCommonAncestorOfABinaryTree {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta, Amazon ✅, Apple
+    // Seviye    : Mid, Senior, Staff
+    // Raporlar  : 3 (2 📍London)
+    //             https://leetcode.com/discuss/post/5600735/Meta-or-E5-or-London-or-July-orReject/
+    //
     // 236. Lowest Common Ancestor of a Binary Tree - Medium
     // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 

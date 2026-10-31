@@ -3,6 +3,9 @@ package graphs.dfs;
 import java.util.*;
 
 public class Q0733_FloodFill {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#119)
+    //
     // 733. Flood Fill - Easy
     // https://leetcode.com/problems/flood-fill/
 

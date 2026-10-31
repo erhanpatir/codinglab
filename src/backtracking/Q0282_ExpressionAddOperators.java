@@ -3,6 +3,9 @@ package backtracking;
 import java.util.*;
 
 public class Q0282_ExpressionAddOperators {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#82)
+    //
     // 282. Expression Add Operators - Hard
     // https://leetcode.com/problems/expression-add-operators/
 

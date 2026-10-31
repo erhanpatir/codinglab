@@ -3,6 +3,9 @@ package linkedlist;
 import common.model.ListNode;
 
 public class Q0876_MiddleOfTheLinkedList {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#101)
+    //
     // 876. Middle of the Linked List - Easy
     // https://leetcode.com/problems/middle-of-the-linked-list/
     /* ------------------------------------------------------------

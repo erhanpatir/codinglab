@@ -1,6 +1,11 @@
 package dp.subsequence;
 
 public class Q1143_LongestCommonSubsequence {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Apple ✅ (#98)
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 1143. Longest Common Subsequence - Medium
     // https://leetcode.com/problems/longest-common-subsequence/description/
 

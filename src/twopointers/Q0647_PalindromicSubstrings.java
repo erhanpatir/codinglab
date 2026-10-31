@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q0647_PalindromicSubstrings {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#64)
+    //
     // 647. Palindromic Substrings - Medium
     // https://leetcode.com/problems/palindromic-substrings/
 

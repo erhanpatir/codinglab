@@ -3,6 +3,9 @@ package stack;
 import java.util.*;
 
 public class Q0224_BasicCalculator {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#96)
+    //
     // 224. Basic Calculator - Hard
     // https://leetcode.com/problems/basic-calculator/
 

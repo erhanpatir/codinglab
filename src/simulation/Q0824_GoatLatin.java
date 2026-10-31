@@ -3,6 +3,9 @@ package simulation;
 import java.util.*;
 
 public class Q0824_GoatLatin {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#76)
+    //
     // 824. Goat Latin - Easy
     // https://leetcode.com/problems/goat-latin/
 

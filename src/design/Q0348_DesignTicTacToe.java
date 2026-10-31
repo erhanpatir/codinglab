@@ -3,6 +3,12 @@ package design;
 import java.util.*;
 
 public class Q0348_DesignTicTacToe {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Amazon (#348), Apple (#62), Wise
+    // Seviye    : Mid, Senior
+    // Raporlar  : 3 (2 📍London) · 👤 senin mülakatın
+    //             https://leetcode.com/discuss/post/7384518/
+    //
     // 348. Design Tic-Tac-Toe - Medium
     // https://leetcode.com/problems/design-tic-tac-toe/
 

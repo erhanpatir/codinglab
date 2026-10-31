@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q0076_MinimumWindowSubstring {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#39), Amazon ✅ (#54)
+    //
     // 76. Minimum Window Substring - Hard
     // https://leetcode.com/problems/minimum-window-substring/
     /* ---------------------------------------------------------------------

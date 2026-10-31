@@ -3,6 +3,9 @@ package graphs.dfs;
 import java.util.*;
 
 public class Q0827_MakingALargeIsland {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#37)
+    //
     // 827. Making A Large Island - Hard
     // https://leetcode.com/problems/making-a-large-island/
 

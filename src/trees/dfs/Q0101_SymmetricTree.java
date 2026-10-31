@@ -3,6 +3,9 @@ package trees.dfs;
 import common.model.TreeNode;
 
 public class Q0101_SymmetricTree {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#109)
+    //
     // 101. Symmetric Tree - Easy
     // https://leetcode.com/problems/symmetric-tree/
 

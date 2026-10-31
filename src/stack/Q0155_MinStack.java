@@ -4,6 +4,12 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0155_MinStack {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/interview-experience/6614891/
+    //
     // 155. Min Stack - Medium
     // https://leetcode.com/problems/min-stack/
     /* ------------------------------------------------------

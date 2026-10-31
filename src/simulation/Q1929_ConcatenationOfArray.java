@@ -3,6 +3,9 @@ package simulation;
 import java.util.*;
 
 public class Q1929_ConcatenationOfArray {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#29)
+    //
     // 1929. Concatenation of Array - Easy
     // https://leetcode.com/problems/concatenation-of-array/
 

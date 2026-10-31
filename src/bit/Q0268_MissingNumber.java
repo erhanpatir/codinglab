@@ -3,6 +3,9 @@ package bit;
 import java.util.*;
 
 public class Q0268_MissingNumber {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#118)
+    //
     // 268. Missing Number - Easy
     // https://leetcode.com/problems/missing-number/description/
 

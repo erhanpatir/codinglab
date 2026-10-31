@@ -4,6 +4,9 @@ import java.util.stream.*;
 import java.util.*;
 
 public class Q0140_WordBreakII {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#46)
+    //
     // 140. Word Break II - Hard
     // https://leetcode.com/problems/word-break-ii/
 

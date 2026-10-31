@@ -3,6 +3,9 @@ package greedy;
 import java.util.*;
 
 public class Q3914_MinimumOperationsToMakeArrayNonDecreasing {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Amazon ✅ (#241)
+    //
     // 3914. Minimum Operations to Make Array Non Decreasing - Medium
     // https://leetcode.com/problems/minimum-operations-to-make-array-non-decreasing/
 

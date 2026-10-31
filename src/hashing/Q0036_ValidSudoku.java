@@ -4,6 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Q0036_ValidSudoku {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#76), Apple ✅ (#11)
+    //
     // 36. Valid Sudoku - Medium
     // https://leetcode.com/problems/valid-sudoku/description/
 

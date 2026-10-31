@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class Q0252_MeetingRooms {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#93)
+    //
     // 252. Meeting Rooms - Easy
     // https://leetcode.com/problems/meeting-rooms/
     /* ------------------------------------------

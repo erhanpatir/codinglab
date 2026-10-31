@@ -1,6 +1,9 @@
 package binarysearch;
 
 public class Q0704_BinarySearch {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#76), Bloomberg ✅ (#101)
+    //
     // 704. Binary Search - Easy
     // https://leetcode.com/problems/binary-search/
     /* ------------------------------------------------------------

@@ -3,6 +3,9 @@ package math;
 import java.util.*;
 
 public class Q3625_CountNumberOfTrapezoidsII {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Google (#103)
+    //
     // 3625. Count Number of Trapezoids II - Hard
     // https://leetcode.com/problems/count-number-of-trapezoids-ii/
 

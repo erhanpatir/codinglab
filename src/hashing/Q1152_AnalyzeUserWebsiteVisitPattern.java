@@ -3,6 +3,9 @@ package hashing;
 import java.util.*;
 
 public class Q1152_AnalyzeUserWebsiteVisitPattern {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Amazon ✅ (#56)
+    //
     // 1152. Analyze User Website Visit Pattern - Medium
     // https://leetcode.com/problems/analyze-user-website-visit-pattern/
 

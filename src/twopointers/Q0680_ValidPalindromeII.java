@@ -3,6 +3,12 @@ package twopointers;
 import java.util.*;
 
 public class Q0680_ValidPalindromeII {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#3)
+    // Seviye    : Mid
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5732927/META-or-PHONE-SCREEN-or-E4-or-London-or-Sept-2024-or-PASSED/
+    //
     // 680. Valid Palindrome II - Easy
     // https://leetcode.com/problems/valid-palindrome-ii/
 

@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Q0525_ContiguousArray {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Meta ✅ (#159)
+    //
     // 525. Contiguous Array - Medium
     // https://leetcode.com/problems/contiguous-array/
     // --------------------------------------------

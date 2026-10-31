@@ -3,6 +3,11 @@ package slidingwindow;
 import java.util.*;
 
 public class Q0713_SubarrayProductLessThanK {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Apple ✅ (#20)
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 713. Subarray Product Less Than K - Medium
     // https://leetcode.com/problems/subarray-product-less-than-k/
 

@@ -3,6 +3,9 @@ package design;
 import java.util.*;
 
 public class Q1396_DesignUndergroundSystem {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#28)
+    //
     // 1396. Design Underground System - Medium
     // https://leetcode.com/problems/design-underground-system/
 

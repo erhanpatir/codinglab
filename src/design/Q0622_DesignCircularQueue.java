@@ -3,6 +3,9 @@ package design;
 import java.util.*;
 
 public class Q0622_DesignCircularQueue {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#37)
+    //
     // 622. Design Circular Queue - Medium
     // https://leetcode.com/problems/design-circular-queue/
 

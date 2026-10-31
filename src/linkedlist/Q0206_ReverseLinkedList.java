@@ -3,6 +3,9 @@ package linkedlist;
 import common.model.ListNode;
 
 public class Q0206_ReverseLinkedList {
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // 206. Reverse Linked List - Easy
     // https://leetcode.com/problems/reverse-linked-list/
     /* ------------------------------------------------------------

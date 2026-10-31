@@ -4,6 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Q0217_ContainsDuplicate {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 217. Contains Duplicate - Easy
     // https://leetcode.com/problems/contains-duplicate/
 

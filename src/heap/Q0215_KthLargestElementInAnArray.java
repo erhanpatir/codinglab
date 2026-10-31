@@ -3,6 +3,12 @@ package heap;
 import java.util.*;
 
 public class Q0215_KthLargestElementInAnArray {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Seviye    : Mid, Senior
+    // Raporlar  : 4 (2 📍London)
+    //             https://leetcode.com/discuss/post/5501360/MetaorLondonorOnsite/
+    //
     // 215. Kth Largest Element in an Array - Medium
     // https://leetcode.com/problems/kth-largest-element-in-an-array/
 

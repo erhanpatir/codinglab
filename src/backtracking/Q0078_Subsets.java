@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Q0078_Subsets {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5264755/Meta-or-E5-or-London-or-Offer/
+    //
     // 78. Subsets - Medium
     // https://leetcode.com/problems/subsets/
     // Backtracking : backtrack + loop continuatio

@@ -3,6 +3,9 @@ package heap;
 import java.util.*;
 
 public class Q0378_KthSmallestElementInASortedMatrix {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#96)
+    //
     // 378. Kth Smallest Element in a Sorted Matrix - Medium
     // https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 

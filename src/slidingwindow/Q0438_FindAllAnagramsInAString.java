@@ -5,6 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Q0438_FindAllAnagramsInAString {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta ✅ (#308)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5264755/Meta-or-E5-or-London-or-Offer/
+    //
     // 438. Find All Anagrams in a String - Medium
     // https://leetcode.com/problems/find-all-anagrams-in-a-string/
     /* -------------------------------------------

@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q0189_RotateArray {
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    //
     // 189. Rotate Array - Medium
     // https://leetcode.com/problems/rotate-array/
 

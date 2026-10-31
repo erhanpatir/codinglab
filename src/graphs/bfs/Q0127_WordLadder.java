@@ -3,6 +3,11 @@ package graphs.bfs;
 import java.util.*;
 
 public class Q0127_WordLadder {
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Amazon ✅, Apple ✅
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 127. Word Ladder - Hard
     // https://leetcode.com/problems/word-ladder/
 

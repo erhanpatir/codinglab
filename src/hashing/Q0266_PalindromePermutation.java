@@ -3,6 +3,12 @@ package hashing;
 import java.util.*;
 
 public class Q0266_PalindromePermutation {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#670)
+    // Seviye    : Senior
+    // Raporlar  : 1
+    //             https://leetcode.com/discuss/post/6080203/
+    //
     // 266. Palindrome Permutation - Easy
     // https://leetcode.com/problems/palindrome-permutation/
 

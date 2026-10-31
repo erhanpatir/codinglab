@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q0005_LongestPalindromicSubstring {
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    //
     // 5. Longest Palindromic Substring - Medium
     // https://leetcode.com/problems/longest-palindromic-substring/
 

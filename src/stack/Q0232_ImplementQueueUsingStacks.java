@@ -3,6 +3,9 @@ package stack;
 import java.util.*;
 
 public class Q0232_ImplementQueueUsingStacks {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#92)
+    //
     // 232. Implement Queue using Stacks - Easy
     // https://leetcode.com/problems/implement-queue-using-stacks/
 

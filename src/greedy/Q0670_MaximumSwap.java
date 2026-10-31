@@ -3,6 +3,12 @@ package greedy;
 import java.util.*;
 
 public class Q0670_MaximumSwap {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#46), Apple ✅ (#156)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5501360/MetaorLondonorOnsite/
+    //
     // 670. Maximum Swap - Medium
     // https://leetcode.com/problems/maximum-swap/
 

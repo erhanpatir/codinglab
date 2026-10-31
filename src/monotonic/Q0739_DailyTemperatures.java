@@ -4,6 +4,9 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0739_DailyTemperatures {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#106), Amazon ✅ (#88), Bloomberg ✅ (#94)
+    //
     // 739. Daily Temperatures - Medium
     // https://leetcode.com/problems/daily-temperatures/
     /* ------------------------------------------------------

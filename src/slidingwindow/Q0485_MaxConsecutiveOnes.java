@@ -3,6 +3,9 @@ package slidingwindow;
 import java.util.*;
 
 public class Q0485_MaxConsecutiveOnes {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#56), Bloomberg ✅ (#88)
+    //
     // 485. Max Consecutive Ones - Easy
     // https://leetcode.com/problems/max-consecutive-ones/
 

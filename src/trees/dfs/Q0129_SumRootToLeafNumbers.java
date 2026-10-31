@@ -4,6 +4,9 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0129_SumRootToLeafNumbers {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Meta ✅ (#26)
+    //
     // 129. Sum Root to Leaf Numbers - Medium
     // https://leetcode.com/problems/sum-root-to-leaf-numbers/
 

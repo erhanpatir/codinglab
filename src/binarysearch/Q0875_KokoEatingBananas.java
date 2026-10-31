@@ -1,6 +1,9 @@
 package binarysearch;
 
 public class Q0875_KokoEatingBananas {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 875. Koko Eating Bananas - Medium
     // https://leetcode.com/problems/koko-eating-bananas/
     /* ------------------------------------------------------------

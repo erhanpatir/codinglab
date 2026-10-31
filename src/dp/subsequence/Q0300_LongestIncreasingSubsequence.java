@@ -3,6 +3,9 @@ package dp.subsequence;
 import java.util.Arrays;
 
 public class Q0300_LongestIncreasingSubsequence {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#80)
+    //
     // 300. Longest Increasing Subsequence - Medium
     // https://leetcode.com/problems/longest-increasing-subsequence/
 

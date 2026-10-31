@@ -3,6 +3,11 @@ package design;
 import java.util.*;
 
 public class Q1146_SnapshotArray {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Apple ✅ (#34)
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 1146. Snapshot Array - Medium
     // https://leetcode.com/problems/snapshot-array/
 

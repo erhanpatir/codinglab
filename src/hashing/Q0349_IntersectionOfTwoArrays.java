@@ -4,6 +4,9 @@ import java.util.stream.*;
 import java.util.*;
 
 public class Q0349_IntersectionOfTwoArrays {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#90)
+    //
     // 349. Intersection of Two Arrays - Easy
     // https://leetcode.com/problems/intersection-of-two-arrays/description/
 

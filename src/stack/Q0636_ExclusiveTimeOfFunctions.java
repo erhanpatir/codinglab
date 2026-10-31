@@ -3,6 +3,9 @@ package stack;
 import java.util.*;
 
 public class Q0636_ExclusiveTimeOfFunctions {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#55)
+    //
     // 636. Exclusive Time of Functions - Medium
     // https://leetcode.com/problems/exclusive-time-of-functions/
 

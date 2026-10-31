@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Queue;
 
 public class Q0210_CourseSchedule2 {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Amazon ✅ (#43), Apple ✅ (#13)
+    // Raporlar  : 1
+    //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
+    //
     // 210. Course Schedule II - Medium
     // https://leetcode.com/problems/course-schedule-ii/
     // PATTERN : directed graph + topological sort

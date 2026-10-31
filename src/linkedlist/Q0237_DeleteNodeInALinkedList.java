@@ -4,6 +4,9 @@ import common.model.ListNode;
 import java.util.*;
 
 public class Q0237_DeleteNodeInALinkedList {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#72)
+    //
     // 237. Delete Node in a Linked List - Medium
     // https://leetcode.com/problems/delete-node-in-a-linked-list/
 

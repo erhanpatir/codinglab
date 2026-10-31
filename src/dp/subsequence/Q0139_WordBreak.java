@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.Set;
 
 public class Q0139_WordBreak {
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
+    // Şirketler : Amazon ✅, Apple, Bloomberg ✅
+    //
     // 139. Word Break - Medium
     // https://leetcode.com/problems/word-break/
 

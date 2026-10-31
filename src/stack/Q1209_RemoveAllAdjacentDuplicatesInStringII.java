@@ -3,6 +3,9 @@ package stack;
 import java.util.*;
 
 public class Q1209_RemoveAllAdjacentDuplicatesInStringII {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Bloomberg (#69)
+    //
     // 1209. Remove All Adjacent Duplicates in String II - Medium
     // https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/
 

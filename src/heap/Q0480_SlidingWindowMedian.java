@@ -3,6 +3,9 @@ package heap;
 import java.util.*;
 
 public class Q0480_SlidingWindowMedian {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Meta (#92)
+    //
     // 480. Sliding Window Median - Hard
     // https://leetcode.com/problems/sliding-window-median/
 

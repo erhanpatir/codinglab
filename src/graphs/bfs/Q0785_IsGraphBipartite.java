@@ -3,6 +3,9 @@ package graphs.bfs;
 import java.util.*;
 
 public class Q0785_IsGraphBipartite {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Apple ✅ (#198)
+    //
     // 785. Is Graph Bipartite - Medium
     // https://leetcode.com/problems/is-graph-bipartite/
 

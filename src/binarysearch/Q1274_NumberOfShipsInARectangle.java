@@ -4,6 +4,9 @@ import common.model.Sea;
 import java.util.*;
 
 public class Q1274_NumberOfShipsInARectangle {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#43)
+    //
     // 1274. Number of Ships in a Rectangle - Hard
     // https://leetcode.com/problems/number-of-ships-in-a-rectangle/
 

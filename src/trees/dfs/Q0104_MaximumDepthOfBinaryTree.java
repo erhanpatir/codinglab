@@ -6,6 +6,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Q0104_MaximumDepthOfBinaryTree {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#76)
+    //
     // 104. Maximum Depth of Binary Tree - Easy
     // https://leetcode.com/problems/maximum-depth-of-binary-tree/
 

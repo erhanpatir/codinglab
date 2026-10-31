@@ -3,6 +3,9 @@ package design;
 import java.util.*;
 
 public class Q2502_DesignMemoryAllocator {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Apple ✅ (#110)
+    //
     // 2502. Design Memory Allocator - Medium
     // https://leetcode.com/problems/design-memory-allocator/
 

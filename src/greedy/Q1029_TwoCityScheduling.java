@@ -3,6 +3,9 @@ package greedy;
 import java.util.*;
 
 public class Q1029_TwoCityScheduling {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#82)
+    //
     // 1029. Two City Scheduling - Medium
     // https://leetcode.com/problems/two-city-scheduling/
 

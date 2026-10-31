@@ -3,6 +3,9 @@ package dp.grid;
 import java.util.Arrays;
 
 public class Q0062_UniquePaths {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#100), Amazon ✅ (#66)
+    //
     // 62. Unique Paths - Medium
     // https://leetcode.com/problems/unique-paths/
     // Pattern: 2D Grid DP + Count Paths

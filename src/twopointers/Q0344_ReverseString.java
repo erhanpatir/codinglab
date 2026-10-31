@@ -3,6 +3,9 @@ package twopointers;
 import java.util.*;
 
 public class Q0344_ReverseString {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Google ✅ (#114), Bloomberg ✅ (#106)
+    //
     // 344. Reverse String - Easy
     // https://leetcode.com/problems/reverse-string/
 

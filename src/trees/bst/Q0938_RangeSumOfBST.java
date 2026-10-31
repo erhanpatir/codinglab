@@ -4,6 +4,12 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0938_RangeSumOfBST {
+    // Öncelik   : ⭐ Gerçek deneyim
+    // Şirketler : Meta (#29)
+    // Seviye    : Senior
+    // Raporlar  : 1 (1 📍London)
+    //             https://leetcode.com/discuss/post/5264755/Meta-or-E5-or-London-or-Offer/
+    //
     // 938. Range Sum of BST - Easy
     // https://leetcode.com/problems/range-sum-of-bst/
 

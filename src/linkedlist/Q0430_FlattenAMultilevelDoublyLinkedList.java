@@ -4,6 +4,9 @@ import common.model.Node;
 import java.util.*;
 
 public class Q0430_FlattenAMultilevelDoublyLinkedList {
+    // Öncelik   : 🔴 Yüksek
+    // Şirketler : Bloomberg ✅ (#16)
+    //
     // 430. Flatten a Multilevel Doubly Linked List - Medium
     // https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/
 

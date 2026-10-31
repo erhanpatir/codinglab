@@ -3,6 +3,9 @@ package trie;
 import java.util.*;
 
 public class Q0208_ImplementTrie {
+    // Öncelik   : 🟡 Orta
+    // Şirketler : Apple (#60)
+    //
     // 208. Implement Trie (Prefix Tree) - Medium
     // https://leetcode.com/problems/implement-trie-prefix-tree/description/
 

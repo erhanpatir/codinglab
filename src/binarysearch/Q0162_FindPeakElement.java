@@ -1,6 +1,9 @@
 package binarysearch;
 
 public class Q0162_FindPeakElement {
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
+    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    //
     // 162. Find Peak Element - Medium
     // https://leetcode.com/problems/find-peak-element/
     /* ------------------------------------------------------------

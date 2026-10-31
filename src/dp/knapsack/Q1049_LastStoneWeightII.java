@@ -3,6 +3,9 @@ package dp.knapsack;
 import java.util.*;
 
 public class Q1049_LastStoneWeightII {
+    // Öncelik   : 🔵 Trend
+    // Şirketler : Apple ✅ (#111)
+    //
     // 1049. Last Stone Weight II - Medium
     // https://leetcode.com/problems/last-stone-weight-ii/
 
