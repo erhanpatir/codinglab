@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0127_WordLadder {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Amazon ✅, Apple ✅
+    // Şirketler : Meta ✅ (#89), Amazon ✅ (#33), Apple ✅ (#29)
     // Raporlar  : 1
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
     //

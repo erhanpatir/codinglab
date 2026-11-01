@@ -3,7 +3,7 @@ package hashing;
 import java.util.*;
 
 public class Q0387_FirstUniqueCharacterInAString {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Amazon ✅ (#101), Apple (#64), Bloomberg ✅ (#52)
     // Raporlar  : 1 (1 📍London)
     //             https://arpita0412.medium.com/bloomberg-london-interview-experience-fd2a6a65c84c

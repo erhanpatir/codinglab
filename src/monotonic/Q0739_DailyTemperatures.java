@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0739_DailyTemperatures {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#106), Amazon ✅ (#88), Bloomberg ✅ (#94)
     //
     // 739. Daily Temperatures - Medium

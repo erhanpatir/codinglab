@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0118_PascalSTriangle {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Google ✅ (#44), Amazon ✅ (#58), Apple (#69), Bloomberg ✅ (#48)
     //
     // 118. Pascal's Triangle - Easy
     // https://leetcode.com/problems/pascals-triangle/

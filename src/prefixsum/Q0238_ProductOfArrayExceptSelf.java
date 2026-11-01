@@ -2,7 +2,7 @@ package prefixsum;
 
 public class Q0238_ProductOfArrayExceptSelf {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Google ✅ (#72), Amazon ✅ (#31), Apple (#23), Bloomberg ✅ (#72)
     //
     // 238. Product of Array Except Self - Medium
     // https://leetcode.com/problems/product-of-array-except-self/

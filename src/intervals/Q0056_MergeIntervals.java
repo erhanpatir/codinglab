@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Q0056_MergeIntervals {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#17), Google ✅ (#23), Amazon ✅ (#13), Apple ✅ (#3), Bloomberg ✅ (#2)
     // Seviye    : Mid, Senior
     // Raporlar  : 6 (3 📍London)
     //             https://leetcode.com/discuss/post/5501360/MetaorLondonorOnsite/

@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q1768_MergeStringsAlternately {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅
+    // Şirketler : Meta ✅ (#90), Google ✅ (#15), Amazon ✅ (#99)
     //
     // 1768. Merge Strings Alternately - Easy
     // https://leetcode.com/problems/merge-strings-alternately/

@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0189_RotateArray {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#54), Amazon ✅ (#85), Apple ✅ (#7), Bloomberg ✅ (#50)
     //
     // 189. Rotate Array - Medium
     // https://leetcode.com/problems/rotate-array/

@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class Q0200_NumberOfIslands {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#60), Google ✅ (#24), Amazon ✅ (#4), Apple ✅ (#6), Bloomberg ✅ (#5)
     // Raporlar  : 2 (1 📍London)
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
     //

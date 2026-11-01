@@ -2,7 +2,7 @@ package dp.linear;
 
 public class Q0053_MaximumSubarray {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#70), Google ✅ (#22), Amazon ✅ (#23), Apple (#28), Bloomberg ✅ (#36)
     //
     // 53. Maximum Subarray - Medium
     // https://leetcode.com/problems/maximum-subarray/

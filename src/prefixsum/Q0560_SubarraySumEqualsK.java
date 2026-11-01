@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Q0560_SubarraySumEqualsK {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#8), Google ✅ (#19), Amazon ✅ (#18), Apple ✅ (#41), Bloomberg ✅ (#27)
     // Seviye    : Mid, Senior
     // Raporlar  : 4 (2 📍London)
     //             https://leetcode.com/discuss/post/8457154/amazon-sde-ii-interview-experience-2026-19lzv/

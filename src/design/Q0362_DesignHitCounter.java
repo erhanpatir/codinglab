@@ -3,7 +3,7 @@ package design;
 import java.util.*;
 
 public class Q0362_DesignHitCounter {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Apple ✅ (#4), Wise
     // Raporlar  : 1
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions

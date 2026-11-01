@@ -3,7 +3,7 @@ package monotonic;
 import java.util.*;
 
 public class Q0496_NextGreaterElement1 {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Amazon ✅ (#97), Bloomberg ✅ (#73)
     //
     // 496. Next Greater Element I - Easy

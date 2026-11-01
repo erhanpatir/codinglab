@@ -2,7 +2,7 @@ package dp.linear;
 
 public class Q0198_HouseRobber {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#46), Amazon ✅ (#34), Apple ✅ (#77), Bloomberg ✅ (#67)
     // Raporlar  : 1
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
     //

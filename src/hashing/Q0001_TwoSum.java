@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Q0001_TwoSum {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#6), Google ✅ (#1), Amazon ✅ (#1), Apple ✅ (#2), Bloomberg ✅ (#1)
     //
     // 1. Two Sum - Easy
     // https://leetcode.com/problems/two-sum/

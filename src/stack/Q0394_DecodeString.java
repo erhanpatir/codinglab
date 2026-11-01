@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0394_DecodeString {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#114), Google ✅ (#47), Bloomberg ✅ (#18)
     //
     // 394. Decode String - Medium

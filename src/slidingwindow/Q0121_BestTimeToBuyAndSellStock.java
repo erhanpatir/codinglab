@@ -3,7 +3,7 @@ package slidingwindow;
 public class Q0121_BestTimeToBuyAndSellStock {
     // 121 - Best Time to Buy and Sell Stock - Easy
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#19), Google ✅ (#9), Amazon ✅ (#6), Apple ✅ (#5), Bloomberg ✅ (#6)
     // Raporlar  : 1
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
     //

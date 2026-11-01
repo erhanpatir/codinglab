@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Q0002_AddTwoNumbers {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#35), Google ✅ (#2), Amazon ✅ (#8), Bloomberg ✅ (#3)
     //
     // 2. Add Two Numbers - Medium
     // https://leetcode.com/problems/add-two-numbers/

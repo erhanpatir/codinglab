@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Q0021_MergeTwoSortedLists {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#80), Google ✅ (#27), Amazon ✅ (#37), Apple (#38), Bloomberg ✅ (#24)
     //
     // 21. Merge Two Sorted Lists - Easy
     // https://leetcode.com/problems/merge-two-sorted-lists/

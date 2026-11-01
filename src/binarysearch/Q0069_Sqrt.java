@@ -2,7 +2,7 @@ package binarysearch;
 
 public class Q0069_Sqrt {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Google ✅ (#77), Amazon ✅ (#79), Apple (#68), Bloomberg ✅ (#56)
     //
     // 69. Sqrt(x) - Easy
     // https://leetcode.com/problems/sqrtx/

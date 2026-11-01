@@ -5,7 +5,7 @@ import java.util.Deque;
 
 public class Q0155_MinStack {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Google ✅ (#93), Amazon ✅ (#69), Apple (#42), Bloomberg ✅ (#30)
     // Seviye    : Senior
     // Raporlar  : 1 (1 📍London)
     //             https://leetcode.com/discuss/interview-experience/6614891/

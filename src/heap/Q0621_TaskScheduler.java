@@ -3,7 +3,7 @@ package heap;
 import java.util.*;
 
 public class Q0621_TaskScheduler {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Amazon ✅ (#53), Apple ✅ (#80)
     // Seviye    : Mid
     // Raporlar  : 1

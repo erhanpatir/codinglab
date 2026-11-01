@@ -2,7 +2,7 @@ package hashing;
 
 public class Q0242_ValidAnagram {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#97), Google ✅ (#43), Amazon ✅ (#40), Bloomberg ✅ (#21)
     //
     // 242. Valid Anagram - Easy
     // https://leetcode.com/problems/valid-anagram/

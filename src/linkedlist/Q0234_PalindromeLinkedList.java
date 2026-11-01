@@ -4,7 +4,7 @@ import common.model.ListNode;
 
 public class Q0234_PalindromeLinkedList {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#97), Amazon ✅ (#91), Bloomberg ✅ (#76)
     //
     // 234. Palindrome Linked List - Easy
     // https://leetcode.com/problems/palindrome-linked-list/

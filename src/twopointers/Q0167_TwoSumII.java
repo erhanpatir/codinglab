@@ -1,7 +1,7 @@
 package twopointers;
 
 public class Q0167_TwoSumII {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#95), Amazon ✅ (#98)
     //
     // 167. Two Sum II - Input Array Is Sorted - Medium

@@ -6,7 +6,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0098_ValidateBinarySearchTree {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#161), Amazon ✅ (#110), Bloomberg ✅ (#45)
     // Seviye    : Senior
     // Raporlar  : 1 (1 📍London)

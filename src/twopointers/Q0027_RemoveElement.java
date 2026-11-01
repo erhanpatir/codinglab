@@ -1,7 +1,7 @@
 package twopointers;
 
 public class Q0027_RemoveElement {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#40), Amazon ✅ (#105), Bloomberg ✅ (#55)
     //
     // 27. Remove Element - Easy

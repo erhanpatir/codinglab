@@ -3,7 +3,7 @@ package math;
 import java.util.*;
 
 public class Q0066_PlusOne {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#105), Google ✅ (#55), Bloomberg ✅ (#80)
     //
     // 66. Plus One - Easy

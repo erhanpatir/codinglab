@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0031_NextPermutation {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#25), Google ✅ (#30), Amazon ✅ (#47), Bloomberg ✅ (#35)
     // Seviye    : Senior
     // Raporlar  : 1 (1 📍London)
     //             https://leetcode.com/discuss/post/5264755/Meta-or-E5-or-London-or-Offer/

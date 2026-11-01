@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q0017_LetterCombinationsOfAPhoneNumber {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple
+    // Şirketler : Google ✅ (#42), Amazon ✅ (#38), Apple (#75)
     //
     // 17. Letter Combinations of a Phone Number - Medium
     // https://leetcode.com/problems/letter-combinations-of-a-phone-number/

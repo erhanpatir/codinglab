@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0004_MedianOfTwoSortedArrays {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#48), Google ✅ (#3), Amazon ✅ (#12), Apple (#35), Bloomberg ✅ (#12)
     //
     // 4. Median of Two Sorted Arrays - Hard
     // https://leetcode.com/problems/median-of-two-sorted-arrays/

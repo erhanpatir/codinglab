@@ -3,7 +3,7 @@ package slidingwindow;
 import java.util.*;
 
 public class Q0485_MaxConsecutiveOnes {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#56), Bloomberg ✅ (#88)
     //
     // 485. Max Consecutive Ones - Easy

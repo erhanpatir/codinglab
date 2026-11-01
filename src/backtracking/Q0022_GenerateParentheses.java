@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q0022_GenerateParentheses {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#77), Google ✅ (#28), Amazon ✅ (#28), Bloomberg ✅ (#38)
     //
     // 22. Generate Parentheses - Medium
     // https://leetcode.com/problems/generate-parentheses/

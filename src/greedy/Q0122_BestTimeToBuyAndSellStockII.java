@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0122_BestTimeToBuyAndSellStockII {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Amazon ✅ (#83), Apple ✅ (#22), Bloomberg ✅ (#98)
     //
     // 122. Best Time to Buy and Sell Stock II - Medium
     // https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/

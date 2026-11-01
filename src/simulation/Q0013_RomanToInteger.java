@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0013_RomanToInteger {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#68), Google ✅ (#21), Amazon ✅ (#67), Bloomberg ✅ (#31)
     //
     // 13. Roman to Integer - Easy
     // https://leetcode.com/problems/roman-to-integer/

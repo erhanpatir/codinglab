@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0050_PowXN {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#18), Google ✅ (#66), Bloomberg ✅ (#60)
     // Seviye    : Senior
     // Raporlar  : 1 (1 📍London)
     //             https://leetcode.com/discuss/post/5600735/Meta-or-E5-or-London-or-July-orReject/

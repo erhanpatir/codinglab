@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class Q0210_CourseSchedule2 {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Amazon ✅ (#43), Apple ✅ (#13)
     // Raporlar  : 1
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions

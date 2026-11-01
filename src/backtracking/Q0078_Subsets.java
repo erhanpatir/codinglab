@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q0078_Subsets {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#65), Google ✅ (#78), Amazon ✅ (#44), Bloomberg ✅ (#33)
     // Seviye    : Senior
     // Raporlar  : 1 (1 📍London)
     //             https://leetcode.com/discuss/post/5264755/Meta-or-E5-or-London-or-Offer/

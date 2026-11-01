@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0073_SetMatrixZeroes {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#91), Google ✅ (#92), Bloomberg ✅ (#84)
     //
     // 73. Set Matrix Zeroes - Medium
     // https://leetcode.com/problems/set-matrix-zeroes/

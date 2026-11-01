@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Q0015_3Sum {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#42), Google ✅ (#7), Amazon ✅ (#10), Apple ✅ (#43), Bloomberg ✅ (#10)
     // Seviye    : Senior
     // Raporlar  : 1 (1 📍London)
     //             https://leetcode.com/discuss/interview-experience/5351906/Meta-or-E5-or-London-or-Passed/

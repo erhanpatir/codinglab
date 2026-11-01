@@ -4,7 +4,7 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0987_VerticalOrderTraversalOfABinaryTree {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#51), Bloomberg ✅ (#103)
     //
     // 987. Vertical Order Traversal of a Binary Tree - Hard

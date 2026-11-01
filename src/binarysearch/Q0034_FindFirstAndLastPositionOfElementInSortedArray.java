@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0034_FindFirstAndLastPositionOfElementInSortedArray {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#36), Google ✅ (#74), Amazon ✅ (#55), Apple ✅ (#26), Bloomberg ✅ (#47)
     //
     // 34. Find First and Last Position of Element in Sorted Array - Medium
     // https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/

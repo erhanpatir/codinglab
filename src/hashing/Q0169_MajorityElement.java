@@ -6,7 +6,7 @@ import java.util.Map;
 
 // LeetCode 169 - Majority Element - Easy
 // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-// Şirketler : Meta ✅, Google ✅, Amazon ✅, Bloomberg ✅
+// Şirketler : Meta ✅ (#84), Google ✅ (#16), Amazon ✅ (#29), Bloomberg ✅ (#19)
 //
 // https://leetcode.com/problems/majority-element/
 public class Q0169_MajorityElement {

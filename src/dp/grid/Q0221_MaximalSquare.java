@@ -1,7 +1,7 @@
 package dp.grid;
 
 public class Q0221_MaximalSquare {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#87), Apple (#71), Wise
     //
     // 221. Maximal Square - Medium

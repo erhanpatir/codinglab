@@ -3,7 +3,7 @@ package twopointers;
 public class Q0125_ValidPalindrome {
     // 125 - Valid Palindrome - Easy
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#20), Google ✅ (#79), Amazon ✅ (#100), Apple ✅ (#16), Bloomberg ✅ (#49)
     //
     // https://leetcode.com/problems/valid-palindrome/
     // --------------------------------------------

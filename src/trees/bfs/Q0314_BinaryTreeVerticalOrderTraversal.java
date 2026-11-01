@@ -4,7 +4,7 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0314_BinaryTreeVerticalOrderTraversal {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Meta (#5), Bloomberg ✅ (#87)
     // Seviye    : Mid, Senior, Staff
     // Raporlar  : 5 (3 📍London)

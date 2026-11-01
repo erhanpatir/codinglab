@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class Q0128_LongestConsecutiveSequence {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#99), Google ✅ (#10), Amazon ✅ (#25), Apple ✅ (#59), Bloomberg ✅ (#29)
     //
     // 128. Longest Consecutive Sequence - Medium
     // https://leetcode.com/problems/longest-consecutive-sequence/

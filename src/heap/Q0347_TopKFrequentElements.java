@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0347_TopKFrequentElements {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#23), Google ✅ (#36), Amazon ✅ (#24), Apple ✅ (#9), Bloomberg ✅ (#81)
     //
     // 347. Top K Frequent Elements - Medium
     // https://leetcode.com/problems/top-k-frequent-elements/

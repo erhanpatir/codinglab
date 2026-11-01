@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0146_LRUCache {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#27), Google ✅ (#51), Amazon ✅ (#3), Apple ✅ (#1), Bloomberg ✅ (#26)
     // Seviye    : Mid
     // Raporlar  : 2
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions

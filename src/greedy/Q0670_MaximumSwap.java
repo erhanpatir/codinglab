@@ -3,7 +3,7 @@ package greedy;
 import java.util.*;
 
 public class Q0670_MaximumSwap {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Meta (#46), Apple ✅ (#156)
     // Seviye    : Senior
     // Raporlar  : 1 (1 📍London)

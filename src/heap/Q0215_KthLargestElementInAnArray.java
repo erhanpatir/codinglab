@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0215_KthLargestElementInAnArray {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#4), Google ✅ (#62), Amazon ✅ (#52), Apple (#19), Bloomberg ✅ (#91)
     // Seviye    : Mid, Senior
     // Raporlar  : 4 (2 📍London)
     //             https://leetcode.com/discuss/post/5501360/MetaorLondonorOnsite/

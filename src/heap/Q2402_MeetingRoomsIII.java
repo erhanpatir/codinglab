@@ -3,7 +3,7 @@ package heap;
 import java.util.*;
 
 public class Q2402_MeetingRoomsIII {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Amazon (#485), Apple ✅ (#127)
     // Seviye    : Mid
     // Raporlar  : 2

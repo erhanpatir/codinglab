@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class Q0102_BinaryTreeLevelOrderTraversal {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Amazon ✅ (#107), Apple (#51), Bloomberg ✅ (#90)
     //
     // 102. Binary Tree Level Order Traversal - Medium

@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0005_LongestPalindromicSubstring {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#52), Google ✅ (#11), Amazon ✅ (#9), Apple (#87), Bloomberg ✅ (#11)
     //
     // 5. Longest Palindromic Substring - Medium
     // https://leetcode.com/problems/longest-palindromic-substring/

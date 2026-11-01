@@ -3,7 +3,7 @@ package twopointers;
 import java.util.*;
 
 public class Q0016_3SumClosest {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#88), Amazon ✅ (#132), Bloomberg ✅ (#65)
     //
     // 16. 3Sum Closest - Medium

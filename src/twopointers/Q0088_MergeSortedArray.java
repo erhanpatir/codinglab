@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Q0088_MergeSortedArray {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#12), Google ✅ (#12), Amazon ✅ (#32), Apple (#48), Bloomberg ✅ (#23)
     // Seviye    : Mid, Senior
     // Raporlar  : 3 (3 📍London)
     //             https://leetcode.com/discuss/post/5264755/Meta-or-E5-or-London-or-Offer/

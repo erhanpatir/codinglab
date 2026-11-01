@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0018_4Sum {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#52), Amazon ✅ (#72), Bloomberg ✅ (#53)
     //
     // 18. 4Sum - Medium
     // https://leetcode.com/problems/4sum/

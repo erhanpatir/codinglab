@@ -3,7 +3,7 @@ package cyclicsort;
 import java.util.*;
 
 public class Q0287_FindTheDuplicateNumber {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#127), Amazon ✅ (#92)
     //
     // 287. Find the Duplicate Number - Medium

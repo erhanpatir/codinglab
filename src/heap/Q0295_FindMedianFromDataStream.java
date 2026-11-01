@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0295_FindMedianFromDataStream {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple ✅
+    // Şirketler : Google ✅ (#91), Amazon ✅ (#49), Apple ✅ (#40)
     //
     // 295. Find Median from Data Stream - Hard
     // https://leetcode.com/problems/find-median-from-data-stream/

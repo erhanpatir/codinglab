@@ -1,7 +1,7 @@
 package binarysearch;
 
 public class Q0240_SearchA2DMatrixII {
-    // Öncelik   : 🔵 Trend
+    // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#245), Apple (#54)
     //
     // 240. Search a 2D Matrix II - Medium

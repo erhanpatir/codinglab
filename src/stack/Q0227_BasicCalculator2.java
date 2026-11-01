@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q0227_BasicCalculator2 {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Meta (#7), Apple ✅ (#46)
     // Seviye    : Mid, Senior, Staff
     // Raporlar  : 3 (1 📍London)

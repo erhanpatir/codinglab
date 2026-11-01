@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0048_RotateImage {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Google ✅ (#57), Amazon ✅ (#51), Apple (#27), Bloomberg ✅ (#40)
     //
     // 48. Rotate Image - Medium
     // https://leetcode.com/problems/rotate-image/description/

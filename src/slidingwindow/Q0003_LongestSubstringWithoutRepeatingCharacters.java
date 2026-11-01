@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class Q0003_LongestSubstringWithoutRepeatingCharacters {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#47), Google ✅ (#8), Amazon ✅ (#5), Apple ✅ (#17), Bloomberg ✅ (#4)
     // Raporlar  : 1
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
     //

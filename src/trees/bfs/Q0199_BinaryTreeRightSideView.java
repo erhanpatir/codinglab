@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class Q0199_BinaryTreeRightSideView {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#15), Amazon ✅ (#90)
     //
     // 199. Binary Tree Right Side View - Medium

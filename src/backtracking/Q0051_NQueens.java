@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0051_NQueens {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#37), Amazon ✅ (#62), Bloomberg ✅ (#96)
     //
     // 51. N-Queens - Hard
     // https://leetcode.com/problems/n-queens/description/

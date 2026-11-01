@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0540_SingleElementInASortedArray {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#70), Amazon ✅ (#78), Bloomberg ✅ (#68)
     //
     // 540. Single Element in a Sorted Array - Medium
     // https://leetcode.com/problems/single-element-in-a-sorted-array/

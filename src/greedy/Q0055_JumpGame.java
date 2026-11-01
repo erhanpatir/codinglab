@@ -2,7 +2,7 @@ package greedy;
 
 public class Q0055_JumpGame {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#59), Amazon ✅ (#39), Bloomberg ✅ (#66)
     //
     // 55. Jump Game - Medium
     // https://leetcode.com/problems/jump-game/

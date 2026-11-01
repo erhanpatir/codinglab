@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0006_ZigzagConversion {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#65), Amazon ✅ (#84), Bloomberg ✅ (#70)
     //
     // 6. Zigzag Conversion - Medium
     // https://leetcode.com/problems/zigzag-conversion/

@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0994_RottingOranges {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#85), Amazon ✅ (#21), Bloomberg ✅ (#99)
     //
     // 994. Rotting Oranges - Medium
     // https://leetcode.com/problems/rotting-oranges/

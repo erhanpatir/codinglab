@@ -4,7 +4,7 @@ import common.model.ListNode;
 
 public class Q0206_ReverseLinkedList {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#32), Amazon ✅ (#86), Apple ✅ (#8), Bloomberg ✅ (#44)
     //
     // 206. Reverse Linked List - Easy
     // https://leetcode.com/problems/reverse-linked-list/

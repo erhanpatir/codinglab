@@ -1,7 +1,7 @@
 package binarysearch;
 
 public class Q0410_SplitArrayLargestSum {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#39), Amazon ✅ (#114), Bloomberg ✅ (#125)
     //
     // 410. Split Array Largest Sum - Hard

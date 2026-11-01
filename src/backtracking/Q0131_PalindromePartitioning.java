@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Q0131_PalindromePartitioning {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#157), Bloomberg ✅ (#74)
     //
     // 131. Palindrome Partitioning - Medium

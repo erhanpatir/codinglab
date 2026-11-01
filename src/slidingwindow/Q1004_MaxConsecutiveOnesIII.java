@@ -1,7 +1,7 @@
 package slidingwindow;
 
 public class Q1004_MaxConsecutiveOnesIII {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#33), Google ✅ (#102), Amazon ✅ (#93)
     // Seviye    : Senior
     // Raporlar  : 1

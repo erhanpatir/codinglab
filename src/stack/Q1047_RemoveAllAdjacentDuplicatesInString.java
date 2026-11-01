@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Q1047_RemoveAllAdjacentDuplicatesInString {
-    // Öncelik   : 🟡 Orta
+    // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
     // Şirketler : Meta (#111), Apple (#81)
     //
     // 1047. Remove All Adjacent Duplicates In String

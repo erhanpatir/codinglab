@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0049_GroupAnagrams {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Meta ✅ (#78), Google ✅ (#38), Amazon ✅ (#7), Apple ✅ (#12), Bloomberg ✅ (#32)
     // Raporlar  : 1
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
     //

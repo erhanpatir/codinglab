@@ -3,7 +3,7 @@ package twopointers;
 public class Q0042_TrappingRainWater {
     // 42 - Trapping Rain Water - Hard
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#63), Google ✅ (#6), Amazon ✅ (#2), Apple (#36), Bloomberg ✅ (#9)
     // Seviye    : Mid
     // Raporlar  : 4 (1 📍London)
     //             https://www.glassdoor.ca/Interview/Amazon-Interview-E6036-RVW97141639.htm

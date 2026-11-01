@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0136_SingleNumber {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#45), Amazon ✅ (#75), Bloomberg ✅ (#41)
     //
     // 136. Single Number - Easy
     // https://leetcode.com/problems/single-number/

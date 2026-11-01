@@ -3,7 +3,7 @@ package binarysearch;
 import java.util.Random;
 
 public class Q0528_RandomPickWithWeight {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Meta (#11), Amazon ✅ (#217)
     // Seviye    : Mid, Senior, Staff
     // Raporlar  : 6 (3 📍London)

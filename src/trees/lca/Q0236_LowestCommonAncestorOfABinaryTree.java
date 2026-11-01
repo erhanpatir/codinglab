@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Q0236_LowestCommonAncestorOfABinaryTree {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta, Amazon ✅, Apple
+    // Şirketler : Meta (#14), Amazon ✅ (#26), Apple (#39)
     // Seviye    : Mid, Senior, Staff
     // Raporlar  : 3 (2 📍London)
     //             https://leetcode.com/discuss/post/5600735/Meta-or-E5-or-London-or-July-orReject/

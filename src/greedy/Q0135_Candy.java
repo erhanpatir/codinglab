@@ -3,7 +3,7 @@ package greedy;
 import java.util.*;
 
 public class Q0135_Candy {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#116), Bloomberg ✅ (#105)
     //
     // 135. Candy - Hard

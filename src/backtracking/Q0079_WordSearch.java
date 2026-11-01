@@ -1,7 +1,7 @@
 package backtracking;
 
 public class Q0079_WordSearch {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Amazon ✅ (#42), Bloomberg ✅ (#15)
     // Seviye    : Senior
     // Raporlar  : 1 (1 📍London)

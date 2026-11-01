@@ -1,7 +1,7 @@
 package binarysearch;
 
 public class Q0704_BinarySearch {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#76), Bloomberg ✅ (#101)
     //
     // 704. Binary Search - Easy

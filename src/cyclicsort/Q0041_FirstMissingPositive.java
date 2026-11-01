@@ -3,7 +3,7 @@ package cyclicsort;
 import java.util.*;
 
 public class Q0041_FirstMissingPositive {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#109), Amazon ✅ (#61)
     //
     // 41. First Missing Positive - Hard

@@ -3,7 +3,7 @@ package twopointers;
 import java.util.*;
 
 public class Q0344_ReverseString {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#114), Bloomberg ✅ (#106)
     //
     // 344. Reverse String - Easy

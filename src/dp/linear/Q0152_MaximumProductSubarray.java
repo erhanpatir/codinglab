@@ -1,7 +1,7 @@
 package dp.linear;
 
 public class Q0152_MaximumProductSubarray {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#231), Google ✅ (#86), Amazon ✅ (#123)
     //
     // 152. Maximum Product Subarray - Medium

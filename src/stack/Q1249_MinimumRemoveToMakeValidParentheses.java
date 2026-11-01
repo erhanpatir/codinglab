@@ -3,7 +3,7 @@ package stack;
 import java.util.*;
 
 public class Q1249_MinimumRemoveToMakeValidParentheses {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#1), Bloomberg (#107)
     // Seviye    : Senior, Staff
     // Raporlar  : 4 (2 📍London)

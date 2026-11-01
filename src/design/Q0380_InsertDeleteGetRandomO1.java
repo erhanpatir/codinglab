@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0380_InsertDeleteGetRandomO1 {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Amazon ✅ (#74), Apple ✅ (#31), Bloomberg ✅ (#7)
     // Raporlar  : 1
     //             https://www.vervecopilot.com/blog/apple-leetcode-interview-questions
     //

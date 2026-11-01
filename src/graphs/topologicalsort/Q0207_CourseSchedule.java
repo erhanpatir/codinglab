@@ -7,7 +7,7 @@ import java.util.Queue;
 
 public class Q0207_CourseSchedule {
     // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple ✅
+    // Şirketler : Meta ✅ (#57), Google ✅ (#82), Amazon ✅ (#16), Apple ✅ (#14)
     // Seviye    : Mid
     // Raporlar  : 1
     //             https://www.hellointerview.com/guides/amazon/l5

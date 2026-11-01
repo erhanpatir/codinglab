@@ -3,7 +3,7 @@ package dp.grid;
 import java.util.Arrays;
 
 public class Q0062_UniquePaths {
-    // Öncelik   : 🔴 Yüksek
+    // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
     // Şirketler : Google ✅ (#100), Amazon ✅ (#66)
     //
     // 62. Unique Paths - Medium

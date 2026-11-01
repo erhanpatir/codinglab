@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0007_ReverseInteger {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#98), Google ✅ (#18), Amazon ✅ (#48), Apple (#32), Bloomberg ✅ (#20)
     //
     // 7. Reverse Integer - Medium
     // https://leetcode.com/problems/reverse-integer/

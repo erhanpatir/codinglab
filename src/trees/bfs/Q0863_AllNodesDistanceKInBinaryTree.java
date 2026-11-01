@@ -4,7 +4,7 @@ import common.model.TreeNode;
 import java.util.*;
 
 public class Q0863_AllNodesDistanceKInBinaryTree {
-    // Öncelik   : ⭐ Gerçek deneyim
+    // Öncelik   : ⭐ Gerçek deneyim  ·  🌍 Ortak soru
     // Şirketler : Meta ✅ (#56), Amazon ✅ (#103)
     // Seviye    : Mid
     // Raporlar  : 1 (1 📍London)

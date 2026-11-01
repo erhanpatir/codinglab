@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class Q0020_ValidParentheses {
     // Öncelik   : 🔵 Trend  ·  🌍 Ortak soru
-    // Şirketler : Meta ✅, Google ✅, Amazon ✅, Apple, Bloomberg ✅
+    // Şirketler : Meta ✅ (#32), Google ✅ (#14), Amazon ✅ (#17), Apple (#15), Bloomberg ✅ (#8)
     //
     // 20. Valid Parentheses - Easy
     // https://leetcode.com/problems/valid-parentheses/

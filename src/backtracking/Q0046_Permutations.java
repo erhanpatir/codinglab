@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Q0046_Permutations {
     // Öncelik   : 🟡 Orta  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple
+    // Şirketler : Google ✅ (#99), Amazon ✅ (#89), Apple (#91)
     //
     // 46. Permutations - Medium
     // https://leetcode.com/problems/permutations/

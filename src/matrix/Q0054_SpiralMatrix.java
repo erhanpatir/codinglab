@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Q0054_SpiralMatrix {
     // Öncelik   : 🔴 Yüksek  ·  🌍 Ortak soru
-    // Şirketler : Google ✅, Amazon ✅, Apple ✅, Bloomberg ✅
+    // Şirketler : Google ✅ (#33), Amazon ✅ (#45), Apple ✅ (#18), Bloomberg ✅ (#71)
     //
     // 54. Spiral Matrix - Medium
     // https://leetcode.com/problems/spiral-matrix/
